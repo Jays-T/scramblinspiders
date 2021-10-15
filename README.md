@@ -1,108 +1,348 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Halloween 'Spookathon' 2021
+======
 
-Welcome USER_NAME,
+![Code Institute Spookathon](images/CI_Halloween_Hackathon.jpg)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This Hackathon event is hosted by [Code Institute](https://www.codeinstitute.net/).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## **Team: Scramblin’ Spiders**
 
-## Gitpod Reminders
+[VladimirM](https://github.com/Vlad-404)<br>
+[Aws Sabah Gheni](https://github.com/AwsSG)<br>
+[john traas_ci](https://github.com/jays-t)<br>
+[Carla Buongiorno](https://github.com/CarlaBuongiorno)<br>
+[Seamus Mac Giolla Bhrighde](...)<br>
+[Puk](https://github.com/Puksrevolution)<br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Facilitator: [tim_ci]()
 
-`python3 -m http.server`
+Live Project
+======
 
-A blue button should appear to click: _Make Public_,
+## **Webpage titel | Head line**
+[View the live project here](https://....com/)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Screenshot
+======
 
-A blue button should appear to click: _Make Public_,
+All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
-Another blue button should appear to click: _Open Browser_.
+<img src="Documentation/screenshots/halloween_hackathon.png">
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+---
+### **Contents** ###
 
-To log into the Heroku toolbelt CLI:
+- [Hackathon](#hackathon)
+  - [Hackathon Description](#hackathon-description)
+  - [Detailed Theme requirements: TBA](#detailed-theme-requirements-tba)
+  - [Hackathon Goals](#hackathon-goals)
+  - [Website Description](#website-description)  
+- [UX Design](#ux-design)
+  - [User Stories](#user-stories)
+    - [Viewing and Navigation](#viewing-and-navigation)
+    - [Registration and User Accounts](#registration-and-user-accounts)
+    - [Sorting and Searching](#sorting-and-earching)
+    - [Purchasing and Checkout](#purchasing-and-checkout)
+    - [Admin and Owner Management](#admin-and-owner-management)
+- [Design](#design)
+  - [Colours](#colours)
+  - [Wireframes](#wireframes)
+  - [Responsive Front-end Design](#responsive-front-end-design)
+  - [Back-end Design](#back-end-design)
+  - [Site Construction](#site-construction)
+    - [Topology](#topology)
+    - [Database Schema](#database-schema)    
+- [Technologies](#technologies)
+  - [Languages](#languages)
+  - [Database](#database)
+  - [Libraries](#libraries)
+  - [Tools](#tools)
+- [Features](#features)    
+  - [User Stories Implemented](#user-stories-implemented)    
+  - [Additional Site Features](#additional-site-features)
+  - [Future Features](#future-features)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)  
+- [Credits](#credits)
+  - [Images](#images)  
+  - [Acknowledgements](#acknowledgements)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+---
+Hackathon
+======
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### **Hackathon Description** ###
+You'll be assigned to a team, and work together to build a project based on an assigned theme.
 
-------
+You can work according to your own schedule but participants are asked to dedicate a minimum of 8-10 hours to working on the project.
 
-## Release History
+All levels are welcome, from absolute beginners to advanced developers.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### **Detailed Theme requirements: TBA** ###
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### **Schedule:**
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+***Please note: All times are in BST(Irish/UK time)***
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Wed, 13th Oct @ 17:00 - 18:00 : Kick-Off Webinar
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Mon, 18th Oct @ 15:00 : Project Submission Deadline
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Mon, 18th Sep @ 17:00 - 18:30 : Project Presentation Webinar
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Tue, 19th Oct@ 15:00: Winners announced on Slack
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### **Judging Criteria**
+- The project provides a clear and substantial value to the user.
+- The project uses an original or innovative idea, design or implementation.
+- The project was well-planned and executed, using GitHub Projects.
+- Has a well structured and completed documentation (README & Wireframes).
+- The project focus is realistic, and has an overall sense of completeness.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### **Hackathon Goals** ###
+- To build something awesome to be proud of
+- To make effective use of course knowledge and fulfill all given requirements
+- To get experience in team work, project- and time management
+- To make a project with a great looking layout, that works and that is practical
+- To create a web application that makes the user want to stay and use with pleasure
+- ...
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### **Website Description** ###
+![Logo](Logo.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+....
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[Back to Table of contents](#table-of-contents)
 
 ---
 
-Happy coding!
+UX DESIGN
+===
+
+### **User Stories** ###
+
+#### **Viewing and Navigation** ####
+
+As a **user**,<br>
+
+1. I want to be able to ...
+2. I want to be able to ...
+3. I want to be able to ...
+4. I want to be able to ...
+5. I want to be able to ...
+6. I want to be able to ...
+
+#### **Registration and User Accounts** ####
+
+As a **user**,<br>
+
+7. I want to be able to ...
+8. I want to be able to ...
+9. I want to be able to ...
+10. I want to be able to ...
+11. I want to be able to ...
+
+#### **Sorting and Searching** ####
+
+As a **user**,<br>
+
+12. I want to be able to ...
+13. I want to be able to ...
+14. I want to be able to ...
+15. I want to be able to ...
+
+#### **Purchasing and Checkout** ####
+
+As a **user**,<br>
+
+16. I want to be able to ...
+17. I want to be able to ...
+18. I want to be able to ...
+19. I want to be able to ...
+20. I want to be able to ...
+
+#### **Admin and Owner Management** ###
+
+As a **Page owner**,
+
+21. I want to be able to ...
+22. I want to be able to ...
+23. I want to be able to ...
+
+[Back to contents](#contents)
+
+---
+
+Design
+===
+
+### **Colours** ###
+
+.....
+
+![Coolors.co Palette](Documentation/screenshots/coolors_palette.png)
+
+- *Text* (#______) - Colour Name
+- *Background* (#______) - Colour Name
+- *Buttons* (#______) - Colour Name
+
+### **Wireframes** ###
+
+I designed the site mock-ups using [Balsamiq wireframes](https://balsamiq.com/). 
+
+- [Home Page](Documentation/wireframes/home.png)
+- [Page](Documentation/wireframes/page.png)
+- [Page](Documentation/wireframes/page.png)
+
+### **Responsive Front-end Design** ###
+
+- Responsive mobile first design using a Bootstrap v4.6 framework
+
+### **Back-end Design** ###
+
+- ...
+
+### **Site Construction** ##
+
+#### Topology ####
+
+- ...
+
+![Topology - Webpage](Documentation/topology/topology_....png)
+
+### **Database Schema** ###
+
+![Entity-Relationship Diagram](Documentation/wireframes/db_schema.png)
+
+[Back to contents](#contents)
+
+---
+
+Technologies
+===
+
+### **Languages** ###
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - Used as the main markup language for the website content.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - Used to style the individual webpages.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - Used to create the interactive functionality of the website
+- [Python3](https://www.python.org/)
+  - Used to create the main application functionality
+
+
+### **Database** ###
+
+- [Database](https://)
+  - A powerful, open-source object-relational database.
+
+### **Libraries / Frameworks** ###
+
+- [Bootstrap5](https://getbootstrap.com/)
+  - Used to design a mobile-first responsive website layout.
+
+### **Tools** ###
+
+- [Git](https://git-scm.com/)
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/)
+  - Used to store, host and deploy the project files and source code after being pushed from Git.
+- [Gitpod](https://www.gitpod.io/)
+  - An online IDE linked to the GitHub repository used for the majority of the code development.
+- [Font-Awesome](https://fontawesome.com/icons?d=gallery)
+  - Used for icons to enhance headings and add emphasis to text.
+- [Google fonts](https://fonts.google.com/)
+  - Used for the website fonts.
+- [GitHub Pages](https://)
+  - ...
+- [Heroku](https://www.heroku.com)
+  - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+- [Balsamiq wireframes](https://balsamiq.com/)
+  - An online tool to designed the site mock-ups.
+- [Coolors](https://coolors.co/)
+  - An online tool used to choose the website colour scheme.
+- [paint.net](https://www.getpaint.net/roadmap.html)
+  - Used to create the Icon, Favicon and Logo/Brand of the webpage and the database entity-relationship diagram.
+- [favicon.io](https://favicon.io/)
+  - Used to create the website favicons
+- [Am I Responsive?](http://ami.responsivedesign.is/)
+  - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualize how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
+
+[Back to contents](#contents)
+
+---
+
+Features
+===
+
+### **User Stories Implemented** ###
+
+| User Story ID | Features Implemented |
+| --- | --- |
+| 1 | ...|
+| 2 | ...|
+| 3 | ...|
+
+### **Additional Site Features** ###
+
+- A set of friendly HTTP Error landing pages for site visitors to see if a requested page is unavailable or cannot be accessed.
+  - The pages provide a message to the user and a button to click to return the visitor to the homepage.
+  - HTTP 404, 500 & 503 errors are handled with custom templates to cover the most common events.
+
+### **Future Features** ###
+
+- ...
+
+- ...
+
+- ...
+
+[Back to contents](#contents)
+
+---
+
+Testing
+===
+
+Testing description
+
+[Back to contents](#contents)
+
+---
+Bugs
+===
+
+Bug description
+
+[Back to contents](#contents)
+
+---
+
+Deployment
+===
+
+Deployment description
+
+[Back to contents](#contents)
+
+---
+
+Credits
+===
+
+### **Images** ###
+
+- **Pages Images**
+  - [Pic_Title](https://pic_url) - Photo by [Photographer](https://photographer_url) on [Webpage Platform](https://pixabay/pexel/unplashed etc)
+
+- **Favicon**
+  - [Pic_Title](https://pic_url) - Photo by [Photographer](https://photographer_url) on [Webpage Platform](https://pixabay/pexel/unplashed etc)
+
+Acknowledgements
+===
+
+- [Person/Webpage/Company etc.](https://) ...
