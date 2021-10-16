@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Creepster&family=ZCOOL+KuaiLe:wght@200;400;500;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&display=swap');
 
 :root {
     /* Primary Colors */
@@ -19,7 +20,7 @@
 body {
     color: #fafafa;
     overflow: hidden;
-    font-size: .6rem;
+    font-family: 'ZCOOL XiaoWei', serif;
 }
 
 #page-container {
@@ -33,6 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80%;
 }
 
 #headline-container {
@@ -62,6 +64,13 @@ body {
 
 .cursed-text {
     font-family: Creepster, cursive;
+}
+
+.story-text {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
 }
 
 #begin-story,
