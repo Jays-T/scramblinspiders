@@ -41,9 +41,6 @@ All screenshots created using [Am I responsive](http://ami.responsivedesign.is/)
 - [UX Design](#ux-design)
   - [User Stories](#user-stories)
     - [Viewing and Navigation](#viewing-and-navigation)
-    - [Registration and User Accounts](#registration-and-user-accounts)
-    - [Sorting and Searching](#sorting-and-earching)
-    - [Purchasing and Checkout](#purchasing-and-checkout)
     - [Admin and Owner Management](#admin-and-owner-management)
 - [Design](#design)
   - [Colours](#colours)
@@ -254,11 +251,35 @@ Features
 
 ### **User Stories Implemented** ###
 
-| User Story ID | Features Implemented |
-| --- | --- |
-| 1 | ...|
-| 2 | ...|
-| 3 | ...|
+As a **user**,<br>
+
+1. I want to be able to switch sound on an off.
+*
+2. I want to be able to read the story.
+*
+3. I want to be able to interact with the story.
+*
+4. I want to be able to affect the storyline.
+*
+5. I want to be able to affect the story outcome.
+*
+6. I want to be scared from time to time.
+*
+7. I want to experience more than just reading a story.
+*
+8. I want audio as well as visual elements to enhance my experience.
+*
+9. I want to be able to read the story again.
+*
+
+#### **Admin and Owner Management** ###
+
+As a **Page owner**,
+
+1. I want to be able to update stories and add new content.
+*
+2. I want to be able to reuse modules and functions for future content updates. 
+*
 
 ### **Additional Site Features** ###
 
