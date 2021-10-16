@@ -132,14 +132,17 @@ As a **user**,<br>
 3. I want to be able to interact with the story.
 4. I want to be able to affect the storyline.
 5. I want to be able to affect the story outcome.
-6. I want to be able to read the story again.
+6. I want to be scared from time to time.
+7. I want to experience more than just reading a story.
+8. I want audio as well as visual elements to enhance my experience.
+9. I want to be able to read the story again.
 
 #### **Admin and Owner Management** ###
 
 As a **Page owner**,
 
-1. I want to be able to update stories.
-2. I want to be able to add new content
+1. I want to be able to update stories and add new content.
+2. I want to be able to reuse modules and functions for future content updates. 
 
 [Back to contents](#contents)
 
