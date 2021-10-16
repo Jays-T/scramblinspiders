@@ -1,0 +1,46 @@
+section {
+    z-index: 1;
+    background-color: transparent;
+}
+
+svg .draw 
+{
+    stroke-width: .75rem;
+    stroke: #fafafa;
+    stroke-dasharray: 188037.390625;
+    stroke-dashoffset: 188037.390625;
+    -webkit-animation: drawBorder 8.2s forwards;
+            animation: drawBorder 8.2s forwards;
+}
+@-webkit-keyframes drawBorder 
+{
+    0% 
+    {
+        opacity: 0;
+    }
+    2%
+    {
+        opacity: 1;
+        stroke-dashoffset: 188037.390625;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes drawBorder 
+{
+    0% 
+    {
+        opacity: 0;
+    }
+    15%
+    {
+        opacity: 1;
+        stroke-dashoffset: 188037.390625;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+    }
+}

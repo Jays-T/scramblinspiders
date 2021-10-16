@@ -1,0 +1,30 @@
+#begin-button {
+    animation: flash 6s infinite;
+}
+
+@keyframes flash {
+    0%, 2% {
+        opacity: 1;
+        text-shadow: 0 0 10px red,
+                    0 0 20px red,
+                    0 0 40px red,
+                    0 0 80px red,
+                    0 0 120px red;
+    } 2%, 5% {
+        opacity: .2;
+        text-shadow: none;
+    } 15%, 18% {
+        opacity: 1;
+        text-shadow: 0 0 10px red,
+                    0 0 20px red,
+                    0 0 40px red,
+                    0 0 80px red,
+                    0 0 120px red;
+    } 18%, 20% {
+        opacity: .2;
+        text-shadow: none;
+    } 22%, 100% {
+        opacity: .2;
+        text-shadow: none;
+    }
+}
