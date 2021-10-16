@@ -1,4 +1,4 @@
-function playSound(audioClip, audioLevel) {
+export function playSound(audioClip, audioLevel) {
 
     let sound = new Howl({
         src: [audioClip],

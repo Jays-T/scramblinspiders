@@ -70,10 +70,11 @@ body {
     width: 175px;
 }
 
+.next-choice,
+#next-step,
 #begin-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 180px;
+    width: 175px;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -81,10 +82,16 @@ body {
     overflow: visible;
     outline: none;
     font-weight: 900;
-    font-size: 3.2rem;
-    letter-spacing: .5em;
+    font-size: 1.2rem;
+    letter-spacing: .3em;
     text-shadow: none;
     opacity: .2;
+    transition: all .3s ease-in-out;
+    animation: flash 6s infinite;
+}
+
+#next-step:hover {
+    transform: scale(1.2);
 }
 
 /* Media queries */
