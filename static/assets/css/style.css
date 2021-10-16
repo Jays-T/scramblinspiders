@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=ZCOOL+KuaiLe:wght@200;400;500;900&display=swap");
+
+:root {
+    /* Primary Colors */
+
+    --p-outline: #000000;
+    --p-orange: rgb(240, 129, 1);
+}
+
+* {
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* Main Mobile First goes under here and is normally anything
+   that you want to be painted as under 576px */
+/* Also contains default CSS reset */
+
+body {
+    color: #fafafa;
+    overflow: hidden;
+    font-size: .6rem;
+}
+
+#page-container {
+    width: min(90vw);
+    display: grid;
+    grid-template-columns: auto 10%;
+}
+
+#story-container {
+    height: min(100vh, 75rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headline-container {
+    transition: all .3s ease-in-out;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: column;
+    height: min(100%);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation a,
+.list {
+    color: #fafafa;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#begin-button,
+.creepy-text {
+    color: red;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.cursed-text {
+    font-family: Creepster, cursive;
+}
+
+#begin-story,
+#begin-button {
+    height: 180px;
+    width: 175px;
+}
+
+#begin-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: visible;
+    outline: none;
+    font-weight: 900;
+    font-size: 3.2rem;
+    letter-spacing: .5em;
+    text-shadow: none;
+    opacity: .2;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 576px) {
+    
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    #page-container {
+        width: min(100vw);
+    }
+    
+    #story-container {
+        height: min(90vh, 75rem);
+    }
+}
