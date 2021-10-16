@@ -1,7 +1,7 @@
 Halloween 'Spookathon' 2021
 ======
 
-![Code Institute Spookathon](images/CI_Halloween_Hackathon.jpg)
+![Code Institute Spookathon](./static/assets/images/pumpkin-992318_1280.png)
 
 This Hackathon event is hosted by [Code Institute](https://www.codeinstitute.net/).
 
