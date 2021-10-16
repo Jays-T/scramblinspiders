@@ -61,7 +61,7 @@ export function displayStory(options) {
     else {
         storyText = `
         <div style="display: flex; flex-direction: column;">
-            <p>${paragraph}</p>
+            <p class="story-text">${paragraph}</p>
             <button style="align-self: flex-end;" id="next-step" class="creepy-text">continue...</button>
         </div>
         `
