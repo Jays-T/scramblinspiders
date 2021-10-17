@@ -16,5 +16,5 @@ export function jumpScare(element, image) {
     setTimeout(() => {
         let elemRemove = document.getElementById('scare-img');
         elemRemove.remove()
-    }, 180)
+    }, 600)
 }
