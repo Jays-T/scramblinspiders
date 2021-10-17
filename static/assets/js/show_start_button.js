@@ -9,7 +9,7 @@ export function showBeginButton() {
 
     // Set choice to start for story choices
     let buttonHTML = `
-    <button id="begin-button" data-choice="start">Start</button>
+    <button id="begin-button" class="creepy-text" data-choice="start">Start</button>
     `;
 
     buttonContainer.innerHTML = buttonHTML;

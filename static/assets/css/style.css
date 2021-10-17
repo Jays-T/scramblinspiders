@@ -50,21 +50,22 @@ h1#story-headline {
     font-size: 1.5rem;
 }
 
-#begin-story-button-container {
-    padding: 5%;
-}
-
 .story {
     position: relative;
     top: 35%;
 }
 
-.story-button {
+.begin-story-button {
     position: relative;
     top: 50%;
 }
 
-#begin-button,
+.story-button {
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+}
+
 .creepy-text {
     color: red;
     font-family: 'ZCOOL KuaiLe', cursive;
@@ -91,7 +92,7 @@ h1#story-headline {
     overflow: visible;
     outline: none;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.75rem;
     letter-spacing: .3em;
     text-shadow: none;
     opacity: .2;
