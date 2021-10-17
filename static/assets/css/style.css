@@ -54,6 +54,11 @@ h1#story-headline {
     padding: 5%;
 }
 
+#story {
+    position: relative;
+    top: 35%;
+}
+
 #begin-button,
 .creepy-text {
     color: red;
