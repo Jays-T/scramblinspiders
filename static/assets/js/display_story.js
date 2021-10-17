@@ -66,13 +66,13 @@ export function displayStory(options) {
             <div class="col col-md-8 offset-md-2 text-center d-flex flex-column justify-content-center">
 
                 <div class="row">
-                    <div class="col col-md-4">
+                    <div class="col-sm-12 col-md-4">
                         <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
                     </div>
-                    <div class="col col-md-4">
+                    <div class="col-sm-12 col-md-4">
                         <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
                     </div>
-                    <div class="col col-md-4">
+                    <div class="col-sm-12 col-md-4">
                         <button data-choice="${options.next_choices[2]}" class="creepy-text next-choice">${options.next_choices[2]}</button>
                     </div>
                 </div> 
@@ -84,14 +84,12 @@ export function displayStory(options) {
     else {
         storyText = `
         <div class="row story">
-            <div class="col col-md-8 offset-md-2 d-flex flex-column justify-content-center">
-
+            <div class="col-sm-12 col-md-8 offset-md-2 d-flex flex-column justify-content-center">
                 <p class="story-text text-center">${paragraph}</p>
             </div>
         </div>
         <div class="row story-button">
-            <div class="col col-md-8 offset-md-2 text-center delay-text">
-
+            <div class="col-sm-12 col-md-8 offset-md-2 text-center delay-text">
             <button id="next-step" class="creepy-text">continue...</button>
             </div>
         </div>
