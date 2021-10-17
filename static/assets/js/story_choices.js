@@ -312,8 +312,9 @@ export const choices = [
                 You had no idea this cave existed, and you move closer to investigate...
                 `,
                 para_last: `
-                Suddenly you feel a sharp pain as you are hit on the head. Then a massive werewolf drags you into the
-                cave and as you begin to lose consciousness, you notice crude wall art of a hideous creature, with <span class="creepy-text">blood-red eyes</span>, 
+                Suddenly you feel a sharp pain as you are hit on the head. You hear a loud growl, and odd laboured breaths. A hideous creature emerges, you can smell its breath, 
+                "what an awful stench", and feel droplets of spit hitting your face with each of the foul breaths.  The massive creature sinks it's claws into your legs, and 
+                drags you into the cave.\n As you begin to lose consciousness, you notice crude wall art of a hideous creature, with <span class="creepy-text">blood-red eyes</span>, 
                 painted on the wall of the cave.\n
                 The various depictions of the creature on the cave wall very much resemble the monster right now tearing at your legs,
                 and a final thought enters your head,\n
