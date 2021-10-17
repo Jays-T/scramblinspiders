@@ -64,7 +64,7 @@ h1#story-headline {
 .story-button {
     width: 100%;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
 }
 
 .creepy-text {
@@ -84,6 +84,11 @@ h1#story-headline {
 }
 
 .next-choice,
+.next-step {
+    padding: 5%;
+}
+
+.next-choice,
 #next-step,
 #begin-button {
     background-color: transparent;
@@ -95,6 +100,7 @@ h1#story-headline {
     font-weight: 900;
     font-size: 1.75rem;
     letter-spacing: .3em;
+    line-height: 1.3;
     text-shadow: none;
     opacity: .2;
     transition: all .3s ease-in-out;
@@ -137,6 +143,10 @@ h1#story-headline {
 
     h1#story-headline {
         margin-top: 0;
+    }
+
+    .story {
+        top: 20%;
     }
 }
 

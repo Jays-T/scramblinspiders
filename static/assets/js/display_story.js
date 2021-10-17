@@ -105,14 +105,12 @@ export function displayStory(options) {
     else {
         storyText = `
         <div class="row story">
-            <div class="col col-md-8 offset-md-2 d-flex flex-column justify-content-center">
-
+            <div class="col-sm-12 col-md-8 offset-md-2 d-flex flex-column justify-content-center">
                 <p class="story-text text-center">${paragraph}</p>
             </div>
         </div>
         <div class="row story-button">
-            <div class="col col-md-8 offset-md-2 text-center delay-text">
-
+            <div class="col-sm-12 col-md-8 offset-md-2 text-center delay-text">
             <button id="next-step" class="creepy-text">continue...</button>
             </div>
         </div>
