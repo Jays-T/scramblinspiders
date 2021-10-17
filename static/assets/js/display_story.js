@@ -11,7 +11,15 @@ export function clearStoryContainer() {
 
 export function getStoryOptions(user_choice) {
     for (let choice of choices) {
-        if (user_choice === choice.users_choice) {
+        
+        if (user_choice === "credits") {
+            let choice_should_be = "start";
+
+            if (choice_should_be === choice.users_choice) {
+                return choice.options
+            }
+        } 
+        else if (user_choice === choice.users_choice) {
             return choice.options
         }
     }
@@ -19,7 +27,7 @@ export function getStoryOptions(user_choice) {
 
 // options is story options object based on user choice
 export function displayStory(options) {
-    console.log(`in display story: ${options.story_text.para_one}`)
+    console.log(`in display story: ${options.scene_text.para_one}`)
 
     let paragraph;
     let audioClip;
@@ -29,17 +37,17 @@ export function displayStory(options) {
     switch(step){
             case 0:
                 console.log('first step')
-                paragraph = options.story_text.para_one;
+                paragraph = options.scene_text.para_one;
                 audioClip = options.intro_audio;
                 break
             case 1:
                 console.log('second step')
-                paragraph = options.story_text.para_two;
+                paragraph = options.scene_text.para_two;
                 // need to add and define audio path
                 break
             case 2:
                 console.log('third step')
-                paragraph = options.story_text.para_last;
+                paragraph = options.scene_text.para_last;
                 break
         }
 
@@ -55,7 +63,8 @@ export function displayStory(options) {
             </div>
         </div>
         <div class="row story-button">
-            <div class="col col-md-8 offset-md-2 text-center">
+            <div class="col col-md-8 offset-md-2 text-center d-flex flex-column justify-content-center">
+
                 <div class="row">
                     <div class="col col-md-4">
                         <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
@@ -75,12 +84,14 @@ export function displayStory(options) {
     else {
         storyText = `
         <div class="row story">
-            <div class="col col-md-8 offset-md-2">
+            <div class="col col-md-8 offset-md-2 d-flex flex-column justify-content-center">
+
                 <p class="story-text text-center">${paragraph}</p>
             </div>
         </div>
         <div class="row story-button">
-            <div class="col col-md-8 offset-md-2 text-center">
+            <div class="col col-md-8 offset-md-2 text-center delay-text">
+
             <button id="next-step" class="creepy-text">continue...</button>
             </div>
         </div>
