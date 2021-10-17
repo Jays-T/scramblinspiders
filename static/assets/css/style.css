@@ -54,21 +54,6 @@ h1#story-headline {
     padding: 5%;
 }
 
-/* .navigation ul{
-    display: flex;
-    flex-direction: column;
-    height: min(100%);
-    align-items: center;
-    justify-content: space-around;
-} */
-
-/* .navigation a,
-.list {
-    color: #fafafa;
-    text-decoration: none;
-    list-style-type: none;
-} */
-
 #begin-button,
 .creepy-text {
     color: red;
