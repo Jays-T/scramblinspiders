@@ -31,15 +31,15 @@ body {
 
 #story_border {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
 }
 
 #story-title {
-    height: 35%;
-    width: 50%;
+    height: 65%;
+    width: 80%;
     margin: auto;
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -48,6 +48,7 @@ body {
 
 h1#story-headline {
     font-size: 1.5rem;
+    margin-top: 40px;
 }
 
 .story {
@@ -111,15 +112,21 @@ h1#story-headline {
     body {
         font-size: 1rem;
     }
+
+    #story-title {
+        height: 35%;
+        width: 50%;
+        top: 0;
+    }
+
+    h1#story-headline {
+        margin-top: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
 
-    /* #page-container {
-        width: min(100vw);
-    } */
-
-    /* #story-container {
-        height: min(90vh, 75rem);
-    } */
+    #story_border {
+        height: 100vh;
+    }
 }
