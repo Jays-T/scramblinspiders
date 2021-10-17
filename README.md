@@ -1,26 +1,27 @@
 Halloween 'Spookathon' 2021
 ======
 
-![Code Institute Spookathon](./static/assets/images/pumpkin-992318_1280.png)
+![Code Institute Spookathon](./static/assets/images/CI_Halloween_Hackathon_525x435.jpg)
+
 
 This Hackathon event is hosted by [Code Institute](https://www.codeinstitute.net/).
 
 ## **Team: Scramblin’ Spiders**
 
+![Scramblin’ Spiders Team Banner](./static/assets/images/team_banner.jpg)
+
 [VladimirM](https://github.com/Vlad-404)<br>
 [Aws Sabah Gheni](https://github.com/AwsSG)<br>
 [john traas_ci](https://github.com/jays-t)<br>
 [Carla Buongiorno](https://github.com/CarlaBuongiorno)<br>
-[Seamus Mac Giolla Bhrighde](...)<br>
 [Puk](https://github.com/Puksrevolution)<br>
-
 Facilitator: [tim_ci]()
 
 Live Project
 ======
 
-## **Webpage titel | Head line**
-[View the live project here](https://....com/)
+## **A Normal Night at the Pub | Which path will you go down**
+[View the live project here](https://awssg.github.io/scramblinspiders/)
 
 
 Screenshot
@@ -28,7 +29,7 @@ Screenshot
 
 All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
-<img src="Documentation/screenshots/halloween_hackathon.png">
+![Webpage](./static/assets/images/screenshot/.jpg)
 
 ---
 ### **Contents** ###
@@ -45,26 +46,19 @@ All screenshots created using [Am I responsive](http://ami.responsivedesign.is/)
 - [Design](#design)
   - [Colours](#colours)
   - [Wireframes](#wireframes)
-  - [Responsive Front-end Design](#responsive-front-end-design)
-  - [Back-end Design](#back-end-design)
-  - [Site Construction](#site-construction)
-    - [Topology](#topology)
-    - [Database Schema](#database-schema)    
+  - [Mockups](#mockups)        
 - [Technologies](#technologies)
-  - [Languages](#languages)
-  - [Database](#database)
-  - [Libraries](#libraries)
+  - [Languages](#languages)  
+  - [Frameworks](#frameworks)
   - [Tools](#tools)
-- [Features](#features)    
-  - [User Stories Implemented](#user-stories-implemented)    
-  - [Additional Site Features](#additional-site-features)
+- [Features](#features)  
   - [Future Features](#future-features)
-- [Testing](#testing)
-- [Bugs](#bugs)
-- [Deployment](#deployment)  
+- [Deployment](#deployment)
+  - [How to run the project locally](#how-to-run-the-project-locally)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Cloning the GitHub Repository](#cloning-the-github-repository) 
 - [Credits](#credits)
   - [Images](#images)  
-  - [Acknowledgements](#acknowledgements)
 
 ---
 Hackathon
@@ -104,10 +98,10 @@ Tue, 19th Oct@ 15:00: Winners announced on Slack
 - To get experience in team work, project- and time management
 - To make a project with a great looking layout, that works and that is practical
 - To create a web application that makes the user want to stay and use with pleasure
-- ...
 
 ### **Website Description** ###
-![Logo](Logo.png)
+
+**A Normal Night at the Pub | Which path will you go down**
 
 ....
 
@@ -150,41 +144,35 @@ Design
 
 ### **Colours** ###
 
-.....
+![Coolors.co Palette](./static/assets/images/design/coolors_palette.png)
 
-![Coolors.co Palette](Documentation/screenshots/coolors_palette.png)
-
-- *Text* (#______) - Colour Name
-- *Background* (#______) - Colour Name
-- *Buttons* (#______) - Colour Name
+- *Background* (#000000) - Black
+- *Text* (#FFFFFF) - White
+- *Buttons* (#FF0000) - Red
 
 ### **Wireframes** ###
 
-I designed the site mock-ups using [Balsamiq wireframes](https://balsamiq.com/). 
+- [Story Outline](./static/assets/wireframes/story_outline_v2.pdf)
+- [Story Wireframe](./static/assets/wireframes/story_wireframe_v2.pdf)
 
-- [Home Page](Documentation/wireframes/home.png)
-- [Page](Documentation/wireframes/page.png)
-- [Page](Documentation/wireframes/page.png)
-
-### **Responsive Front-end Design** ###
-
-- Responsive mobile first design using a Bootstrap v4.6 framework
-
-### **Back-end Design** ###
-
-- ...
-
-### **Site Construction** ##
-
-#### Topology ####
-
-- ...
-
-![Topology - Webpage](Documentation/topology/topology_....png)
-
-### **Database Schema** ###
-
-![Entity-Relationship Diagram](Documentation/wireframes/db_schema.png)
+### **Mockups** ###
+- [Story Intro](./static/assets/images/mockups/story_intro.jpg)
+- [Story Part 1](./static/assets/images/mockups/story_part_1.jpg)
+- [Story Part 2.1](./static/assets/images/mockups/story_part_2.1.jpg)
+- [Story Part 2.2](./static/assets/images/mockups/story_part_2.2.jpg)
+- [Story Part 2.3](./static/assets/images/mockups/story_part_2.3_death.jpg)
+- [Story Part 3.1](./static/assets/images/mockups/story_part_3.1.jpg)
+- [Story Part 3.2](./static/assets/images/mockups/story_part_3.2.jpg)
+- [Story Part 3.3](./static/assets/images/mockups/story_part_3.3.jpg)
+- [Story Part 3.4](./static/assets/images/mockups/story_part_3.4_death.jpg)
+- [Story Part 4.1](./static/assets/images/mockups/story_part_4.1.jpg)
+- [Story Part 4.2](./static/assets/images/mockups/story_part_4.2.jpg)
+- [Story Part 4.3](./static/assets/images/mockups/story_part_4.3.jpg)
+- [Story Part 4.4](./static/assets/images/mockups/story_part_4.4_death.jpg)
+- [Story Part 5.1](./static/assets/images/mockups/story_part_5.1.jpg)
+- [Story Part 5.2](./static/assets/images/mockups/story_part_5.2.jpg)
+- [Story Part 5.3](./static/assets/images/mockups/story_part_5.3.jpg)
+- [Story Part 5.4](./static/assets/images/mockups/story_part_5.4.jpg)
 
 [Back to contents](#contents)
 
@@ -201,16 +189,8 @@ Technologies
   - Used to style the individual webpages.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   - Used to create the interactive functionality of the website
-- [Python3](https://www.python.org/)
-  - Used to create the main application functionality
 
-
-### **Database** ###
-
-- [Database](https://)
-  - A powerful, open-source object-relational database.
-
-### **Libraries / Frameworks** ###
+### **Frameworks** ###
 
 - [Bootstrap5](https://getbootstrap.com/)
   - Used to design a mobile-first responsive website layout.
@@ -223,20 +203,16 @@ Technologies
   - Used to store, host and deploy the project files and source code after being pushed from Git.
 - [Gitpod](https://www.gitpod.io/)
   - An online IDE linked to the GitHub repository used for the majority of the code development.
-- [Font-Awesome](https://fontawesome.com/icons?d=gallery)
-  - Used for icons to enhance headings and add emphasis to text.
+- [GitHub Pages](https://pages.github.com/)
+  - It used to deploy the project.
 - [Google fonts](https://fonts.google.com/)
   - Used for the website fonts.
-- [GitHub Pages](https://)
-  - ...
-- [Heroku](https://www.heroku.com)
-  - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 - [Balsamiq wireframes](https://balsamiq.com/)
   - An online tool to designed the site mock-ups.
 - [Coolors](https://coolors.co/)
   - An online tool used to choose the website colour scheme.
 - [paint.net](https://www.getpaint.net/roadmap.html)
-  - Used to create the Icon, Favicon and Logo/Brand of the webpage and the database entity-relationship diagram.
+  - Used to create the Mockups and to edit images.
 - [favicon.io](https://favicon.io/)
   - Used to create the website favicons
 - [Am I Responsive?](http://ami.responsivedesign.is/)
@@ -249,68 +225,12 @@ Technologies
 Features
 ===
 
-### **User Stories Implemented** ###
-
-As a **user**,<br>
-
-1. I want to be able to switch sound on an off.
-*
-2. I want to be able to read the story.
-*
-3. I want to be able to interact with the story.
-*
-4. I want to be able to affect the storyline.
-*
-5. I want to be able to affect the story outcome.
-*
-6. I want to be scared from time to time.
-*
-7. I want to experience more than just reading a story.
-*
-8. I want audio as well as visual elements to enhance my experience.
-*
-9. I want to be able to read the story again.
-*
-
-#### **Admin and Owner Management** ###
-
-As a **Page owner**,
-
-1. I want to be able to update stories and add new content.
-*
-2. I want to be able to reuse modules and functions for future content updates. 
-*
-
-### **Additional Site Features** ###
+### **Future Features** ###
 
 - A set of friendly HTTP Error landing pages for site visitors to see if a requested page is unavailable or cannot be accessed.
   - The pages provide a message to the user and a button to click to return the visitor to the homepage.
   - HTTP 404, 500 & 503 errors are handled with custom templates to cover the most common events.
-
-### **Future Features** ###
-
-- ...
-
-- ...
-
-- ...
-
-[Back to contents](#contents)
-
----
-
-Testing
-===
-
-Testing description
-
-[Back to contents](#contents)
-
----
-Bugs
-===
-
-Bug description
+- An audio storyteller
 
 [Back to contents](#contents)
 
@@ -319,7 +239,35 @@ Bug description
 Deployment
 ===
 
-Deployment description
+## **How to run the project locally**
+
+You can either fork or clone the GitHub repository to use this project.
+
+### **Forking the GitHub Repository**
+Log in to GitHub and locate the GitHub account [AwsSG](https://github.com/AwsSG) to get the 
+[scramblinspiders](https://github.com/AwsSG/scramblinspiders) repository.
+
+Make a copy of the GitHub Repository by "forking" the orginal repository onto your own account, where changes can be made without affecting original repository.
+
+Click on the fork icon (located on top right of the page at the same level of repository name)
+You should now have a copy of this repository into your GitHub account.
+
+For more information on how to clone a repository, please check this [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+
+### **Cloning the GitHub Repository**
+Log in to GitHub and locate the GitHub account [AwsSG](https://github.com/AwsSG) to get the 
+[scramblinspiders](https://github.com/AwsSG/scramblinspiders) repository.
+
+- Under the repository name, click the **Code** button.
+  - **Copy** the url in the dropdown box.
+  - Using your favourite **IDE** open up your preferred terminal.
+  - **Navigate** to your desired file location.
+​​
+```
+gh repo clone AwsSG/scramblinspiders
+```
+    
+You can find all the steps to follow according your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on how to clone a reposistory.
 
 [Back to contents](#contents)
 
@@ -330,13 +278,15 @@ Credits
 
 ### **Images** ###
 
-- **Pages Images**
-  - [Pic_Title](https://pic_url) - Photo by [Photographer](https://photographer_url) on [Webpage Platform](https://pixabay/pexel/unplashed etc)
+- **Images**
+  - [pixabay](https://pixabay.com/)
+  - [unsplash](https://unsplash.com/)
 
+- **Icons**  
+  - [The Noun Project](https://thenounproject.com/)  
+  - [Icon finder](https://www.iconfinder.com/)  
+  - [flaticon](https://www.flaticon.com/)
+  
 - **Favicon**
-  - [Pic_Title](https://pic_url) - Photo by [Photographer](https://photographer_url) on [Webpage Platform](https://pixabay/pexel/unplashed etc)
+  - [iconfinder](https://www.iconfinder.com/)
 
-Acknowledgements
-===
-
-- [Person/Webpage/Company etc.](https://) ...
