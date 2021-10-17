@@ -11,12 +11,12 @@ export const choices = [
             scene_text: {
                 para_one: `You are at an empty pub. You could swear that just
                 a moment ago it was full of people clamouring,
-                drinking and having a good time!\n You can hardly
+                drinking and having a good time!<br /> You can hardly
                 believe your eyes as you start exploring around to
                 try and make sense of it....`,
                 para_two: `After a thorough
                 investigation, you find that it was like people just
-                vanished....\n There are mugs on the floor just like
+                vanished....<br /> There are mugs on the floor just like
                 someone had dropped them, spilled drinks lying on the
                 bar, chairs still balancing like someone was still
                 sitting on them and even the cash register is
@@ -24,7 +24,7 @@ export const choices = [
                 try to sober up.....`,
                 para_last: `You still can't find anyone when 
                 suddenly, you hear a loud moan coming from
-                outside of the toilet.\n Oh it has to be others. They
+                outside of the toilet.<br /> Oh it has to be others. They
                 must be playing a Halloween prank on me. You
                 rush out of the toilet and go for....
                 `,
@@ -42,20 +42,20 @@ export const choices = [
             scene_icon: ``,
             scene_text: {
                 para_one: `You run out of the front door, and in the fog, you can see
-                something that looks like a lantern.\n It must be a lantern as
+                something that looks like a lantern.<br /> It must be a lantern as
                 it's bobbing left and right and moving in a direction you are
-                not familiar with.\n It seems to be heading for that old house
-                that was scheduled for demolishing, but it's still standing.\n
+                not familiar with.<br /> It seems to be heading for that old house
+                that was scheduled for demolishing, but it's still standing.<br />
                 The city council could do a better job of maintaining the
                 town - you mumble to yourself.`,
                 para_two: `You decide to follow it as it's
-                the only thing that can give you any clues.\n It's bloody cold
+                the only thing that can give you any clues.<br /> It's bloody cold
                 outside and the fog isn't helping, so you take another coat
-                from the rack in the pub. The others won't be using it.\n
-                <span class="delay-text">Probably....</span>\n
+                from the rack in the pub. The others won't be using it.<br />
+                <span class="delay-text">Probably....</span><br />
                 As you rush to catch up with the lantern, you yell to try and
                 slow down whoever is holding it and eventually you get to the
-                old house.\n You realise it's a bit dangerous to go in and
+                old house.<br /> You realise it's a bit dangerous to go in and
                 decide to look around.`,
                 para_last: `The house isn't stable and your
                 imagination is kicking into overdrive: vampires, werewolves,
@@ -80,9 +80,9 @@ export const choices = [
             scene_text: {
                 para_one: `
                 You rush out of the back door, and in the fog, you can see
-                something that looks like a lantern.\n It must be a lantern as
+                something that looks like a lantern.<br /> It must be a lantern as
                 it's bobbing left and right and moving in a direction you are
-                not familiar with.\n It seems to be heading for that old castle.
+                not familiar with.<br /> It seems to be heading for that old castle.
                 <span class"delay-text">Is anyone even living there? - you ask yourself....</span>
                 `,
                 para_two: `
@@ -92,21 +92,21 @@ export const choices = [
                 collecting cobwebs, dust, rats and who knows what." You
                 decide to follow it as it's the only thing that can give you any
                 clues. It's bloody cold outside and the fog isn't helping, so
-                you take another coat from the rack in the pub. The others won't be using it.\n
-                <span class="delay-text">Probably....</span>\n
+                you take another coat from the rack in the pub. The others won't be using it.<br />
+                <span class="delay-text">Probably....</span><br />
                 `,
                 para_last: `
                 As you rush to catch up with the lantern, you yell to try and
-                slow down whoever is holding it but it's not stopping.\n
+                slow down whoever is holding it but it's not stopping.<br />
                 Eventually you get to the old Castle. The castle isn't even
                 stable and your imagination is starting to get the better of
-                you:\n "vampires, werewolves, monsters... Naaah! This isn't a
+                you:<br /> "vampires, werewolves, monsters... Naaah! This isn't a
                 fairy-tale. Is it? I've been through here hundreds of times
                 during daylight... Daylight... I wish I had some right now, but I
-                need to get out of this mess." \n As you are a sensible person,
+                need to get out of this mess." <br /> As you are a sensible person,
                 you decide to go around the castle to try and investigate a
                 bit, but after going around the corner, you see a
-                short...creature, coming out of the castle. \n You get the chills
+                short...creature, coming out of the castle. <br /> You get the chills
                 down your spine, like the fog and the cold aren't enough.
                 You quickly hide and watch it as it's holding the lantern and
                 going to.....
@@ -124,14 +124,14 @@ export const choices = [
             scene_transition: ``,
             scene_text: {
                 para_one: `
-                "It might be something on the tv or radio"- you think to yourself.\n I'll just go and shut it down because
+                "It might be something on the tv or radio"- you think to yourself.<br /> I'll just go and shut it down because
                 this might be part of my friends' prank. As you go through the bar area to reach the remote and the radio,
                 you hear the wooden floor creaking....
                 `,
                 para_two: `
                 Before you can react, the floor collapses and you fall into the
-                darkness.\n You find yourself lying at the base of what seems to be a deep dark hole, looking up you see only a tiny white spot that was the
-                hole in the floor you fell through.\n You try to move, but your body doesn't respond! <span class="delay-text">"I must have broken
+                darkness.<br /> You find yourself lying at the base of what seems to be a deep dark hole, looking up you see only a tiny white spot that was the
+                hole in the floor you fell through.<br /> You try to move, but your body doesn't respond! <span class="delay-text">"I must have broken
                 my spine!"</span>
                 `,
                 para_last: `
@@ -144,7 +144,7 @@ export const choices = [
                 jumpscare_image: `DEATH`,
                 jumpscare_audio: `OMINOUS SAD MUSIC`,
             },
-            next_choices: ["credits", "credits", "credits"]
+            next_choices: ["death"]
         }
     },
     // ACT TWO SCENE ABANDONED WAREHOUSE
@@ -158,10 +158,10 @@ export const choices = [
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me.
                 I'll follow it from a safe distance. I NEED to get to the bottom of this. Why isn't
-                there anyone around???" Questions start racing in your mind.\n
+                there anyone around???" Questions start racing in your mind.<br />
                 The old house wasn't too far from the abandoned warehouse where the
                 creature was going. In fact, the owner of the warehouse used to own them both.
-                When you're rich, you don't have to commute that far. \n
+                When you're rich, you don't have to commute that far. <br />
                 You decide to follow the lantern from a safe distance without seeing the
                 creature so it cannot see you. You hope. You again see the lantern going
                 towards that old warehouse. "I'm sure they are pulling a prank on me" - you
@@ -175,20 +175,20 @@ export const choices = [
                 After it hit the ground, a thin pole started rising, and as it was rising, the
                 creature put the lantern on it. When it rose to its final height, the lantern started
                 emitting smoke and when it hit you, it was the worst smell you ever smelled in
-                your life.\n You fall on the ground trying to crawl away from it, but when you turn to
+                your life.<br /> You fall on the ground trying to crawl away from it, but when you turn to
                 the warehouse exit, the outside looks like a thick dark wall. Like nothing is
                 beyond it and no light can penetrate it. "I'm trapped!" - the thought quickly
-                passes through your mind as fear overwhelms you....\n
+                passes through your mind as fear overwhelms you....<br />
                 `,
                 para_last: `
                 Suddenly, monsters start to emerge from the dark, badly painted, mold covered walls! 
-                It is as if creatures from every fairy tale of <span class="creepy-text">horror</span> have come to life right in front of you!\n
+                It is as if creatures from every fairy tale of <span class="creepy-text">horror</span> have come to life right in front of you!<br />
                 Before you lose your mind to fear, a brief, lucid moment interferes and a thought
-                passes you mind like lightning: "Where's the creature???" - you ask yourself.\n
-                You try to cover your nose and mouth with your hand, but you're shaking too much.\n
-                You've got to escape...\n
+                passes you mind like lightning: "Where's the creature???" - you ask yourself.<br />
+                You try to cover your nose and mouth with your hand, but you're shaking too much.<br />
+                You've got to escape...<br />
                 Adrenaline overtakes your fear, and gives you strength you never knew
-                you had as you run faster and faster, dodging creatures and old broken machinary...\n 
+                you had as you run faster and faster, dodging creatures and old broken machinary...<br /> 
                 You run through a jumble of dirty broken furniture, your right foot gets caught on a cracked brick lying in the way, and you nearly lose your balance....
                 Suddenly! You spot the creature leaving through the door on the other side of the
                 warehouse...
@@ -214,25 +214,25 @@ export const choices = [
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me.
                 I'll follow it from a safe distance. I NEED to get to the bottom of this. Why isn't
-                there anyone around???"\n Questions start racing in your mind.
+                there anyone around???"<br /> Questions start racing in your mind.
                 You decide to follow the light of the lantern from a safe distance without seeing
-                the creature so it cannot see you.... <span class="creepy-text">You hope</span>.\n 
+                the creature so it cannot see you.... <span class="creepy-text">You hope</span>.<br /> 
                 You again see lantern starting to climb up.
                 `,
                 para_two: `
                 It must be that old cemetery, up on the hill. You recall reading in the paper that
-                some local archaeologist had recently discovered a mass grave nearby, dating to the early 1400's...\n
+                some local archaeologist had recently discovered a mass grave nearby, dating to the early 1400's...<br />
                 The mausoleum they erected on it sure was strange. Nobody could explain
                 what religion that is, "but that's probably the case with most modern churches
-                and temples." - you think to yourself.\n
+                and temples." - you think to yourself.<br />
                 The creature left the lantern on a pole in the middle of the cemetery, just in
                 front of the chapel. "What is...it up to?"...
                 `,
                 para_last: `
                 Without warning, the lantern glows so bright that it temporarily
-                blinds you... \n And then you hear howling, like somebody released hundreds
+                blinds you... <br /> And then you hear howling, like somebody released hundreds
                 of hounds... It starts the distance but gets closer and closer. "Where's the
-                creature???" - you ask yourself after rubbing your eyes.\n You still haven't
+                creature???" - you ask yourself after rubbing your eyes.<br /> You still haven't
                 regained your vision completely when something brushes your shoulder and
                 knocks you to the ground. The jolt seems to clear your head and you suddenly spot the creature just ahead of you.
                 In shock, no matter how logical or illogical it sounds, you decide it's best that you......
@@ -255,11 +255,11 @@ export const choices = [
             scene_icon: `FOREST`,
             scene_text: {
                 para_one: `
-                You run after the creature without thinking, directly into the dark forest...\n
+                You run after the creature without thinking, directly into the dark forest...<br />
                 As the sky overhead closes in on you, the trees become so thick that you can no longer see the stars and trip over an exposed tree root.
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me." You shake your head to try and clear your thoughts
                 but the questions keep racing through your mind
-                "Why isn't there anyone around??? I NEED to get to the bottom of this. I'll follow it from a safe distance."\n
+                "Why isn't there anyone around??? I NEED to get to the bottom of this. I'll follow it from a safe distance."<br />
                 You see the light of the lantern flickering through the trees and run towards it...
                 `,
                 para_two: `
@@ -268,10 +268,10 @@ export const choices = [
                 was repurposed as a park recently. They brought in some weird looking people
                 to survey the area, and the engineers weren't far from odd. It made for an odd
                 park with those weird looking playground things. It's a miracle it passed the
-                inspection with all those pointy poles and weird materials.\n One would think a
+                inspection with all those pointy poles and weird materials.<br /> One would think a
                 spongy material like that couldn't hold the whole swing set, but you've seen
-                stranger things.\n It looks like the fog is retreating and you watch as the <span class="creepy-text">creature</span> nears the
-                playground in the middle...\n
+                stranger things.<br /> It looks like the fog is retreating and you watch as the <span class="creepy-text">creature</span> nears the
+                playground in the middle...<br />
                 `,
                 para_last: `
                 It starts digging, "it must be looking for something". Suddenly a
@@ -307,17 +307,17 @@ export const choices = [
                 `,
                 para_two: `
                 You decide to follow just the light of the lantern from a distance without seeing the creature so it can't see you.
-                You hope. Suddenly, light becomes dimmer and then disappears altogether!\n
-                You run faster towards where you last saw the light and come across an ancient cave.\n
+                You hope. Suddenly, light becomes dimmer and then disappears altogether!<br />
+                You run faster towards where you last saw the light and come across an ancient cave.<br />
                 You had no idea this cave existed, and you move closer to investigate...
                 `,
                 para_last: `
-                Suddenly you feel a sharp pain as you are hit on the head. You hear a loud growl, and odd laboured breaths. A hideous creature emerges, you can smell its breath, 
-                "what an awful stench", and feel droplets of spit hitting your face with each of the foul breaths.  The massive creature sinks it's claws into your legs, and 
-                drags you into the cave.\n As you begin to lose consciousness, you notice crude wall art of a hideous creature, with <span class="creepy-text">blood-red eyes</span>, 
-                painted on the wall of the cave.\n
+                Suddenly you feel a sharp pain as you are hit on the head. You hear a loud growl, and odd laboured breaths.<br /> A hideous creature emerges, you can smell it, 
+                "what an awful stench", and feel droplets of spit hitting your face with each of the foul breaths. The massive creature sinks it's claws into your legs, and 
+                drags you into the cave.<br /> As you begin to lose consciousness, you notice crude wall art of a hideous creature, with <span class="creepy-text">blood-red eyes</span>, 
+                painted on the wall of the cave.<br />
                 The various depictions of the creature on the cave wall very much resemble the monster right now tearing at your legs,
-                and a final thought enters your head,\n
+                and a final thought enters your head,<br />
                 "I wonder if the people who painted that also died like this, right here in this cave..."
                 `,
             },
@@ -325,7 +325,7 @@ export const choices = [
                 jumpscare_image: `WEREWOLF`,
                 jumpscare_audio: `GROWLS`,
             },
-            next_choices: ["credits", "credits", "credits"]
+            next_choices: ["death"]
         }
     },
     // ACT THREE SCENE DINGY HOTEL
@@ -341,14 +341,14 @@ export const choices = [
                 You rush towards the lantern light, trying to escape whatever hell and its minions this creature summoned. As you
                 run, you see the <span class="creepy-text">creature</span> opening what seems to be a secret entrance to the city hotel. 
                 Wasting no time, you run inside, closing the
-                door behind you.\n You need to make sure that whatever is lurking outside can't get in. You grab chairs, there are 
+                door behind you.<br /> You need to make sure that whatever is lurking outside can't get in. You grab chairs, there are 
                 a couple of small statues, and whatever else
                 you can find and bar them against the door. Out of breath, you look at your poorly constructed barricade hoping it will hold...
                 `,
                 para_two: `
                 But you forgot about the creature... You slowly turn around to see it pointing at the bright light in the reception
                 area. It couldn't approach and it looked like it was trying to destroy it. "If it is trying to destroy it, it must be good for
-                me" - you think. You hesitate whether to run and destroy it or grab it and throw it at the creature.\n
+                me" - you think. You hesitate whether to run and destroy it or grab it and throw it at the creature.<br />
                 While deciding what to do, you realise that the statues in the lobby came alive and are holding you. It looks like the
                 creature is controlling them as it's waving at them. Unable to move, they lift you up above the chandelier which is
                 projecting an image to the ceiling. It's depicting a story about a curse of the creature's ancestors
@@ -356,11 +356,11 @@ export const choices = [
                 para_last: `
                 When the first people appeared on Earth, there was chaos, and all manner of creatures flourished from it. Humans
                 managed to harness the light through fire and drove the creatures away into the underground. Light wasn't very
-                kind to them as it burned their skin and killed them slowly.\n Since that day, every Halloween, a creature emerges
+                kind to them as it burned their skin and killed them slowly.<br /> Since that day, every Halloween, a creature emerges
                 from the underground, grabs a weakened light, which is the lantern, and tries to destroy the light by powering the
                 chaos it can fuel with the weakened light's energy. This is the only time in the year when the true light is
                 weakened but it's still too strong for many creatures to go through this ritual so they send only one, in hope that
-                the chaos can overwhelm the one true light.\n
+                the chaos can overwhelm the one true light.<br />
                 You watch as the story unfolds. As the projection has come to an end, statues release their grip on you, and gently
                 put you on the ground. You are not sure whether the creature was trying to help you, or was it trying to scare off
                 the statues. This could only mean that one of the two have to be destroyed.
@@ -381,25 +381,25 @@ export const choices = [
             scene_text: {
                 para_one: `
                 You follow the creature to the church, you see the side door is open, you rush in and slam the door behind you. You need to 
-                make sure whatever is outside can't get in. You run around grabbing anything and everything available.\n
+                make sure whatever is outside can't get in. You run around grabbing anything and everything available.<br />
                 You grab some church benches, a couple of statues, and whatever else you can find and bar them against the door. Out of breath, you look at
                 the door hoping it will hold...
                 `,
                 para_two: `
                 But you forgot about the creature... You slowly turn around to see it pointing at the bright light at the altar. It
                 couldn't approach and it looked like it was trying to destroy it. "If it is trying to destroy it, it must be good for me" -
-                you think. You hesitate whether to run and destroy it or try to escape.\n
+                you think. You hesitate whether to run and destroy it or try to escape.<br />
                 While deciding what to do, you realise that the pictures on the wall are different than the ones in any other light.
                 They are depicting a story about a curse of the creatures ancestors.
                 `,
                 para_last: `
                 When the first people appeared on Earth, there was chaos, and the creatures flourished from it. Humans
                 managed to harness the light through fire and drove the creatures away into the underground. Light wasn't very
-                kind to them as it burned their skin and killed them slowly.\n Since that day, every Halloween, a creature emerges
+                kind to them as it burned their skin and killed them slowly.<br /> Since that day, every Halloween, a creature emerges
                 from the underground, grabs a weakened light, which is the lantern, and tries to destroy the light by powering the
                 chaos it can fuel with the weakened light's energy. This is the only time in the year when the true light is
                 weakened but it's still too strong for many creatures to go through this ritual so they send only one, in hope that
-                the chaos can overwhelm the one true light.\n
+                the chaos can overwhelm the one true light.<br />
                 Realising this, you decide to
                 `,
             },
@@ -421,15 +421,15 @@ export const choices = [
             scene_text: {
                 para_one: `
                 You follow the creature to the hospital, but as soon as you rush inside the front door the lights go out.
-                Everything goes completely dark. Your out of breath, you look around trying to find your bearings when you realize...\n
-                "You forgot about the creature...!"\n Suddenly an extremely bright light blinds you for a second, when your vision returns
+                Everything goes completely dark. Your out of breath, you look around trying to find your bearings when you realize...<br />
+                "You forgot about the creature...!"<br /> Suddenly an extremely bright light blinds you for a second, when your vision returns
                 you see the outline of the creature, surround by the light. It comes into focus and it seems to be pointing at you. 
                 `,
                 para_two: `
                 You watch
                 as the creature turns and points directly at the bright light in the middle of the
                 large waiting room. It couldn't approach and it looked like it was trying to destroy it. "If the creature is trying to destroy the light, the light
-                might be something I can use to destroy the the creature" - you think.\n
+                might be something I can use to destroy the the creature" - you think.<br />
                 You rush to the bright light trying to throw it at the creature, but as soon as you touch it, it overwhelms you 
                 you find yourself in a haze of light, swirling all around you and then, you see visions of the world long past...
                 `,
@@ -438,7 +438,7 @@ export const choices = [
                 managed to harness the light through fire and drove the creatures away into the underground. Light wasn't very
                 kind to them as it burned their skin and killed them slowly. Since that day, every Halloween, a creature emerges
                 from the underground, grabs a weakened light, which is the lantern, and tries to destroy the light by powering the
-                chaos it can fuel with the weakened light's energy.\n This is the only time in the year when the true light is
+                chaos it can fuel with the weakened light's energy.<br /> This is the only time in the year when the true light is
                 weakened but it's still too strong for many creatures to go through with this ritual so they send only one, in hope
                 that the chaos can overwhelm the one true light.
                 Seeing all this, you decide to...
@@ -448,7 +448,7 @@ export const choices = [
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
             },
-            next_choices: ["do nothing", "try and escape", "destroy the creature"]
+            next_choices: ["do nothing", "try and escape", "destroy the light"]
         }
     },
     // ACT THREE DON'T FOLLOW THE CREATURE
@@ -463,17 +463,17 @@ export const choices = [
                 para_one: `
                 You hesitate as you watch the creature disappear and your mind turns towards more pressing matters
                 as the creatures of the undead are closing in. Suddenly two of them are right in front of you, you jump to the side
-                and begin running in no particular direction...\n
+                and begin running in no particular direction...<br />
                 `,
                 para_two: `
                 The fog has gotten thicker, and it's getting harder to see where you are and where you're going, but you can hear the
                 monsters getting closer as you try to run faster and faster. You're getting tired and are starting to lose strength in your legs.
-                Your breathing is labored and you can feel your heart beating, it's beating so incredibly fast...\n
+                Your breathing is labored and you can feel your heart beating, it's beating so incredibly fast...<br />
                 `,
                 para_last: `
                 Suddenly out of nowhere you trip and fall, smashing face first into the ground. You sit up dis-oriented, your senses overwhelmed.
                 The sounds of the undead are getting louder, you can feel their presense now in the fog, hear them inside your head, they're everywhere.
-                It sounds like there are thousands of them...\n
+                It sounds like there are thousands of them...<br />
                 You try to clear your head and attempt to stand up, but you've sprained your ankle and you collapse in pain.
                 You begin to panic and just as the undead overwhelm you suddenly a thought pops into your head, "what happened to my friends...?" you wonder
                 as you lose consciousness and die...
@@ -483,7 +483,7 @@ export const choices = [
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
             },
-            next_choices: ["credits", "credits", "credits"]
+            next_choices: ["death"]
         }
     },
     // FINAL ACT DESTROY THE CREATURE
@@ -497,16 +497,16 @@ export const choices = [
             scene_text: {
                 para_one: `
                 As you pull yourself together, you know the right thing to do is to kill the creature. You grab the closest metal bar
-                and hit the creature.\n Weakened by the light, the creature falls back a couple of footsteps, releases a high pitched
+                and hit the creature.<br /> Weakened by the light, the creature falls back a couple of footsteps, releases a high pitched
                 shriek and dies. Its body starts to decompose right before your eyes before you can get a good look at it.
                 At that moment, light from the light source starts to overwhelm the space. It blinds you making you disoriented.
                 Not even your eyelids are helping as you receive another vision:
                 `,
                 para_two: `
                 Another creature made entirely out of light, considerably bigger than the one you were chasing, thanks you for
-                protecting the light for another cycle.\n As it pulls away in something that could only be described as light at the end
+                protecting the light for another cycle.<br /> As it pulls away in something that could only be described as light at the end
                 of a tunnel, you find yourself back where you started from. Space around you is filled with morning light, you feel
-                completely refreshed like something has recharged your batteries.\n There's a queue of people waiting to get
+                completely refreshed like something has recharged your batteries.<br /> There's a queue of people waiting to get
                 inside who were surprised by your presence, but nobody is paying too much attention. What a world we live in.
                 `,
                 para_last: `
@@ -520,24 +520,35 @@ export const choices = [
                 jumpscare_image: `PUMPKINS`,
                 jumpscare_audio: `SCREECH`,
             },
-            next_choices: ["credits", "credits", "credits"]
+            next_choices: ["credits"]
         }
     },
+    // FINAL ACT DO NOTHING
     {
         users_choice: "do nothing",
         options: {
-            scene_audio: "",
+            scene_audio: "CREEPY BACKGROUND SOUND  >> BAR SOUND OF PEOPLE DRINKING >> TO SILENCE",
             scene_image: "",
-            scene_transition: ``,
+            scene_transition: `FADE`,
             scene_icon: ``,
             scene_text: {
                 para_one: `
-                
+                As you pull yourself together, you realise that this has to be some kind of a dream, or a hallucination - it has to be.
+                All of this is too much for you. You grab your head, kneel on the floor and with closed eyes release the loudest
+                shout you could.<br /> At that moment, the clock strikes midnight, the creature's window to destroy the light has
+                passed, and the light is back to its full strength. The light starts to overwhelm the space. It blinds you making you
+                disoriented. Not even your eyelids are helping as you pass out and everything goes dark...<br />
                 `,
                 para_two: `
                 
                 `,
                 para_last: `
+                You awake feeling good like never before, like something has recharged your batteries. No trace of the
+                creature or the light. There's a wonderful morning outside and the maintenance guy is calling the security. "That
+                was some night" you say to yourself as an un-easy feeling comes over you.
+                "I only need to find out if it was all true or if I was just blindly drunk." 
+                Never mind - even if it was true,<br />  no one would believe your story...<br />
+                You stand up and go home to your family...
                 
                 `,
             },
@@ -545,7 +556,76 @@ export const choices = [
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
             },
-            next_choices: ["one", "two", "three"]
+            next_choices: ["the bar area", "the front door", "the back door"]
+        }
+    },
+    // FINAL ACT DESTROY THE LIGHT
+    {
+        users_choice: "destroy the light",
+        options: {
+            scene_audio: "ELECTRICAL WHIRRING > BOLTS OF ELECTRICITY",
+            scene_image: "",
+            scene_transition: `FLASHING LIGHT`,
+            scene_icon: ``,
+            scene_text: {
+                para_one: `
+                After all you've been through, for no logical reason whatsoever, you decide to help the creature. 
+                You see a large metal bar, you grab it and start smashing the light.<br /> It works, but not completely. The
+                creature points at the bowl with water and then at the light.<br /> You take the bowl and splash it
+                on the light. The creature encourages you to keep smashing the light as it starts emitting a
+                very loud and worrying noise.
+                `,
+                para_two: `
+                As the light becomes dimmer and dimmer, an impenetrable darkness, like
+                a thick musty dark fog, is starting to overwhelm the space and overwhelm the area.
+                All those things at the door couldn't stop it...
+                `,
+                para_last: `
+                You realise you've made a mistake. Dark, thick, cold fog is starting to envelop you. You see a
+                spot of light, a strange thought flashes through your mind, "...did I leave the stove on...?"<br />
+                You suddenly shiver as everything fades to darkness as your mind fades into oblivion...
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
+            },
+            next_choices: ["death"]
+        }
+    },
+    // FINAL ACT TRY AND ESCAPE
+    {
+        users_choice: "try and escape",
+        options: {
+            scene_audio: "RUNNING > ZOMBIE NOISES > AMBIENT SOUNDS",
+            scene_image: "",
+            scene_transition: `FLASHING RED AND ORANGE`,
+            scene_icon: ``,
+            scene_text: {
+                para_one: `
+                The images, the monsters, the fog....all of it is too much for you. Panic is overwhelming you
+                and you are looking for a way to escape this space, this room or whatever it has become.<br />
+                Hastily looking around, you see a door. You run towards it, trying to avoid
+                the creature and the light and in full sprint, you ram the wooden door.
+                `,
+                para_two: `
+                The door breaks and
+                you start falling down the stairs that you didn't realise were there. "I just wanted to escape"
+                - words are circling in your head as you tumble down the stairs. Realising you are unable to
+                do anything and that you're falling into your doom, you can feel no pain...
+                `,
+                para_last: `
+                As you finally land,
+                you are unable to move and the small cone of light that was coming from the broken door,
+                starts to fade. Roars, cold and dark are the last things you can remember before you lose
+                consciousness and die...
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
+            },
+            next_choices: ["death"]
         }
     }
 ]
