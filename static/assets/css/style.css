@@ -53,12 +53,12 @@ h1#story-headline {
 
 .story {
     position: relative;
-    top: 5%;
+    top: 15rem;
 }
 
 .begin-story-button {
     position: relative;
-    top: 50%;
+    top: 50vh;
 }
 
 .story-button {

@@ -27,7 +27,7 @@ export function getStoryOptions(user_choice) {
 
 // options is story options object based on user choice
 export function displayStory(options) {
-    console.log(`in display story: ${options.scene_text.para_one}`)
+    console.log(`next choices: ${options.next_choices}`)
 
     let paragraph;
     let audioClip;
@@ -56,29 +56,50 @@ export function displayStory(options) {
 
     if (step === 2) {
         // on third step (step is 2) the next three branch options will be displayed
-        storyText = `
-        <div class="row story">
-            <div class="col col-md-8 offset-md-2">
-                <p class="story-text text-center">${paragraph}</p>
-            </div>
-        </div>
-        <div class="row story-button">
-            <div class="col col-md-8 offset-md-2 text-center d-flex flex-column justify-content-center">
 
-                <div class="row">
-                    <div class="col-sm-12 col-lg-4">
-                        <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
-                    </div>
-                    <div class="col-sm-12 col-lg-4">
-                        <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
-                    </div>
-                    <div class="col-sm-12 col-lg-4">
-                        <button data-choice="${options.next_choices[2]}" class="creepy-text next-choice">${options.next_choices[2]}</button>
-                    </div>
-                </div> 
+        if (options.next_choices[0] === "credits" || options.next_choices[0] === "death") {
+            storyText = `
+            <div class="row story">
+                <div class="col col-md-8 offset-md-2">
+                    <p class="story-text text-center">${paragraph}</p>
+                </div>
             </div>
-        </div>
-        `
+            <div class="row story-button">
+                <div class="col col-md-8 offset-md-2 text-center d-flex flex-column justify-content-center align-items-end">
+                    <div class="row">
+                        <div class="col col-12">
+                            <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            `
+        }
+        else {
+            storyText = `
+            <div class="row story">
+                <div class="col col-md-8 offset-md-2">
+                    <p class="story-text text-center">${paragraph}</p>
+                </div>
+            </div>
+            <div class="row story-button">
+                <div class="col col-md-8 offset-md-2 text-center d-flex flex-column justify-content-center">
+    
+                    <div class="row">
+                        <div class="col col-md-4">
+                            <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
+                        </div>
+                        <div class="col col-md-4">
+                            <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
+                        </div>
+                        <div class="col col-md-4">
+                            <button data-choice="${options.next_choices[2]}" class="creepy-text next-choice">${options.next_choices[2]}</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            `
+        }
         step = 0;
     }
     else {
