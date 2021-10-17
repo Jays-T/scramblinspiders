@@ -31,15 +31,15 @@ body {
 
 #story_border {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
 }
 
 #story-title {
-    height: 35%;
-    width: 50%;
+    height: 65%;
+    width: 80%;
     margin: auto;
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -48,10 +48,7 @@ body {
 
 h1#story-headline {
     font-size: 1.5rem;
-}
-
-#begin-story-button-container {
-    padding: 5%;
+    margin-top: 40px;
 }
 
 .story {
@@ -59,12 +56,17 @@ h1#story-headline {
     top: 35%;
 }
 
-.story-button {
+.begin-story-button {
     position: relative;
     top: 50%;
 }
 
-#begin-button,
+.story-button {
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+}
+
 .creepy-text {
     color: red;
     font-family: 'ZCOOL KuaiLe', cursive;
@@ -91,7 +93,7 @@ h1#story-headline {
     overflow: visible;
     outline: none;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.75rem;
     letter-spacing: .3em;
     text-shadow: none;
     opacity: .2;
@@ -110,15 +112,21 @@ h1#story-headline {
     body {
         font-size: 1rem;
     }
+
+    #story-title {
+        height: 35%;
+        width: 50%;
+        top: 0;
+    }
+
+    h1#story-headline {
+        margin-top: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
 
-    /* #page-container {
-        width: min(100vw);
-    } */
-
-    /* #story-container {
-        height: min(90vh, 75rem);
-    } */
+    #story_border {
+        height: 100vh;
+    }
 }
