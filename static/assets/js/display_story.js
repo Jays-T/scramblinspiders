@@ -66,13 +66,13 @@ export function displayStory(options) {
             <div class="col col-md-8 offset-md-2 text-center d-flex flex-column justify-content-center">
 
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-lg-4">
                         <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-lg-4">
                         <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-lg-4">
                         <button data-choice="${options.next_choices[2]}" class="creepy-text next-choice">${options.next_choices[2]}</button>
                     </div>
                 </div> 
