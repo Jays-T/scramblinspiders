@@ -49,12 +49,24 @@ export function displayStory(options) {
     if (step === 2) {
         // on third step (step is 2) the next three branch options will be displayed
         storyText = `
-        <div class="row" id="story">
+        <div class="row story">
             <div class="col col-md-8 offset-md-2">
                 <p class="story-text text-center">${paragraph}</p>
-                <button data-choice="${options.next_choices[1]}" style="align-self: flex-end;" class="creepy-text next-choice">${options.next_choices[1]}</button>
-                <button data-choice="${options.next_choices[0]}" style="align-self: flex-end;" class="creepy-text next-choice">${options.next_choices[0]}</button>
-                <button data-choice="${options.next_choices[2]}" style="align-self: flex-end;" class="creepy-text next-choice">${options.next_choices[2]}</button>
+            </div>
+        </div>
+        <div class="row story-button">
+            <div class="col col-md-8 offset-md-2 text-center">
+                <div class="row">
+                    <div class="col col-md-4">
+                        <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
+                    </div>
+                    <div class="col col-md-4">
+                        <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
+                    </div>
+                    <div class="col col-md-4">
+                        <button data-choice="${options.next_choices[2]}" class="creepy-text next-choice">${options.next_choices[2]}</button>
+                    </div>
+                </div> 
             </div>
         </div>
         `
@@ -62,10 +74,14 @@ export function displayStory(options) {
     }
     else {
         storyText = `
-        <div class="row" id="story">
+        <div class="row story">
             <div class="col col-md-8 offset-md-2">
                 <p class="story-text text-center">${paragraph}</p>
-                <button style="align-self: flex-end;" id="next-step" class="creepy-text">continue...</button>
+            </div>
+        </div>
+        <div class="row story-button">
+            <div class="col col-md-8 offset-md-2 text-center">
+            <button id="next-step" class="creepy-text">continue...</button>
             </div>
         </div>
         `

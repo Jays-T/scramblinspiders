@@ -54,9 +54,14 @@ h1#story-headline {
     padding: 5%;
 }
 
-#story {
+.story {
     position: relative;
     top: 35%;
+}
+
+.story-button {
+    position: relative;
+    top: 50%;
 }
 
 #begin-button,
@@ -76,17 +81,9 @@ h1#story-headline {
     line-height: 2.5rem;
 }
 
-#begin-story,
-#begin-button {
-    /* height: 180px;
-    width: 175px; */
-}
-
 .next-choice,
 #next-step,
 #begin-button {
-    /* height: 180px;
-    width: 175px; */
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
