@@ -327,5 +327,225 @@ export const choices = [
             },
             next_choices: ["credits", "credits", "credits"]
         }
+    },
+    // ACT THREE SCENE DINGY HOTEL
+    {
+        users_choice: "follow the creature to the dingy hotel",
+        options: {
+            scene_audio: "BROKEN NEON LIGHT FLICKERING",
+            scene_image: "HOTEL",
+            scene_transition: `FADE IN > NEON FLASHING?`,
+            scene_icon: `HOTEL`,
+            scene_text: {
+                para_one: `
+                You rush towards the lantern light, trying to escape whatever hell and its minions this creature summoned. As you
+                run, you see the <span class="creepy-text">creature</span> opening what seems to be a secret entrance to the city hotel. 
+                Wasting no time, you run inside, closing the
+                door behind you.\n You need to make sure that whatever is lurking outside can't get in. You grab chairs, there are 
+                a couple of small statues, and whatever else
+                you can find and bar them against the door. Out of breath, you look at your poorly constructed barricade hoping it will hold...
+                `,
+                para_two: `
+                But you forgot about the creature... You slowly turn around to see it pointing at the bright light in the reception
+                area. It couldn't approach and it looked like it was trying to destroy it. "If it is trying to destroy it, it must be good for
+                me" - you think. You hesitate whether to run and destroy it or grab it and throw it at the creature.\n
+                While deciding what to do, you realise that the statues in the lobby came alive and are holding you. It looks like the
+                creature is controlling them as it's waving at them. Unable to move, they lift you up above the chandelier which is
+                projecting an image to the ceiling. It's depicting a story about a curse of the creature's ancestors
+                `,
+                para_last: `
+                When the first people appeared on Earth, there was chaos, and all manner of creatures flourished from it. Humans
+                managed to harness the light through fire and drove the creatures away into the underground. Light wasn't very
+                kind to them as it burned their skin and killed them slowly.\n Since that day, every Halloween, a creature emerges
+                from the underground, grabs a weakened light, which is the lantern, and tries to destroy the light by powering the
+                chaos it can fuel with the weakened light's energy. This is the only time in the year when the true light is
+                weakened but it's still too strong for many creatures to go through this ritual so they send only one, in hope that
+                the chaos can overwhelm the one true light.\n
+                You watch as the story unfolds. As the projection has come to an end, statues release their grip on you, and gently
+                put you on the ground. You are not sure whether the creature was trying to help you, or was it trying to scare off
+                the statues. This could only mean that one of the two have to be destroyed.
+                Realising this, you decide to...
+                `,
+            },
+            next_choices: ["destroy the creature", "do nothing", "try and escape"]
+        }
+    },
+    // ACT THREE MEDIEVAL CHURCH
+    {
+        users_choice: "follow the creature to the medieval church",
+        options: {
+            scene_audio: "CHURCH BELLS, CHURCH CHOIR",
+            scene_image: "CHURCH",
+            scene_transition: `FADE IN FROM LEFT`,
+            scene_icon: `CHURCH`,
+            scene_text: {
+                para_one: `
+                You follow the creature to the church, you see the side door is open, you rush in and slam the door behind you. You need to 
+                make sure whatever is outside can't get in. You run around grabbing anything and everything available.\n
+                You grab some church benches, a couple of statues, and whatever else you can find and bar them against the door. Out of breath, you look at
+                the door hoping it will hold...
+                `,
+                para_two: `
+                But you forgot about the creature... You slowly turn around to see it pointing at the bright light at the altar. It
+                couldn't approach and it looked like it was trying to destroy it. "If it is trying to destroy it, it must be good for me" -
+                you think. You hesitate whether to run and destroy it or try to escape.\n
+                While deciding what to do, you realise that the pictures on the wall are different than the ones in any other light.
+                They are depicting a story about a curse of the creatures ancestors.
+                `,
+                para_last: `
+                When the first people appeared on Earth, there was chaos, and the creatures flourished from it. Humans
+                managed to harness the light through fire and drove the creatures away into the underground. Light wasn't very
+                kind to them as it burned their skin and killed them slowly.\n Since that day, every Halloween, a creature emerges
+                from the underground, grabs a weakened light, which is the lantern, and tries to destroy the light by powering the
+                chaos it can fuel with the weakened light's energy. This is the only time in the year when the true light is
+                weakened but it's still too strong for many creatures to go through this ritual so they send only one, in hope that
+                the chaos can overwhelm the one true light.\n
+                Realising this, you decide to
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: `PRIEST`,
+                jumpscare_audio: `SCREAM`,
+            },
+            next_choices: ["try and escape", "destroy the creature", "destroy the light"]
+        }
+    },
+    // ACT THREE LOCAL HOSPITAL
+    {
+        users_choice: "follow the creature to the local hospital",
+        options: {
+            scene_audio: "CREEPY BACKGROUND SOUND",
+            scene_image: "HOSPITAL",
+            scene_transition: `FADE IN FROM RIGHT`,
+            scene_icon: `HOSPITAL`,
+            scene_text: {
+                para_one: `
+                You follow the creature to the hospital, but as soon as you rush inside the front door the lights go out.
+                Everything goes completely dark. Your out of breath, you look around trying to find your bearings when you realize...\n
+                "You forgot about the creature...!"\n Suddenly an extremely bright light blinds you for a second, when your vision returns
+                you see the outline of the creature, surround by the light. It comes into focus and it seems to be pointing at you. 
+                `,
+                para_two: `
+                You watch
+                as the creature turns and points directly at the bright light in the middle of the
+                large waiting room. It couldn't approach and it looked like it was trying to destroy it. "If the creature is trying to destroy the light, the light
+                might be something I can use to destroy the the creature" - you think.\n
+                You rush to the bright light trying to throw it at the creature, but as soon as you touch it, it overwhelms you 
+                you find yourself in a haze of light, swirling all around you and then, you see visions of the world long past...
+                `,
+                para_last: `
+                When the first people appeared on Earth, there was chaos, and the creatures flourished from it. Humans
+                managed to harness the light through fire and drove the creatures away into the underground. Light wasn't very
+                kind to them as it burned their skin and killed them slowly. Since that day, every Halloween, a creature emerges
+                from the underground, grabs a weakened light, which is the lantern, and tries to destroy the light by powering the
+                chaos it can fuel with the weakened light's energy.\n This is the only time in the year when the true light is
+                weakened but it's still too strong for many creatures to go through with this ritual so they send only one, in hope
+                that the chaos can overwhelm the one true light.
+                Seeing all this, you decide to...
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
+            },
+            next_choices: ["do nothing", "try and escape", "destroy the creature"]
+        }
+    },
+    // ACT THREE DON'T FOLLOW THE CREATURE
+    {
+        users_choice: "don't follow the creature",
+        options: {
+            scene_audio: "ZOMBIES FEASTING",
+            scene_image: "ZOMBIES",
+            scene_transition: `FLASHING RED AND ORANGE`,
+            scene_icon: `ZOMBIE`,
+            scene_text: {
+                para_one: `
+                You hesitate as you watch the creature disappear and your mind turns towards more pressing matters
+                as the creatures of the undead are closing in. Suddenly two of them are right in front of you, you jump to the side
+                and begin running in no particular direction...\n
+                `,
+                para_two: `
+                The fog has gotten thicker, and it's getting harder to see where you are and where you're going, but you can hear the
+                monsters getting closer as you try to run faster and faster. You're getting tired and are starting to lose strength in your legs.
+                Your breathing is labored and you can feel your heart beating, it's beating so incredibly fast...\n
+                `,
+                para_last: `
+                Suddenly out of nowhere you trip and fall, smashing face first into the ground. You sit up dis-oriented, your senses overwhelmed.
+                The sounds of the undead are getting louder, you can feel their presense now in the fog, hear them inside your head, they're everywhere.
+                It sounds like there are thousands of them...\n
+                You try to clear your head and attempt to stand up, but you've sprained your ankle and you collapse in pain.
+                You begin to panic and just as the undead overwhelm you suddenly a thought pops into your head, "what happened to my friends...?" you wonder
+                as you lose consciousness and die...
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
+            },
+            next_choices: ["credits", "credits", "credits"]
+        }
+    },
+    // FINAL ACT DESTROY THE CREATURE
+    {
+        users_choice: "destroy the creature",
+        options: {
+            scene_audio: "FIGHT WITH METAL CLANGING AND GROWLS",
+            scene_image: "WEREWOLF",
+            scene_transition: `FLASHING RED AND ORANGE`,
+            scene_icon: ``,
+            scene_text: {
+                para_one: `
+                As you pull yourself together, you know the right thing to do is to kill the creature. You grab the closest metal bar
+                and hit the creature.\n Weakened by the light, the creature falls back a couple of footsteps, releases a high pitched
+                shriek and dies. Its body starts to decompose right before your eyes before you can get a good look at it.
+                At that moment, light from the light source starts to overwhelm the space. It blinds you making you disoriented.
+                Not even your eyelids are helping as you receive another vision:
+                `,
+                para_two: `
+                Another creature made entirely out of light, considerably bigger than the one you were chasing, thanks you for
+                protecting the light for another cycle.\n As it pulls away in something that could only be described as light at the end
+                of a tunnel, you find yourself back where you started from. Space around you is filled with morning light, you feel
+                completely refreshed like something has recharged your batteries.\n There's a queue of people waiting to get
+                inside who were surprised by your presence, but nobody is paying too much attention. What a world we live in.
+                `,
+                para_last: `
+                "That was some night" you say to yourself. "I only need to find out if it was all true or if it was just a drunken
+                fantasy." Never mind - even if you tell it to someone, no one would believe you. Some psychiatrists might be
+                interested, but that's about it.
+                You dust yourself and go home to your family
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: `PUMPKINS`,
+                jumpscare_audio: `SCREECH`,
+            },
+            next_choices: ["credits", "credits", "credits"]
+        }
+    },
+    {
+        users_choice: "do nothing",
+        options: {
+            scene_audio: "",
+            scene_image: "",
+            scene_transition: ``,
+            scene_icon: ``,
+            scene_text: {
+                para_one: `
+                
+                `,
+                para_two: `
+                
+                `,
+                para_last: `
+                
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
+            },
+            next_choices: ["one", "two", "three"]
+        }
     }
 ]
