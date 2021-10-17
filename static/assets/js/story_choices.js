@@ -5,9 +5,26 @@ export const choices = [
         options: 
         {
             scene_audio: "BAR > PEOPLE TALKING > BEER GLASSES CLINKING > EERIE SILENCE...",
+            scene_audio: "../static/assets/audio/sounds/falling_throug_floor.mp3",
+            scene_audio_volume: ".6",
+            scene_audio_delay: "600",
+
             scene_image: "BAR IN COLOR > FADING TO BLACK AND WHITE",
             scene_icon: `BEER MUGS`,
             scene_transition: `IMAGE FADE IN, WITH TEXT FADE IN`,
+
+            para_one_audio: "",
+            para_one_audio_volume: "",
+            para_one_audio_delay: "",
+
+            para_two_audio: "",
+            para_two_audio_volume: "",
+            para_two_audio_delay: "",
+
+            para_last_audio: "",
+            para_three_audio_volume: "",
+            para_three_audio_delay: "",
+            
             scene_text: {
                 para_one: `You are at an empty pub. You could swear that just
                 a moment ago it was full of people clamouring,
@@ -29,6 +46,10 @@ export const choices = [
                 rush out of the toilet and go for....
                 `,
             },
+            scene_jumpscare: {
+                jumpscare_image: `DEATH`,
+                jumpscare_audio: `OMINOUS SAD MUSIC`,
+            },
             next_choices: ["the bar area", "the front door", "the back door"]
         }
     },
@@ -36,10 +57,26 @@ export const choices = [
     {
         users_choice: "the front door",
         options: {
-            scene_audio: "CREEPY MOOD MUSIC > EERIE SILENCE >> CREATURE SOUND?",
+            scene_audio: "../static/assets/audio/sounds/falling_throug_floor.mp3",
+            scene_audio_volume: ".6",
+            scene_audio_delay: "600",
+
             scene_image: "OLD HOUSE",
             scene_transition: ``,
             scene_icon: ``,
+
+            para_one_audio: "",
+            para_one_audio_volume: "",
+            para_one_audio_delay: "",
+
+            para_two_audio: "",
+            para_two_audio_volume: "",
+            para_two_audio_delay: "",
+
+            para_last_audio: "",
+            para_three_audio_volume: "",
+            para_three_audio_delay: "",
+
             scene_text: {
                 para_one: `You run out of the front door, and in the fog, you can see
                 something that looks like a lantern.<br /> It must be a lantern as
@@ -556,7 +593,7 @@ export const choices = [
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
             },
-            next_choices: ["the bar area", "the front door", "the back door"]
+            next_choices: ["credits"]
         }
     },
     // FINAL ACT DESTROY THE LIGHT

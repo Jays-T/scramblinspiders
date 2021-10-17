@@ -5,7 +5,7 @@ import { playSound } from "./play_sound.js";
 function displayHeadline() {
 
     let headline = `
-    Tales_of_<span class="creepy-text">Javascript</span>: <span>"The <span class="creepy-text cursed-text">curse</span> of the infinite recursive loop"</span>
+    A<span class="creepy-text cursed-text"> Normal </span> night at the <span class="creepy-text">pub.</span>
     `
 
     let appliedStyle = `

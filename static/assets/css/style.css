@@ -46,7 +46,7 @@ body {
     padding: 5%;
 }
 
-h1#story-headline {
+#story-headline h1{
     font-size: 1.5rem;
     margin-top: 40px;
 }

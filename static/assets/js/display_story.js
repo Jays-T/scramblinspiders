@@ -31,6 +31,9 @@ export function displayStory(options) {
 
     let paragraph;
     let audioClip;
+    let audioVolume;
+    let audioDelay;
+
     // function on line 89 takes in currentOptions to persist data on callBack to this function
     let currentOptions = options;
 
@@ -158,8 +161,14 @@ export function displayStory(options) {
         }));
     }
 
-    setTimeout(() => {
-        playSound(audioClip, .3);
-    }, 800)
+    // If scene or paragraph has audio
+    // Set values from object
+    // Call playSound and pass in values 
+    if (options.scene_audio) {
+        audioClip = options.scene_audio;
+        audioVolume = options.scene_audio_volume;
+        audioDelay = options.scene_audio_delay;
 
+        playSound(audioClip, audioVolume, audioDelay)
+    }
 }
