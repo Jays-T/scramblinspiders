@@ -701,16 +701,13 @@ export const choices = [
                 para_one: `
                 As you pull yourself together, you realise that this has to be some kind of a dream, or a hallucination - it has to be.
                 All of this is too much for you. You grab your head, kneel on the floor and with closed eyes release the loudest
-                shout you could.<br /> At that moment, the clock strikes midnight, the creature's window to destroy the light has
-                passed, and the light is back to its full strength. The light starts to overwhelm the space. It blinds you making you
-                disoriented. Not even your eyelids are helping as you pass out <br />
-                and everything<br /> 
-                <span class="fade-in">goes dark...</span>
+                shout you could.
                 `,
                 para_two: `
                 At that moment, the clock strikes midnight, the creature's window to destroy the light has
                 passed, and the light is back to its full strength. The light starts to overwhelm the space. It blinds you making you
-                disoriented. Not even your eyelids are helping as you pass out and everything goes dark...
+                disoriented. Not even your eyelids are helping as you pass out and everything <br /> 
+                <span class="fade-in">goes dark...</span>
                 `,
                 para_last: `
                 You awake feeling good like never before, like something has recharged your batteries. No trace of the
@@ -744,7 +741,7 @@ export const choices = [
 
             scene_text: {
                 para_one: `
-                After all you've been through, for no logical reason whatsoever, you decide to help the creature. 
+                After all you've been through, for reasons known only to you, you decide to help the creature. 
                 You see a large metal bar, you grab it and start smashing the light.<br /> It works, but not completely. The
                 creature points at the bowl with water and then at the light.<br /> You take the bowl and splash it
                 on the light. The creature encourages you to keep smashing the light as it starts emitting a
@@ -798,7 +795,7 @@ export const choices = [
                 para_last: `
                 As you finally land,
                 you are unable to move and the small cone of light that was coming from the broken door,
-                starts to fade. Roars, cold and dark are the last things you can remember before you lose
+                starts to fade. Roars, cold and darkness are the last things you can remember before you lose
                 consciousness and die...
                 `,
             },

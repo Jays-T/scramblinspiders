@@ -126,7 +126,13 @@ Tue, 19th Oct@ 15:00: Winners announced on Slack
 
 **A Normal Night at the Pub | Which path will you go down**
 
-....
+Welcome to our interactive adventure! Idea behind this project was to create a story that has multiple steps, and can branch in different directions. It also has multiple endings to which you can get with each playthrough. For the limited time we had for this project, we ended up with 5 steps where each step has 4 choices(see [story_outline_v2.pdf](static/wireframes/story_outline_v2.pdf)). We decided not to give all 4 options on each step as removing one of the choices, leaves the reader with new options on each new playthrough making the story replayable. There are 4 endings - 2 good, 2 bad and, depending on your choices, you can get to one ending each playthrough. If you want to know more about how the story is layed out, please see [story_outline_v2.pdf](static/wireframes/story_outline_v2.pdf) and [story_wireframe_v2.pdf](static/wireframes/story_wireframe_v2.pdf).
+
+As from the technical point, we opted for a one page concept and let the JavaScript dynamically change the contents with each user interaction. We created an array of objects with key value pairs for each part of the step, so the same function is grabbing a different story part, depending on users choice. Each time reader chooses an option, a one function is run to change the backgrounds, story text, populate the choice buttons and everything needed to present the next part of the story. This way we can dynamically add more options, story parts whenever we want(we thank John Traas for this :smile: ). Additional benefit is that it prevents the user to go back on its choice, as we wanted to encourage the user to finish the story, before starting all over.
+
+We added random jump scares, ambient music to add to the atmosphere while reading the story and combined with branching story, makes the whole website different each time it is played through.
+
+We hope you will like our project as we did making it, and go through it multiple times as it was intended. Don't be scared of the scary story, it's just a fantasy. Or is it? :wink:
 
 [Back to Table of contents](#table-of-contents)
 
