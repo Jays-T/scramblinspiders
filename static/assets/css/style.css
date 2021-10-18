@@ -1,15 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Creepster&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei:wght@200;400;500;900&display=swap");
 
-:root {
-    /* Primary Colors */
-
-    --p-outline: #000000;
-    --p-orange: rgb(240, 129, 1);
-}
-
 * {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -21,6 +14,11 @@ body {
     color: #fafafa;
     overflow: hidden;
     font-size: .6rem;
+}
+
+.height-30 {
+    max-height: 30vh;
+    padding-bottom: 3.5rem;
 }
 
 #animated-border-container {
@@ -48,7 +46,7 @@ body {
 }
 
 #story-paragraph {
-    width: 70vw;
+    width: 90vw;
 }
 
 #story-choices {
@@ -57,8 +55,13 @@ body {
 
 #story-headline h1,
 #landing-content {
-    font-size: 1.5rem;
-    margin-top: 40px;
+    font-size: .8rem;
+}
+
+.landing-image {
+    height: 40vh;
+    max-width: 100vw;
+    object-fit: contain;
 }
 
 .story {
@@ -85,9 +88,9 @@ body {
 
 .story-text {
     font-family: 'ZCOOL XiaoWei', serif;
-    font-size: 1.25rem;
+    font-size: .8rem;
     letter-spacing: 2px;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
 }
 
 .next-choice,
@@ -128,7 +131,7 @@ body {
     0%, 15% {
         opacity: 0;
     } 15%, 20% {
-        color:var(--p-orange);
+        color: rgb(240, 129, 1);
         font-family: Creepster, cursive;
         opacity: 0;
     } 20%, 100% {
@@ -207,5 +210,27 @@ footer {
 
     #story_border {
         height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .landing-image {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    #story-headline h1,
+    #landing-content {
+        font-size: 1.2rem;
+    }
+    .story-text {
+        font-family: 'ZCOOL XiaoWei', serif;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+        line-height: 2.5rem;
+    }
+    #story-paragraph {
+        width: 70vw;
     }
 }
