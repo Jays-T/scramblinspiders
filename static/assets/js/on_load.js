@@ -39,7 +39,7 @@ function displayHeadline() {
 }
 
 function loadIn() {
-    let introSound = '../static/assets/audio/background/static_noises/long_static_with_echo.wav';
+    let introSound = 'static/assets/audio/background/static_noises/long_static_with_echo.wav';
     
     // pass audioClip, audioLevel
     playSound(introSound, .6);
