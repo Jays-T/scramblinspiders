@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Creepster&family=ZCOOL+KuaiLe:wght@200;400;500;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei:wght@200;400;500;900&display=swap");
 
 :root {
     /* Primary Colors */
@@ -9,8 +8,8 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
     box-sizing: border-box;
 }
 
@@ -24,6 +23,14 @@ body {
     font-size: .6rem;
 }
 
+#animated-border-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
 #story-container {
     height: 100vh;
     position: relative;
@@ -35,18 +42,21 @@ body {
 }
 
 #story-title {
-    height: 65%;
-    width: 80%;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
-    position: absolute;
-    top: 5%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 5%;
 }
 
-#story-headline h1{
+#story-paragraph {
+    width: 70vw;
+}
+
+#story-choices {
+    min-width: 100vw;
+}
+
+#story-headline h1,
+#landing-content {
     font-size: 1.5rem;
     margin-top: 40px;
 }
@@ -58,13 +68,10 @@ body {
 
 .begin-story-button {
     position: relative;
-    top: 50vh;
 }
 
 .story-button {
     width: 100%;
-    position: absolute;
-    bottom: 10%;
 }
 
 .creepy-text {
@@ -85,12 +92,17 @@ body {
 
 .next-choice,
 .next-step {
+    min-width: 33%;
+    max-width: 33%;
     padding: 5%;
 }
 
 .next-choice,
+.credits-button,
+#end-story,
 #next-step,
 #begin-button {
+    position: relative;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -98,9 +110,9 @@ body {
     overflow: visible;
     outline: none;
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     letter-spacing: .3em;
-    line-height: 1.3;
+    line-height: 1.6;
     text-shadow: none;
     opacity: .2;
     transition: all .3s ease-in-out;
@@ -109,22 +121,77 @@ body {
 
 .next-choice:hover,
 #next-step:hover {
-    color:rgb(240, 129, 1);
-    transform: scale(1.2);
+    animation: changeFont 1s forwards;
 }
 
-.delay-text {
+@keyframes changeFont {
+    0%, 15% {
+        opacity: 0;
+    } 15%, 20% {
+        color:var(--p-orange);
+        font-family: Creepster, cursive;
+        opacity: 0;
+    } 20%, 100% {
+        font-family: Creepster, cursive;
+        opacity: 1;
+    }
+}
+
+.fade-out {
+    transition: all .3s ease-in-out;
+    opacity: 1;
+    animation: fadeOut .6s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    transition: all .3s ease-in-out;
     opacity: 0;
-    animation: fade-in .6s forwards;
-    animation-delay: .3s;
+    animation: fadeIn .6s forwards;
 }
 
-@keyframes fade-in {
+.fade-in-long {
+    animation: fadeIn 6s forwards;
+}
+
+@keyframes fadeIn {
     0% {
         opacity: 0;
     } 100% {
         opacity: 1;
     }
+}
+
+.fade-mostly {
+    transition: all .3s ease-in-out;
+    opacity: 1;
+    animation: fadeMostly .4s forwards;
+}
+
+@keyframes fadeMostly {
+    0% {
+        opacity: 1;
+    } 100% {
+        opacity: 0.2;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 1.5rem;
+    z-index: 2000;
+    left: 0;
+    width: 100vw;
+    font-size: 1.1rem;
+    letter-spacing: .3em;
+    text-align: center;
 }
 
 /* Media queries */
@@ -133,20 +200,6 @@ body {
 
     body {
         font-size: 1rem;
-    }
-
-    #story-title {
-        height: 35%;
-        width: 50%;
-        top: 0;
-    }
-
-    h1#story-headline {
-        margin-top: 0;
-    }
-
-    .story {
-        top: 20%;
     }
 }
 

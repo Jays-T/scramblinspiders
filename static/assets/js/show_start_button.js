@@ -1,13 +1,18 @@
-import { getStoryOptions } from "./display_story.js";
-import { displayStory } from "./display_story.js";
+import { getStoryOptions, displayStory, clearStoryContainer } from "./display_story.js";
 import { playSound } from "./play_sound.js";
-import { clearStoryContainer } from "./display_story.js";
 import { jumpScare } from "./jump_scare.js";
+import { animatedBorder } from "./animated_border.js";
+
+export function showAnimatedBorder() {
+    borderContainer.innerHTML = animatedBorder;
+}
 
 export function showBeginButton() {
     let buttonContainer = document.getElementById('begin-story');
 
     // Set choice to start for story choices
+    buttonContainer.classList.add('fade-in');
+
     let buttonHTML = `
     <button id="begin-button" class="creepy-text" data-choice="start">Start</button>
     `;
@@ -36,5 +41,6 @@ export function showBeginButton() {
         displayStory(begin_story_path);
     })
 
-    headlineContainer.style.opacity = `.2`;
+    // Fade headline to .2
+    headlineContainer.classList.add('fade-mostly');
 }

@@ -25,14 +25,44 @@ export const choices = [
             para_three_audio_delay: "2000",
             
             scene_text: {
-                para_one:`Our story starts on a Halloween late afternoon. It's Friday and your work for today is finally done! You can now go home, as you have been looking forward to it. A Halloween brings that special atmosphere that is unique to it. Two days off and no obligations fill you with satisfaction and put a smile on your face. Children will be wearing costumes and going trick or treating. You don't have to worry about your kids' costumes, as you already took care of that the day before - today is a perfect day. You can go to a pub near your house to celebrate being free from obligations (no matter how brief it is), before you go home. You notice a chill in the air as winter is showing its teeth earlier than usual. Well, that's climate change for you. You shrug your shoulders as you pull your coat higher to try and cover your throat as much as you can before you get into your car.<br />
-                You get out of your car near your local pub so you can walk home, just in case. While approaching the door, you get a strange feeling that the fog has gotten thicker on your way from work. You look around before you go for the door, but except the fog, nothing seems out of the ordinary and a sudden chilly wind sweeps you. "Brrr! Better get inside" - you think to yourself. After entering the pub you can smell your favourite drink, warm atmosphere and your friends are already there. "Give me a quick one, before I go home!" - you say at the entrance, before taking your coat off. You greet and chit-chat with your friends while progressing towards the bar. What a perfect evening for a Halloween.<br /> Your friends convince you to have another drink before you go home, and drinks just keep coming... You forget about time as hours pass and your busy day has made you feel sleepy. You nod off but quickly snap out of it to realise everyone is gone...`,
+                para_one: `
+                <span class="creepy-text">Our story starts...</span><br />
+                 ...on a Halloween late afternoon. It's Friday and your
+                   work for today is finally done! <br /> You can now go home, and you have 
+                   been looking forward to it. A Halloween brings that special 
+                   atmosphere that is unique to it. Two days off and no obligations fill
+                   you with satisfaction and put a smile on your face.<br /> Children will be 
+                   wearing costumes and going trick or treating. You don't have to 
+                   worry about your kids' costumes, as you already took care of that 
+                   the day before - today is a perfect day. You can go to a pub near 
+                   your house to celebrate being free from obligations (no matter 
+                   how brief it is), before you go home.<br /> You notice a chill in the air as 
+                   winter is showing its teeth earlier than usual. Well, that's climate 
+                   change for you. You shrug your shoulders as you pull your coat 
+                   higher to try and cover your throat as much as you can before you 
+                   get into your car...<br />
+                   You get out of your car near your local pub so you can walk home, 
+                   just in case. While approaching the door, you get a strange feeling
+                   that the fog has gotten thicker on your way from work. You look 
+                   around before you go for the door, but except the fog, nothing 
+                   seems out of the ordinary and a sudden chilly wind sweeps you. 
+                   "Brrr! Better get inside" - you think to yourself.<br /> After entering the 
+                   pub you can smell your favourite drink, warm atmosphere and your
+                   friends are already there. "Give me a quick one, before I go 
+                   home!" - you say at the entrance, before taking your coat off. You 
+                   greet and chit-chat with your friends while progressing towards 
+                   the bar. What a perfect evening for a Halloween.
+                   Your friends convince you to have another drink before you go 
+                   home, and drinks just keep coming... You forget about time as 
+                   hours pass and your busy day has made you feel sleepy. You nod 
+                   off but quickly snap out of it to realise everyone is gone...
+                `,
                 para_two: `You are at an empty pub. You could swear that just
                 a moment ago it was full of people clamouring,
                 drinking and having a good time!<br /> You can hardly
                 believe your eyes as you start exploring around to
-                try and make sense of it....`,
-                para_three: `After a thorough
+                try and make sense of it....<br/>
+                After a thorough
                 investigation, you find that it was like people just
                 vanished....<br /> There are mugs on the floor just like
                 someone had dropped them, spilled drinks lying on the
@@ -89,8 +119,8 @@ export const choices = [
                 para_two: `You decide to follow it as it's
                 the only thing that can give you any clues.<br /> It's bloody cold
                 outside and the fog isn't helping, so you take another coat
-                from the rack in the pub. The others won't be using it.<br />
-                <span class="delay-text">Probably....</span><br />
+                from the rack in the pub. <br />The others won't be using it.<br />
+                <span class="cursed-text">Probably....</span><br />
                 As you rush to catch up with the lantern, you yell to try and
                 slow down whoever is holding it and eventually you get to the
                 old house.<br /> You realise it's a bit dangerous to go in and
@@ -133,8 +163,8 @@ export const choices = [
                 collecting cobwebs, dust, rats and who knows what." You
                 decide to follow it as it's the only thing that can give you any
                 clues. It's bloody cold outside and the fog isn't helping, so
-                you take another coat from the rack in the pub. The others won't be using it.<br />
-                <span class="delay-text">Probably....</span><br />
+                you take another coat from the rack in the pub.<br /> The others won't be using it.<br />
+                <span class="cursed-text">Probably....</span><br />
                 `,
                 para_last: `
                 As you rush to catch up with the lantern, you yell to try and
@@ -186,14 +216,14 @@ export const choices = [
                 para_last: `
                 But before you can yell for help, an unusually large hand covers your complete face like it
                 was waiting for you. You feel sudden pain, moments before you lose consciousness and realise you
-                have died
+                have died </p>
                 `,
             },
             scene_jumpscare: {
                 jumpscare_image: `../static/assets/images/part_two/demon_hand_185x381.png`,
                 jumpscare_audio: `../static/assets/audio/sounds/scary_scream.mp3`,
             },
-            next_choices: ["death"]
+            next_choices: ["fade into oblivion"]
         }
     },
     // ACT TWO SCENE ABANDONED WAREHOUSE
@@ -383,10 +413,10 @@ export const choices = [
                 `,
                 para_last: `
                 Suddenly you feel a sharp pain as you are hit on the head. You hear a loud growl, and odd laboured breaths.<br /> A hideous creature emerges, you can smell it, 
-                "what an awful stench", and feel droplets of spit hitting your face with each of the foul breaths. The massive creature sinks it's claws into your legs, and 
+                "what an awful stench", and feel droplets of spit hitting your face with each of the foul breaths. The massive creature grabs you by your legs, and 
                 drags you into the cave.<br /> As you begin to lose consciousness, you notice crude wall art of a hideous creature, with <span class="creepy-text">blood-red eyes</span>, 
                 painted on the wall of the cave.<br />
-                The various depictions of the creature on the cave wall very much resemble the monster right now tearing at your legs,
+                The various depictions of the creature on the cave wall look familiar,
                 and a final thought enters your head,<br />
                 "I wonder if the people who painted that also died like this, right here in this cave..."
                 `,
@@ -395,7 +425,7 @@ export const choices = [
                 jumpscare_image: `../static/assets/images/part_three/werewolf_1280x1280.jpg`,
                 jumpscare_audio: `../static/assets/audio/sounds/growl.mp3`,
             },
-            next_choices: ["death"]
+            next_choices: ["fade into oblivion"]
         }
     },
     // ACT THREE SCENE DINGY HOTEL
@@ -569,7 +599,7 @@ export const choices = [
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
             },
-            next_choices: ["death"]
+            next_choices: ["fade into oblivion"]
         }
     },
     // FINAL ACT DESTROY THE CREATURE
@@ -639,7 +669,11 @@ export const choices = [
                 para_one: `
                 As you pull yourself together, you realise that this has to be some kind of a dream, or a hallucination - it has to be.
                 All of this is too much for you. You grab your head, kneel on the floor and with closed eyes release the loudest
-                shout you could.
+                shout you could.<br /> At that moment, the clock strikes midnight, the creature's window to destroy the light has
+                passed, and the light is back to its full strength. The light starts to overwhelm the space. It blinds you making you
+                disoriented. Not even your eyelids are helping as you pass out <br />
+                and everything<br /> 
+                <span class="fade-in">goes dark...</span>
                 `,
                 para_two: `
                 At that moment, the clock strikes midnight, the creature's window to destroy the light has
@@ -700,7 +734,7 @@ export const choices = [
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
             },
-            next_choices: ["death"]
+            next_choices: ["fade into oblivion"]
         }
     },
     // FINAL ACT TRY AND ESCAPE
@@ -740,7 +774,77 @@ export const choices = [
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
             },
-            next_choices: ["death"]
+            next_choices: ["fade into oblivion"]
+        }
+    },
+    {
+        users_choice: "fade into oblivion",
+        options: {
+            scene_audio: "",
+            scene_image: "",
+            scene_transition: `FLASHING RED AND ORANGE`,
+            scene_icon: ``,
+            scene_text: {
+                para_one: `
+                Your choices have led you to your end...
+                `,
+                para_two: `
+                However you look up and right before your eyes a strange object begins to glow... <br />
+                You walk up and inspect the object and read these words...
+                `,
+                para_last: `
+                Why not try the story again? Try out different choices to discover what's it all about.
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
+            },
+            next_choices: ["try again"]
+        }
+    },
+    {
+        users_choice: "credits",
+        options: {
+            scene_credits: true,
+            scene_audio: "",
+            scene_image: "../static/assets/images/dancing-dance.gif",
+            scene_transition: ``,
+            scene_icon: ``,
+            scene_text: {
+                ending_credits: `
+                <img src="../static/assets/images/dancing-dance.gif" alt="dancing pumpkin head people"><br />
+                <h3 class="align-self-center skwoop">Story Author: Vladimir M</h3> 
+                
+                <h5 class="skwoop">A <span class="creepy-text">Normal</span> night at the pub experience was brought to you by: </h5>
+                <p class="skwoop">
+
+                <span class="skwoop">Team Scramblin Spiders</span> <br />
+
+                <span class="skwoop">Marina Christen</span> <br />
+                <span class="skwoop">Carla Buongiorno</span> <br />
+                <span class="skwoop">Vladimir M</span> <br />
+                <span class="skwoop">John Traas</span> <br />
+                <span class="skwoop">Aws Sabah Gheni</span> <br />
+                </p>
+                <p class="skwoop">
+                A massive thank you to the organizers of Code Institute Spookathon - 2021 <br />
+                To our fearless community leader: Jim Morel 🙌 <br />
+                To our amazing Hack Leads: Anthony O' Brien 🤜 and Gaff 🥃 <br />
+                We can't thank you enough! <br />
+                </p>
+                <p class="skwoop">
+                From all of us to all of you, thank you so much! We had a ton of fun, and an extreme lack of sleep,
+                creating this project. Working together to realize it was such a great experience!
+                </p> 
+                
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
+            },
+            next_choices: ["skip credits"]
         }
     }
 ]
