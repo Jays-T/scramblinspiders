@@ -34,6 +34,18 @@ body {
     position: relative;
 }
 
+#story-container::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        0 deg,
+        rgb(0 0 0 / .8),
+        rgb(0 0 0 / 0)
+    )
+}
+
 #story_border {
     width: 100vw;
     height: 70vh;
@@ -122,6 +134,9 @@ body {
     animation: flash 6s infinite;
 }
 
+#begin-button:hover,
+.next-choice:hover,
+.credits-button:hover,
 .next-choice:hover,
 #next-step:hover {
     animation: changeFont 1s forwards;
@@ -188,7 +203,7 @@ body {
 
 footer {
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 1.2rem;
     z-index: 2000;
     left: 0;
     width: 100vw;
