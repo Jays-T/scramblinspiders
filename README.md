@@ -269,6 +269,13 @@ gh repo clone AwsSG/scramblinspiders
     
 You can find all the steps to follow according your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on how to clone a reposistory.
 
+# NOTE RE: AUDIO FILES AND SCENE IMAGES for running the project locally
+- The paths to audio files and scene images are written absolutely, e.g '/scramblinspiders/static/assets...../"
+- This means that they will not run locally, replace '/scramblinspiders' at with './assets' at the start of each file path.
+- If you wish to change the name of your repo to something other than this, all relevant file paths must be updated in files where you would replace 'scramblinspiders' with the name of your new repo
+- static > js > story_choices.js
+- static > js > on_load.js
+
 [Back to contents](#contents)
 
 ---
