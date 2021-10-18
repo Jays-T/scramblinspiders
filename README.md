@@ -295,5 +295,8 @@ Credits
 - **Background music:**
   - Castle: ES_Spider Room - [Ethan Sloan](https://www.epidemicsound.com/artists/tracks/ethan-sloan)
   - Death: Cold Isolation by [Fesliyan Studios](https://www.fesliyanstudios.com/royalty-free-music/downloads-c/sad-music/1)
+  - Step 4: Komiku - Face to Face Tension[chosic.com](https://www.chosic.com/download-audio/24591/)
 
-Audio from [Epidemic Sound](https://www.epidemicsound.com/music/featured/) used as royalty free music. All audio files published in free trial therefore not subject to copyright claims as per [RULES](https://www.epidemicsound.com/license-guide/).
+Audio from [Epidemic Sound](https://www.epidemicsound.com/music/featured/) used as royalty free music. Audio files published in free trial therefore not subject to copyright claims as per [RULES](https://www.epidemicsound.com/license-guide/).
+
+Other audio used under a royalty free licence. Please check the respective pages.

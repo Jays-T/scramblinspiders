@@ -402,10 +402,14 @@ export const choices = [
     {
         users_choice: "follow the creature to the dingy hotel",
         options: {
-            scene_audio: "BROKEN NEON LIGHT FLICKERING",
-            scene_image: "HOTEL",
+            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_four/hotel_1280x854.jpg",
             scene_transition: `FADE IN > NEON FLASHING?`,
-            scene_icon: `HOTEL`,
+            scene_icon: ``,
+
             scene_text: {
                 para_one: `
                 You rush towards the lantern light, trying to escape whatever hell and its minions this creature summoned. As you
@@ -421,7 +425,7 @@ export const choices = [
                 me" - you think. You hesitate whether to run and destroy it or grab it and throw it at the creature.<br />
                 While deciding what to do, you realise that the statues in the lobby came alive and are holding you. It looks like the
                 creature is controlling them as it's waving at them. Unable to move, they lift you up above the chandelier which is
-                projecting an image to the ceiling. It's depicting a story about a curse of the creature's ancestors
+                projecting an image to the ceiling. It's depicting a story about a curse of the creature's ancestors...
                 `,
                 para_last: `
                 When the first people appeared on Earth, there was chaos, and all manner of creatures flourished from it. Humans
@@ -437,17 +441,21 @@ export const choices = [
                 Realising this, you decide to...
                 `,
             },
-            next_choices: ["destroy the creature", "do nothing", "try and escape"]
+            next_choices: ["destroy the creature", "destroy the light", "try and escape"]
         }
     },
     // ACT THREE MEDIEVAL CHURCH
     {
         users_choice: "follow the creature to the medieval church",
         options: {
-            scene_audio: "CHURCH BELLS, CHURCH CHOIR",
-            scene_image: "CHURCH",
+            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_four/church_1280x1096.png",
             scene_transition: `FADE IN FROM LEFT`,
-            scene_icon: `CHURCH`,
+            scene_icon: `../static/assets/images/part_three/icon_church512x512.svg`,
+
             scene_text: {
                 para_one: `
                 You follow the creature to the church, you see the side door is open, you rush in and slam the door behind you. You need to 
@@ -484,10 +492,14 @@ export const choices = [
     {
         users_choice: "follow the creature to the local hospital",
         options: {
-            scene_audio: "CREEPY BACKGROUND SOUND",
-            scene_image: "HOSPITAL",
+            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_four/hospital_1280x719.jpg",
             scene_transition: `FADE IN FROM RIGHT`,
-            scene_icon: `HOSPITAL`,
+            scene_icon: `../static/assets/images/part_three/icon_hospital_512x512.svg`,
+
             scene_text: {
                 para_one: `
                 You follow the creature to the hospital, but as soon as you rush inside the front door the lights go out.
@@ -525,10 +537,14 @@ export const choices = [
     {
         users_choice: "don't follow the creature",
         options: {
-            scene_audio: "ZOMBIES FEASTING",
-            scene_image: "ZOMBIES",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_two/fog_black_white_676x392.jpg",
             scene_transition: `FLASHING RED AND ORANGE`,
-            scene_icon: `ZOMBIE`,
+            scene_icon: `../static/assets/images/part_three/icon_stay-here_4096x4096.svg`,
+
             scene_text: {
                 para_one: `
                 You hesitate as you watch the creature disappear and your mind turns towards more pressing matters
@@ -633,7 +649,10 @@ export const choices = [
     {
         users_choice: "destroy the light",
         options: {
-            scene_audio: "ELECTRICAL WHIRRING > BOLTS OF ELECTRICITY",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
             scene_image: "",
             scene_transition: `FLASHING LIGHT`,
             scene_icon: ``,
@@ -667,7 +686,10 @@ export const choices = [
     {
         users_choice: "try and escape",
         options: {
-            scene_audio: "RUNNING > ZOMBIE NOISES > AMBIENT SOUNDS",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
             scene_image: "",
             scene_transition: `FLASHING RED AND ORANGE`,
             scene_icon: ``,
