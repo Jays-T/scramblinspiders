@@ -46,18 +46,25 @@ export function displayStory(options) {
         paragraph = options.scene_text.ending_credits;
         sceneText = `
             <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
-                <div class="col text-center d-flex flex-column justify-content-center mt-5 pt-5">
+                <div class="col text-center d-flex flex-column justify-content-center mt-2">
                     <div id="story-paragraph" class="story-text text-center align-self-center credits">${paragraph}</div>
                 </div>
-                <div class="col text-center d-flex justify-content-center mt-5">
+                <div class="col text-center d-flex justify-content-center">
                     <div id="story-choices" class="align-self-center">
-                        <button id="end-story" data-choice="${options.next_choices[0]}" class="creepy-text">${options.next_choices[0]}</button>
+                        <button id="end-story" data-choice="${options.next_choices[0]}" class="creepy-text fade-in-long">${options.next_choices[0]}</button>
                     </div>
                 </div>
             </div>
         `
         storyContainer.classList.add('fade-in')
         storyContainer.innerHTML = sceneText
+
+        let endTheStory = document.getElementById('end-story');
+        if (endTheStory){
+            endTheStory.addEventListener('click', () =>{
+                endStory();
+            })
+        }
         return
     }
 
@@ -90,11 +97,11 @@ export function displayStory(options) {
             sceneText = `
                 <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
                     <div class="col text-center d-flex justify-content-center mt-5">
-                        <p id="story-paragraph" class="story-text text-center align-self-end">${paragraph}</p>
+                        <p id="story-paragraph" class="story-text text-center align-self-end fade-in">${paragraph}</p>
                     </div>
                     <div class="col text-center d-flex justify-content-center mt-5">
                         <div id="story-choices" class="align-self-center">
-                            <button data-choice="${nextChoice}" class="creepy-text next-choice">${nextChoice}</button>
+                            <button data-choice="${nextChoice}" class="creepy-text next-choice fade-in-long">${nextChoice}</button>
                         </div>
                     </div>
                 </div>
@@ -104,13 +111,13 @@ export function displayStory(options) {
             sceneText = `
                 <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
                     <div class="col text-center d-flex justify-content-center mt-5">
-                        <p id="story-paragraph" class="story-text text-center align-self-end">${paragraph}</p>
+                        <p id="story-paragraph" class="story-text text-center align-self-end fade-in">${paragraph}</p>
                     </div>
                     <div class="col text-center d-flex justify-content-center mt-5">
                         <div id="story-choices" class="align-self-center">
-                            <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
-                            <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
-                            <button data-choice="${options.next_choices[2]}" class="creepy-text next-choice">${options.next_choices[2]}</button>
+                            <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice fade-in-long">${options.next_choices[0]}</button>
+                            <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice fade-in-long">${options.next_choices[1]}</button>
+                            <button data-choice="${options.next_choices[2]}" class="creepy-text next-choice fade-in-long">${options.next_choices[2]}</button>
                         </div>
                     </div>
                 </div>
@@ -123,11 +130,11 @@ export function displayStory(options) {
         sceneText = `
             <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
                 <div class="col text-center d-flex justify-content-center mt-5">
-                    <p id="story-paragraph" class="story-text text-center align-self-end">${paragraph}</p>
+                    <p id="story-paragraph" class="story-text text-center align-self-end fade-in">${paragraph}</p>
                 </div>
                 <div class="col text-center d-flex justify-content-center mt-5">
                     <div id="story-choices" class="align-self-center">
-                        <button id="next-step" class="creepy-text">continue...</button>
+                        <button id="next-step" class="creepy-text fade-in-long">continue...</button>
                     </div>
                 </div>
             </div>
