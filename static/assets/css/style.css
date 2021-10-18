@@ -116,7 +116,8 @@ body {
 .credits-button,
 #end-story,
 #next-step,
-#begin-button {
+#begin-button,
+#skip-intro-button {
     position: relative;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -131,7 +132,22 @@ body {
     text-shadow: none;
     opacity: .2;
     transition: all .3s ease-in-out;
+}
+
+#skip-intro-button {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: .2em;
+    line-height: 1.2;
+}
+
+.next-choice,
+.credits-button,
+#end-story,
+#next-step,
+#begin-button {
     animation: flash 6s infinite;
+    animation-delay: 6s;
 }
 
 #begin-button:hover,

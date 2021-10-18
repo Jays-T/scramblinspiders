@@ -231,3 +231,12 @@ export function displayStory(options) {
         playSound(audioClip, audioVolume, audioDelay)
     }
 }
+
+// User can skip intro animation if they want
+let skipAnimations = document.getElementById('skip-intro-button')
+
+skipAnimations.addEventListener('click', () => {
+    let introSkipperChoice = skipAnimations.dataset.choice;
+    let theSkipperOptions = getStoryOptions(introSkipperChoice);
+    displayStory(theSkipperOptions);
+})
