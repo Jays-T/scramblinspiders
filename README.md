@@ -32,12 +32,15 @@ Screenshot
 
 All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
-![Webpage](./static/assets/images/screenshot/amiresponsive.png)
+![Webpage](./static/assets/images/screenshots/amiresponsive.png)
+=======
+
 
 ---
 ### **Contents** ###
 
 - [Hackathon](#hackathon)
+  - [What is a Hackathon?](#what-is-a-hackathon)
   - [Hackathon Description](#hackathon-description)
   - [Detailed Theme requirements: TBA](#detailed-theme-requirements-tba)
   - [Hackathon Goals](#hackathon-goals)
@@ -67,6 +70,18 @@ All screenshots created using [Am I responsive](http://ami.responsivedesign.is/)
 Hackathon
 ======
 
+### **What is a Hackathon?** ###
+
+A Hackathon is a sprint-like event in which teams
+collaborate intensively on software projects.
+
+The goal of a hackathon is to create a functioning
+project by the end of the event.
+
+Hackathons are a great way to get real-world
+experience of agile programming and working
+together in a team, just like you would in a dev role.
+
 ### **Hackathon Description** ###
 You'll be assigned to a team, and work together to build a project based on an assigned theme.
 
@@ -75,6 +90,14 @@ You can work according to your own schedule but participants are asked to dedica
 All levels are welcome, from absolute beginners to advanced developers.
 
 ### **Detailed Theme requirements: TBA** ###
+
+#### **Hackathon Theme:**
+Build an interactive Halloween book or story<br>
+Your sit or app should have the following element:
+- Depict a halloween (or fairy tale) story
+- Can be interacted with in some way
+- Should have animated elements
+- Be creative!!
 
 #### **Schedule:**
 
@@ -106,7 +129,13 @@ Tue, 19th Oct@ 15:00: Winners announced on Slack
 
 **A Normal Night at the Pub | Which path will you go down**
 
-....
+Welcome to our interactive adventure! Idea behind this project was to create a story that has multiple steps, and can branch in different directions. It also has multiple endings to which you can get with each playthrough. For the limited time we had for this project, we ended up with 5 steps where each step has 4 choices(see [story_outline_v2.pdf](static/wireframes/story_outline_v2.pdf)). We decided not to give all 4 options on each step as removing one of the choices, leaves the reader with new options on each new playthrough making the story replayable. There are 4 endings - 2 good, 2 bad and, depending on your choices, you can get to one ending each playthrough. If you want to know more about how the story is layed out, please see [story_outline_v2.pdf](static/wireframes/story_outline_v2.pdf) and [story_wireframe_v2.pdf](static/wireframes/story_wireframe_v2.pdf).
+
+As from the technical point, we opted for a one page concept and let the JavaScript dynamically change the contents with each user interaction. We created an array of objects with key value pairs for each part of the step, so the same function is grabbing a different story part, depending on users choice. Each time reader chooses an option, a one function is run to change the backgrounds, story text, populate the choice buttons and everything needed to present the next part of the story. This way we can dynamically add more options, story parts whenever we want(we thank John Traas for this :smile: ). Additional benefit is that it prevents the user to go back on its choice, as we wanted to encourage the user to finish the story, before starting all over.
+
+We added random jump scares, ambient music to add to the atmosphere while reading the story and combined with branching story, makes the whole website different each time it is played through.
+
+We hope you will like our project as we did making it, and go through it multiple times as it was intended. Don't be scared of the scary story, it's just a fantasy. Or is it? :wink:
 
 [Back to Table of contents](#table-of-contents)
 
@@ -213,11 +242,13 @@ Technologies
 - [Balsamiq wireframes](https://balsamiq.com/)
   - An online tool to designed the site mock-ups.
 - [Coolors](https://coolors.co/)
-  - An online tool used to choose the website colour scheme.
+  - An online tool used to create the website colour scheme.
 - [paint.net](https://www.getpaint.net/roadmap.html)
   - Used to create the Mockups and to edit images.
 - [favicon.io](https://favicon.io/)
   - Used to create the website favicons
+- [Howler.js](https://howlerjs.com/)
+  - Howler.js was used to play audio files.
 - [Am I Responsive?](http://ami.responsivedesign.is/)
   - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualize how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
 
