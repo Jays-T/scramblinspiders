@@ -4,15 +4,15 @@ export const choices = [
         users_choice: "start",
         options: 
         {
-            scene_audio: "/scramblinspiders/assets/audio/sounds/crowded_pub.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/sounds/crowded_pub.mp3",
             scene_audio_volume: ".6",
             scene_audio_delay: "1000",
 
-            para_two_audio: "/scramblinspiders/assets/audio/sounds/glasses_clinking.mp3",
+            para_two_audio: "/scramblinspiders/static/assets/audio/sounds/glasses_clinking.mp3",
             para_two_audio_volume: ".6",
             para_two_audio_delay: "1000",
 
-            scene_image: "/scramblinspiders/assets/images/part_one/pub_1280x853.jpg",
+            scene_image: "/scramblinspiders/static/assets/images/part_one/pub_1280x853.jpg",
             scene_icon: `/scramblinspiders/static/assets/images/part_one/pub_beer_986x906.png`,
             scene_transition: ``,
 
@@ -28,7 +28,7 @@ export const choices = [
                    worry about your kids' costumes, as you already took care of that 
                    the day before - today is a perfect day. You can go to a pub near 
                    your house to celebrate being free from obligations (no matter 
-                   how brief it is), before you go home.<br />  
+                   how brief it is), before you go home. 
                 `,
                 para_two: `You notice a chill in the air as 
                 winter is showing its teeth earlier than usual. Well, that's climate 
@@ -40,7 +40,7 @@ export const choices = [
                 that the fog has gotten thicker on your way from work. You look 
                 around before you go for the door, but except the fog, nothing 
                 seems out of the ordinary and a sudden chilly wind sweeps you.`,
-                para_last: `"Brrr! Better get inside" - you think to yourself.<br /> After entering the 
+                para_last: `"Brrr! Better get inside" - you think to yourself. After entering the 
                 pub you can smell your favourite drink, warm atmosphere and your
                 friends are already there. "Give me a quick one, before I go 
                 home!" - you say at the entrance, before taking your coat off. You 
@@ -67,7 +67,7 @@ export const choices = [
             scene_audio_volume: "",
             scene_audio_delay: "",
 
-            scene_image: "/scramblinspiders/assets/images/part_one/pub_black_white_1280x853.jpg",
+            scene_image: "/scramblinspiders/static/assets/images/part_one/pub_black_white_1280x853.jpg",
             scene_icon: ``,
             scene_transition: ``,
 
@@ -79,7 +79,7 @@ export const choices = [
             para_two_audio_volume: "",
             para_two_audio_delay: "",
 
-            para_last_audio: "/scramblinspiders/assets/audio/sounds/loud_moan.mp3",
+            para_last_audio: "/scramblinspiders/static/assets/audio/sounds/loud_moan.mp3",
             para_three_audio_volume: ".8",
             para_three_audio_delay: "2000",
             
@@ -142,19 +142,19 @@ export const choices = [
                 para_one: `You run out of the front door, and in the fog, you can see
                 something that looks like a lantern.<br /> It must be a lantern as
                 it's bobbing left and right and moving in a direction you are
-                not familiar with.<br /> It seems to be heading for that old house
+                not familiar with. It seems to be heading for that old house
                 that was scheduled for demolishing, but it's still standing.<br />
                 The city council could do a better job of maintaining the
                 town - you mumble to yourself.`,
                 para_two: `You decide to follow it as it's
-                the only thing that can give you any clues.<br /> It's bloody cold
+                the only thing that can give you any clues. It's bloody cold
                 outside and the fog isn't helping, so you take another coat
-                from the rack in the pub. <br />The others won't be using it.<br />
+                from the rack in the pub.The others won't be using it.<br />
                 <span class="cursed-text">Probably....</span><br />
                 As you rush to catch up with the lantern, you yell to try and
                 slow down whoever is holding it and eventually you get to the
-                old house.<br /> You realise it's a bit dangerous to go in and
-                decide to look around.`,
+                old house. You realise it's a bit dangerous to go in and
+                decide to look around...`,
                 para_last: `The house isn't stable and your
                 imagination is kicking into overdrive: vampires, werewolves,
                 monsters... Naaah! This isn't a fairy-tale. Is it? After going
@@ -195,22 +195,22 @@ export const choices = [
                 clues. It's bloody cold outside and the fog isn't helping, so
                 you take another coat from the rack in the pub.<br /> The others won't be using it.<br />
                 <span class="cursed-text">Probably....</span><br />
-                `,
-                para_last: `
                 As you rush to catch up with the lantern, you yell to try and
                 slow down whoever is holding it but it's not stopping.<br />
-                Eventually you get to the old Castle. The castle isn't even
-                stable and your imagination is starting to get the better of
-                you:<br /> "vampires, werewolves, monsters... Naaah! This isn't a
+                Eventually you get to the old Castle.
+                `,
+                para_last: `
+                The castle isn't even stable and your imagination is starting to get the better of
+                you: "vampires, werewolves, monsters... Naaah! This isn't a
                 fairy-tale. Is it? I've been through here hundreds of times
                 during daylight... Daylight... I wish I had some right now, but I
-                need to get out of this mess." <br /> As you are a sensible person,
+                need to get out of this mess." As you are a sensible person,
                 you decide to go around the castle to try and investigate a
                 bit, but after going around the corner, you see a
                 short...creature, coming out of the castle. <br /> You get the chills
                 down your spine, like the fog and the cold aren't enough.
                 You quickly hide and watch it as it's holding the lantern and
-                going to.....
+                going to....
                 `,
             },
             next_choices: ["the creepy cemetery", "the dark forest", "the ancient cave"]
@@ -272,7 +272,7 @@ export const choices = [
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me.
                 I'll follow it from a safe distance. I NEED to get to the bottom of this. Why isn't
-                there anyone around???" Questions start racing in your mind.<br />
+                there anyone around???" Questions start racing in your mind. 
                 The old house wasn't too far from the abandoned warehouse where the
                 creature was going. In fact, the owner of the warehouse used to own them both.
                 When you're rich, you don't have to commute that far. <br />
@@ -298,11 +298,11 @@ export const choices = [
                 Suddenly, monsters start to emerge from the dark, badly painted, mold covered walls! 
                 It is as if creatures from every fairy tale of <span class="creepy-text">horror</span> have come to life right in front of you!<br />
                 Before you lose your mind to fear, a brief, lucid moment interferes and a thought
-                passes you mind like lightning: "Where's the creature???" - you ask yourself.<br />
-                You try to cover your nose and mouth with your hand, but you're shaking too much.<br />
+                passes you mind like lightning: "Where's the creature???" - you ask yourself.
+                You try to cover your nose and mouth with your hand, but you're shaking too much.
                 You've got to escape...<br />
                 Adrenaline overtakes your fear, and gives you strength you never knew
-                you had as you run faster and faster, dodging creatures and old broken machinary...<br /> 
+                you had as you run faster and faster, dodging creatures and old broken machinary...
                 You run through a jumble of dirty broken furniture, your right foot gets caught on a cracked brick lying in the way, and you nearly lose your balance....
                 Suddenly! You spot the creature leaving through the door on the other side of the
                 warehouse...
@@ -313,7 +313,7 @@ export const choices = [
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
             },
-            next_choices: ["follow the creature to the dingy hotel", "follow the creature to the medieval church", "not follow the creature"]
+            next_choices: ["follow it to the hotel", "follow it to the church", "not follow the creature"]
         }
     },
     // ACT TWO SCENE THE CREEPY CEMETERY
@@ -362,7 +362,7 @@ export const choices = [
                 jumpscare_image: `/scramblinspiders/static/assets/images/part_three/werewolf_1280x1280.jpg`,
                 jumpscare_audio: `/scramblinspiders/static/assets/audio/sounds/growl.mp3`,
             },
-            next_choices: [ "don't follow the creature", "follow the creature to the dingy hotel", "follow the creature to the local hospital"]
+            next_choices: [ "don't follow the creature", "follow it to the hotel", "follow it to the hospital"]
         }
     },
     // ACT TWO SCENE DARK FOREST
@@ -415,7 +415,7 @@ export const choices = [
                 jumpscare_image: `/scramblinspiders/static/assets/images/part_three/zombies_1109x1280.png`,
                 jumpscare_audio: ``,
             },
-            next_choices: ["follow the creature to the local hospital", "don't follow the creature", "follow the creature to the medieval church"]
+            next_choices: ["follow it to the hospital", "don't follow the creature", "follow it to the church"]
         }
     },
     // ACT TWO SCENE ANCIENT CAVE
@@ -460,7 +460,7 @@ export const choices = [
     },
     // ACT THREE SCENE DINGY HOTEL
     {
-        users_choice: "follow the creature to the dingy hotel",
+        users_choice: "follow it to the hotel",
         options: {
             scene_audio: "/scramblinspiders/static/assets/audio/music/tense_music.mp3",
             scene_audio_volume: ".8",
@@ -506,7 +506,7 @@ export const choices = [
     },
     // ACT THREE MEDIEVAL CHURCH
     {
-        users_choice: "follow the creature to the medieval church",
+        users_choice: "follow it to the church",
         options: {
             scene_audio: "/scramblinspiders/static/assets/audio/music/tense_music.mp3",
             scene_audio_volume: ".8",
@@ -550,7 +550,7 @@ export const choices = [
     },
     // ACT THREE LOCAL HOSPITAL
     {
-        users_choice: "follow the creature to the local hospital",
+        users_choice: "follow it to the hospital",
         options: {
             scene_audio: "/scramblinspiders/static/assets/audio/music/tense_music.mp3",
             scene_audio_volume: ".8",
