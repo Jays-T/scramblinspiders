@@ -122,7 +122,7 @@ export const choices = [
             scene_audio_volume: ".6",
             scene_audio_delay: "600",
 
-            scene_image: "/scramblinspiders/static/assets/images/part_one/old_house_1133x1280.png",
+            scene_image: "/scramblinspiders/static/assets/images/part_two/old_house_1133x1280.png",
             scene_transition: ``,
             scene_icon: ``,
 
@@ -795,7 +795,7 @@ export const choices = [
                 para_last: `
                 As you finally land,
                 you are unable to move and the small cone of light that was coming from the broken door,
-                starts to fade. Roars, cold and darkness are the last things you can remember before you lose
+                starts to fade. Roars, cold and dark are the last things you can remember before you lose
                 consciousness and die...
                 `,
             },
