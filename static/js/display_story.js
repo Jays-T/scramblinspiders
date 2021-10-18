@@ -73,16 +73,23 @@ export function displayStory(options) {
             case 0:
                 console.log('first step')
                 paragraph = options.scene_text.para_one;
-                audioClip = options.intro_audio;
+                audioClip = options.scene_audio;
+                audioVolume = options.scene_audio_volume;
+                audioDelay = options.scene_audio_delay;
                 break
             case 1:
                 console.log('second step')
                 paragraph = options.scene_text.para_two;
-                // need to add and define audio path
+                audioClip = options.para_two_audio;
+                audioVolume = options.para_two_audio_volume;
+                audioDelay = options.para_two_audio_delay;
                 break
             case 2:
                 console.log('third step')
                 paragraph = options.scene_text.para_last;
+                audioClip = options.para_three_audio;
+                audioVolume = options.para_three_audio_volume;
+                audioDelay = options.para_three_audio_delay;
                 break
         }
 
@@ -189,13 +196,8 @@ export function displayStory(options) {
     }
 
     // If scene or paragraph has audio
-    // Set values from object
-    // Call playSound and pass in values 
-    if (options.scene_audio) {
-        audioClip = options.scene_audio;
-        audioVolume = options.scene_audio_volume;
-        audioDelay = options.scene_audio_delay;
-
+    // Values have been set from switch (based on scene step) 
+    if (audioClip) {
         playSound(audioClip, audioVolume, audioDelay)
     }
 }
