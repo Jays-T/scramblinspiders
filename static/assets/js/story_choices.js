@@ -4,25 +4,25 @@ export const choices = [
         users_choice: "start",
         options: 
         {
-            scene_audio: "",
-            scene_audio_volume: "",
-            scene_audio_delay: "",
+            scene_audio: "../static/assets/audio/sounds/crowded_pub.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
 
-            scene_image: "BAR IN COLOR > FADING TO BLACK AND WHITE",
-            scene_icon: `BEER MUGS`,
-            scene_transition: `IMAGE FADE IN, WITH TEXT FADE IN`,
+            scene_image: "../static/assets/images/part_one/pub_1280x853.jpg",
+            scene_icon: `../static/assets/images/part_one/pub_beer_986x906.png`,
+            scene_transition: ``,
 
             para_one_audio: "",
             para_one_audio_volume: "",
             para_one_audio_delay: "",
 
-            para_two_audio: "",
-            para_two_audio_volume: "",
-            para_two_audio_delay: "",
+            para_two_audio: "../static/assets/audio/sounds/glasses_clinking.mp3",
+            para_two_audio_volume: ".8",
+            para_two_audio_delay: "1000",
 
-            para_last_audio: "",
-            para_three_audio_volume: "",
-            para_three_audio_delay: "",
+            para_last_audio: "../static/assets/audio/sounds/loud_moan.mp3",
+            para_three_audio_volume: ".8",
+            para_three_audio_delay: "2000",
             
             scene_text: {
                 para_one: `
@@ -78,8 +78,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `DEATH`,
-                jumpscare_audio: `OMINOUS SAD MUSIC`,
+                jumpscare_image: `../static/assets/images/pumpkin-992318_1280.png`,
+                jumpscare_audio: `../static/assets/audio/jump_scares/jump_scare_one.mp3`,
             },
             next_choices: ["the bar area", "the front door", "the back door"]
         }
@@ -88,11 +88,11 @@ export const choices = [
     {
         users_choice: "the front door",
         options: {
-            scene_audio: "",
-            scene_audio_volume: "",
-            scene_audio_delay: "",
+            scene_audio: "../static/assets/audio/music/castle_audio.mp3",
+            scene_audio_volume: ".6",
+            scene_audio_delay: "600",
 
-            scene_image: "OLD HOUSE",
+            scene_image: "../static/assets/images/part_one/old_house_1133x1280.png",
             scene_transition: ``,
             scene_icon: ``,
 
@@ -100,9 +100,9 @@ export const choices = [
             para_one_audio_volume: "",
             para_one_audio_delay: "",
 
-            para_two_audio: "",
-            para_two_audio_volume: "",
-            para_two_audio_delay: "",
+            para_two_audio: "../static/assets/audio/sounds/yelling.mp3",
+            para_two_audio_volume: ".8",
+            para_two_audio_delay: "3500",
 
             para_last_audio: "",
             para_three_audio_volume: "",
@@ -141,8 +141,11 @@ export const choices = [
     {
         users_choice: "the back door",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/castle_audio.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "0",
+
+            scene_image: "../static/assets/images/part_two/castle_1280x822.jpg",
             scene_transition: ``,
             scene_icon: ``,
             scene_text: {
@@ -187,9 +190,17 @@ export const choices = [
     {
         users_choice: "the bar area",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_five/tunnel_light_1280x853.jpg",
             scene_transition: ``,
+
+            para_two_audio: "../static/assets/audio/sounds/falling_throug_floor.mp3",
+            para_two_audio_volume: ".8",
+            para_two_audio_delay: "1500",
+
             scene_text: {
                 para_one: `
                 "It might be something on the tv or radio"- you think to yourself.<br /> I'll just go and shut it down because
@@ -209,8 +220,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `DEATH`,
-                jumpscare_audio: `OMINOUS SAD MUSIC`,
+                jumpscare_image: `../static/assets/images/part_two/demon_hand_185x381.png`,
+                jumpscare_audio: `../static/assets/audio/sounds/scary_scream.mp3`,
             },
             next_choices: ["fade into oblivion"]
         }
@@ -219,9 +230,14 @@ export const choices = [
     {
         users_choice: "the abandoned warehouse",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/piano_horror.mp3",
+            scene_image: "../static/assets/images/part_three/warehouse_1280x851.jpg",
             scene_transition: `FADE IN FROM RIGHT`,
+
+            para_last_audio: "../static/assets/audio/sounds/zombies.mp3",
+            para_three_audio_volume: ".8",
+            para_three_audio_delay: "1500",
+
             scene_text: {
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me.
@@ -264,8 +280,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `GHOUL`,
-                jumpscare_audio: `FOOTSTEPS >> METAL POLE HITTING GROUND >> ANIMAL RUNNING AWAY`,
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
             },
             next_choices: ["follow the creature to the dingy hotel", "follow the creature to the medieval church", "not follow the creature"]
         }
@@ -274,10 +290,16 @@ export const choices = [
     {
         users_choice: "the creepy cemetery",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/piano_horror.mp3",
+            scene_image: "../static/assets/images/part_three/cemetery_960x490.jpg",
+            scene_transition: `FADE IN FROM RIGHT`,
             scene_transition: `FLASH FADE IN`,
-            scene_icon: ``,
+            scene_icon: `../static/assets/images/part_two/icon_cementery512x512.svg`,
+
+            para_last_audio: "../static/assets/audio/sounds/ghostly_howl.mp3",
+            para_last_audio_volume: "1",
+            para_last_audio_delay: "2000",
+
             scene_text: {
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me.
@@ -307,8 +329,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: ``,
-                jumpscare_audio: ``,
+                jumpscare_image: `../static/assets/images/part_three/werewolf_1280x1280.jpg`,
+                jumpscare_audio: `../static/assets/audio/sounds/growl.mp3`,
             },
             next_choices: [ "don't follow the creature", "follow the creature to the dingy hotel", "follow the creature to the local hospital"]
         }
@@ -317,10 +339,16 @@ export const choices = [
     {
         users_choice: "the dark forest",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/night_forest_insects.mp3",
+            scene_image: "../static/assets/images/part_three/forest_960x640.jpg",
+            
             scene_transition: `FADE IN WITH DARK OVERLAY`,
-            scene_icon: ``,
+            scene_icon: `FOREST`,
+
+            para_last_audio: "../static/assets/audio/sounds/zombies.mp3",
+            para_last_audio_volume: ".8",
+            para_last_audio_delay: "3000",
+
             scene_text: {
                 para_one: `
                 You run after the creature without thinking, directly into the dark forest...<br />
@@ -354,8 +382,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `ZOMBIES`,
-                jumpscare_audio: `ZOMBIE SCREECH`,
+                jumpscare_image: `../static/assets/images/part_three/zombies_1109x1280.png`,
+                jumpscare_audio: ``,
             },
             next_choices: ["follow the creature to the local hospital", "don't follow the creature", "follow the creature to the medieval church"]
         }
@@ -364,10 +392,14 @@ export const choices = [
     {
         users_choice: "the ancient cave",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_three/cave_853x853.jpg",
             scene_transition: `FLICKER`,
             scene_icon: ``,
+
             scene_text: {
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me. I'll follow it from a safe distance.
@@ -390,8 +422,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `WEREWOLF`,
-                jumpscare_audio: `GROWLS`,
+                jumpscare_image: `../static/assets/images/part_three/werewolf_1280x1280.jpg`,
+                jumpscare_audio: `../static/assets/audio/sounds/growl.mp3`,
             },
             next_choices: ["fade into oblivion"]
         }
@@ -400,10 +432,14 @@ export const choices = [
     {
         users_choice: "follow the creature to the dingy hotel",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_four/hotel_1280x854.jpg",
             scene_transition: `FADE IN > NEON FLASHING?`,
             scene_icon: ``,
+
             scene_text: {
                 para_one: `
                 You rush towards the lantern light, trying to escape whatever hell and its minions this creature summoned. As you
@@ -419,7 +455,7 @@ export const choices = [
                 me" - you think. You hesitate whether to run and destroy it or grab it and throw it at the creature.<br />
                 While deciding what to do, you realise that the statues in the lobby came alive and are holding you. It looks like the
                 creature is controlling them as it's waving at them. Unable to move, they lift you up above the chandelier which is
-                projecting an image to the ceiling. It's depicting a story about a curse of the creature's ancestors
+                projecting an image to the ceiling. It's depicting a story about a curse of the creature's ancestors...
                 `,
                 para_last: `
                 When the first people appeared on Earth, there was chaos, and all manner of creatures flourished from it. Humans
@@ -435,17 +471,21 @@ export const choices = [
                 Realising this, you decide to...
                 `,
             },
-            next_choices: ["destroy the creature", "do nothing", "try and escape"]
+            next_choices: ["destroy the creature", "destroy the light", "try and escape"]
         }
     },
     // ACT THREE MEDIEVAL CHURCH
     {
         users_choice: "follow the creature to the medieval church",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_four/church_1280x1096.png",
             scene_transition: `FADE IN FROM LEFT`,
-            scene_icon: ``,
+            scene_icon: `../static/assets/images/part_three/icon_church512x512.svg`,
+
             scene_text: {
                 para_one: `
                 You follow the creature to the church, you see the side door is open, you rush in and slam the door behind you. You need to 
@@ -482,10 +522,14 @@ export const choices = [
     {
         users_choice: "follow the creature to the local hospital",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_four/hospital_1280x719.jpg",
             scene_transition: `FADE IN FROM RIGHT`,
-            scene_icon: ``,
+            scene_icon: `../static/assets/images/part_three/icon_hospital_512x512.svg`,
+
             scene_text: {
                 para_one: `
                 You follow the creature to the hospital, but as soon as you rush inside the front door the lights go out.
@@ -523,10 +567,14 @@ export const choices = [
     {
         users_choice: "don't follow the creature",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_two/fog_black_white_676x392.jpg",
             scene_transition: `FLASHING RED AND ORANGE`,
-            scene_icon: ``,
+            scene_icon: `../static/assets/images/part_three/icon_stay-here_4096x4096.svg`,
+
             scene_text: {
                 para_one: `
                 You hesitate as you watch the creature disappear and your mind turns towards more pressing matters
@@ -558,10 +606,19 @@ export const choices = [
     {
         users_choice: "destroy the creature",
         options: {
-            scene_audio: "",
-            scene_image: "",
+            scene_audio: "../static/assets/audio/music/brutality.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            // Image here needs to be taken from the previous step
+            // scene_image: "WEREWOLF",
             scene_transition: `FLASHING RED AND ORANGE`,
             scene_icon: ``,
+
+            para_two_audio: "../static/assets/audio/music/wake_up.mp3",
+            para_two_audio_volume: ".8",
+            para_two_audio_delay: "1000",
+
             scene_text: {
                 para_one: `
                 As you pull yourself together, you know the right thing to do is to kill the creature. You grab the closest metal bar
@@ -585,8 +642,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `PUMPKINS`,
-                jumpscare_audio: `SCREECH`,
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
             },
             next_choices: ["credits"]
         }
@@ -595,10 +652,19 @@ export const choices = [
     {
         users_choice: "do nothing",
         options: {
-            scene_audio: "",
+            scene_audio: "../static/assets/audio/music/brutality.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            // Image here needs to be taken from the previous step
             scene_image: "",
             scene_transition: `FADE`,
             scene_icon: ``,
+
+            para_last_audio: "../static/assets/audio/music/wake_up.mp3",
+            para_last_audio_volume: ".8",
+            para_last_audio_delay: "1000",
+            
             scene_text: {
                 para_one: `
                 As you pull yourself together, you realise that this has to be some kind of a dream, or a hallucination - it has to be.
@@ -610,13 +676,15 @@ export const choices = [
                 <span class="fade-in">goes dark...</span>
                 `,
                 para_two: `
-                
+                At that moment, the clock strikes midnight, the creature's window to destroy the light has
+                passed, and the light is back to its full strength. The light starts to overwhelm the space. It blinds you making you
+                disoriented. Not even your eyelids are helping as you pass out and everything goes dark...
                 `,
                 para_last: `
                 You awake feeling good like never before, like something has recharged your batteries. No trace of the
                 creature or the light. There's a wonderful morning outside and the maintenance guy is calling the security. "That
                 was some night" you say to yourself as an un-easy feeling comes over you.
-                "I only need to find out if it was all true or if I was just blindly drunk." 
+                "I only need to find out if it was all true or if I was just blind drunk." 
                 Never mind - even if it was true,<br />  no one would believe your story...<br />
                 You stand up and go home to your family...
                 
@@ -633,10 +701,15 @@ export const choices = [
     {
         users_choice: "destroy the light",
         options: {
-            scene_audio: "",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            // Image here needs to be taken from the previous step
             scene_image: "",
             scene_transition: `FLASHING LIGHT`,
             scene_icon: ``,
+
             scene_text: {
                 para_one: `
                 After all you've been through, for no logical reason whatsoever, you decide to help the creature. 
@@ -656,6 +729,7 @@ export const choices = [
                 You suddenly shiver as everything fades to darkness as your mind fades into oblivion...
                 `,
             },
+
             scene_jumpscare: {
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
@@ -667,10 +741,15 @@ export const choices = [
     {
         users_choice: "try and escape",
         options: {
-            scene_audio: "",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            // Image here needs to be taken from the previous step
             scene_image: "",
             scene_transition: `FLASHING RED AND ORANGE`,
             scene_icon: ``,
+
             scene_text: {
                 para_one: `
                 The images, the monsters, the fog....all of it is too much for you. Panic is overwhelming you

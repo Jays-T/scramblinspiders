@@ -290,3 +290,15 @@ Credits
 - **Favicon**
   - [iconfinder](https://www.iconfinder.com/)
 
+### **Audio** ###
+
+- **Background music:**
+  - Castle: ES_Spider Room by [Ethan Sloan](https://www.epidemicsound.com/artists/tracks/ethan-sloan)
+  - Death: Cold Isolation by [Fesliyan Studios](https://www.fesliyanstudios.com/royalty-free-music/downloads-c/sad-music/1)
+  - Step 4: Face to Face Tension by [Komiku](https://www.chosic.com/download-audio/24591/)
+  - Step 5(waking up): Forest of Good and Evil by [astrofreq](https://pixabay.com/users/astrofreq-19902647/?tab=audio&utm_source=link-attribution&utm_medium=referral&utm_campaign=audio&utm_content=2947)
+  - Step 5(struggle): Brutality by [David Fesliyan](https://www.fesliyanstudios.com/royalty-free-music/download/brutality/1226)
+
+Audio from [Epidemic Sound](https://www.epidemicsound.com/music/featured/) used as royalty free music. Audio files published in free trial therefore not subject to copyright claims as per [RULES](https://www.epidemicsound.com/license-guide/).
+
+Other audio used under a royalty free licence. Please check the respective pages.
