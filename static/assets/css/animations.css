@@ -15,11 +15,11 @@
         text-shadow: none;
     } 15%, 18% {
         opacity: 1;
-        text-shadow: 0 0 10px red,
-                    0 0 20px red,
-                    0 0 40px red,
-                    0 0 80px red,
-                    0 0 120px red;
+        text-shadow: 0 0 2px red,
+                    0 0 4px red,
+                    0 0 8px red,
+                    0 0 12px red,
+                    0 0 24px red;
     } 18%, 20% {
         opacity: .2;
         text-shadow: none;
