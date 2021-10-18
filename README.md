@@ -290,3 +290,10 @@ Credits
 - **Favicon**
   - [iconfinder](https://www.iconfinder.com/)
 
+### **Audio** ###
+
+- **Background music:**
+  - Castle: ES_Spider Room - [Ethan Sloan](https://www.epidemicsound.com/artists/tracks/ethan-sloan)
+  - 
+
+All audio used as royalty free music from [Epidemic Sound](https://www.epidemicsound.com/music/featured/). All audio files published in free trial therefore not subject to copyright claims as per [RULES](https://www.epidemicsound.com/license-guide/).
