@@ -4,26 +4,18 @@ export const choices = [
         users_choice: "start",
         options: 
         {
-            scene_audio: "/scramblinspiders/static/assets/audio/sounds/crowded_pub.mp3",
-            scene_audio_volume: ".8",
+            scene_audio: "/scramblinspiders/assets/audio/sounds/crowded_pub.mp3",
+            scene_audio_volume: ".6",
             scene_audio_delay: "1000",
 
-            scene_image: "/scramblinspiders/static/assets/images/part_one/pub_1280x853.jpg",
+            para_two_audio: "/scramblinspiders/assets/audio/sounds/glasses_clinking.mp3",
+            para_two_audio_volume: ".6",
+            para_two_audio_delay: "1000",
+
+            scene_image: "/scramblinspiders/assets/images/part_one/pub_1280x853.jpg",
             scene_icon: `/scramblinspiders/static/assets/images/part_one/pub_beer_986x906.png`,
             scene_transition: ``,
 
-            para_one_audio: "",
-            para_one_audio_volume: "",
-            para_one_audio_delay: "",
-
-            para_two_audio: "/scramblinspiders/static/assets/audio/sounds/glasses_clinking.mp3",
-            para_two_audio_volume: ".8",
-            para_two_audio_delay: "1000",
-
-            para_last_audio: "/scramblinspiders/static/assets/audio/sounds/loud_moan.mp3",
-            para_three_audio_volume: ".8",
-            para_three_audio_delay: "2000",
-            
             scene_text: {
                 para_one: `
                 <span class="creepy-text">Our story starts...</span><br />
@@ -36,32 +28,70 @@ export const choices = [
                    worry about your kids' costumes, as you already took care of that 
                    the day before - today is a perfect day. You can go to a pub near 
                    your house to celebrate being free from obligations (no matter 
-                   how brief it is), before you go home.<br /> You notice a chill in the air as 
-                   winter is showing its teeth earlier than usual. Well, that's climate 
-                   change for you. You shrug your shoulders as you pull your coat 
-                   higher to try and cover your throat as much as you can before you 
-                   get into your car...<br />
-                   You get out of your car near your local pub so you can walk home, 
-                   just in case. While approaching the door, you get a strange feeling
-                   that the fog has gotten thicker on your way from work. You look 
-                   around before you go for the door, but except the fog, nothing 
-                   seems out of the ordinary and a sudden chilly wind sweeps you. 
-                   "Brrr! Better get inside" - you think to yourself.<br /> After entering the 
-                   pub you can smell your favourite drink, warm atmosphere and your
-                   friends are already there. "Give me a quick one, before I go 
-                   home!" - you say at the entrance, before taking your coat off. You 
-                   greet and chit-chat with your friends while progressing towards 
-                   the bar. What a perfect evening for a Halloween.
-                   Your friends convince you to have another drink before you go 
-                   home, and drinks just keep coming... You forget about time as 
-                   hours pass and your busy day has made you feel sleepy. You nod 
-                   off but quickly snap out of it to realise everyone is gone...
+                   how brief it is), before you go home.<br />  
                 `,
-                para_two: `You are at an empty pub. You could swear that just
+                para_two: `You notice a chill in the air as 
+                winter is showing its teeth earlier than usual. Well, that's climate 
+                change for you. You shrug your shoulders as you pull your coat 
+                higher to try and cover your throat as much as you can before you 
+                get into your car...<br />
+                You get out of your car near your local pub so you can walk home, 
+                just in case. While approaching the door, you get a strange feeling
+                that the fog has gotten thicker on your way from work. You look 
+                around before you go for the door, but except the fog, nothing 
+                seems out of the ordinary and a sudden chilly wind sweeps you.`,
+                para_last: `"Brrr! Better get inside" - you think to yourself.<br /> After entering the 
+                pub you can smell your favourite drink, warm atmosphere and your
+                friends are already there. "Give me a quick one, before I go 
+                home!" - you say at the entrance, before taking your coat off. You 
+                greet and chit-chat with your friends while progressing towards 
+                the bar. What a perfect evening for a Halloween.
+                Your friends convince you to have another drink before you go 
+                home, and drinks just keep coming... You forget about time as 
+                hours pass and your busy day has made you feel sleepy. You nod 
+                off but quickly snap out of it to realise everyone is gone...
+                `,
+            },
+            scene_jumpscare: {
+                jumpscare_image: `/scramblinspiders/static/assets/images/pumpkin-992318_1280.png`,
+                jumpscare_audio: `/scramblinspiders/static/assets/audio/jump_scares/jump_scare_one.mp3`,
+            },
+            next_choices: ["look around"]
+        }
+    },
+    {
+        users_choice: "look around",
+        options: 
+        {
+            scene_audio: "",
+            scene_audio_volume: "",
+            scene_audio_delay: "",
+
+            scene_image: "/scramblinspiders/assets/images/part_one/pub_black_white_1280x853.jpg",
+            scene_icon: ``,
+            scene_transition: ``,
+
+            para_one_audio: "",
+            para_one_audio_volume: "",
+            para_one_audio_delay: "",
+
+            para_two_audio: "",
+            para_two_audio_volume: "",
+            para_two_audio_delay: "",
+
+            para_last_audio: "/scramblinspiders/assets/audio/sounds/loud_moan.mp3",
+            para_three_audio_volume: ".8",
+            para_three_audio_delay: "2000",
+            
+            scene_text: {
+                para_one: `
+                You are at an empty pub. You could swear that just
                 a moment ago it was full of people clamouring,
                 drinking and having a good time!<br /> You can hardly
                 believe your eyes as you start exploring around to
                 try and make sense of it....<br/>
+                `,
+                para_two: `
                 After a thorough
                 investigation, you find that it was like people just
                 vanished....<br /> There are mugs on the floor just like
@@ -590,9 +620,11 @@ export const choices = [
                 Suddenly out of nowhere you trip and fall, smashing face first into the ground. You sit up dis-oriented, your senses overwhelmed.
                 The sounds of the undead are getting louder, you can feel their presense now in the fog, hear them inside your head, they're everywhere.
                 It sounds like there are thousands of them...<br />
-                You try to clear your head and attempt to stand up, but you've sprained your ankle and you collapse in pain.
-                You begin to panic and just as the undead overwhelm you suddenly a thought pops into your head, "what happened to my friends...?" you wonder
-                as you lose consciousness and die...
+
+                "I've had enough! All of this doesn't make sense! I must be sleeping or something!" - you think to yourself as the undead
+                are approaching your location. You refuse to participate and you just sit on the ground, with your senses impaired, 
+                hoping that this is all just a dream.<br />
+                You were wrong... <br />The undead overwhelm you and the last thing you feel is pain as you begin to lose consciousness...
                 `,
             },
             scene_jumpscare: {

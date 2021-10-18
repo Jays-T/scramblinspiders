@@ -24,12 +24,40 @@ export function getStoryOptions(user_choice) {
     }
 }
 
+export function setBackgroundImage(imageUrl) {
+
+    // Random number to place background image
+    let decider = Math.floor(Math.random() * 2);
+    console.log(decider)
+    let position;
+
+    switch(decider) {
+        case 0:
+            position = `4rem 4rem`;
+            break
+        case 1:
+            position = `4rem 40rem`;
+            break
+        case 2:
+            position = `bottom right`;
+            break
+    }
+
+    let appliedBackground = `
+        background: url(${imageUrl});
+        background-repeat: no-repeat;
+        background-position: ${position};
+        background-size: 25% auto;
+    `
+    backgroundImageContainer.style = appliedBackground;
+}
+
 // options is story options object based on user choice
 export function displayStory(options) {
     console.log(`next choices: ${options.next_choices}`)
 
     let paragraph;
-    let sceneImage;
+    let sceneBackground;
     let audioClip;
     let audioVolume;
     let audioDelay;
@@ -76,6 +104,8 @@ export function displayStory(options) {
                 audioClip = options.scene_audio;
                 audioVolume = options.scene_audio_volume;
                 audioDelay = options.scene_audio_delay;
+                sceneBackground = options.scene_image;
+                setBackgroundImage(sceneBackground);
                 break
             case 1:
                 console.log('second step')

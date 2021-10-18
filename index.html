@@ -24,10 +24,9 @@
 </head>
 
 <body>
-
+    <section id="background-image">
         <div class="container-fluid" id="story-container">
             <div class="row d-flex justify-content-center align-items-center" id="animated-border-container">
-
             </div>
             <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
                 <div class="col text-center d-flex justify-content-center">
@@ -47,7 +46,7 @@
                 </div>
             </div>
         </div>
-
+    </section>
     <div id="background-noise"></div>
     <div id="pumpkin-scare"></div>
     <footer class="cursed-text">
@@ -60,11 +59,10 @@
     const storyContainer = document.getElementById('story-container');
     const borderContainer = document.getElementById('animated-border-container');
     const landingContent = document.getElementById('landing-content');
+    const backgroundImageContainer = document.getElementById('background-image');
 </script>
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
-
 
 <script type="module" src="./static/js/animated_border.js"></script>
 <script type="module" src="./static/js/intro_animations.js"></script>
