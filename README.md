@@ -29,7 +29,7 @@ Screenshot
 
 All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
-![Webpage](./static/assets/images/screenshot/.jpg)
+![Webpage](./static/assets/images/screenshot/amiresponsive.jpg)
 
 ---
 ### **Contents** ###
