@@ -1,3 +1,6 @@
+![Scramblin Spiders](./static/assets/images/scramblin_spiders_714x199.png)
+
+
 Halloween 'Spookathon' 2021
 ======
 
@@ -231,6 +234,8 @@ Features
   - The pages provide a message to the user and a button to click to return the visitor to the homepage.
   - HTTP 404, 500 & 503 errors are handled with custom templates to cover the most common events.
 - An audio storyteller
+- Functional audio toggle on/off
+- Add addtional stories
 
 [Back to contents](#contents)
 
