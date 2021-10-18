@@ -39,7 +39,7 @@ function displayHeadline() {
 }
 
 function loadIn() {
-    let introSound = '../audio/background/static_noises/long_static_with_echo.wav';
+    let introSound = '../scramblinspiders/audio/background/static_noises/long_static_with_echo.wav';
     
     // pass audioClip, audioLevel
     playSound(introSound, .6);
