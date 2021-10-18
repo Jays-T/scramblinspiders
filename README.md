@@ -29,12 +29,13 @@ Screenshot
 
 All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
-![Webpage](./static/assets/images/screenshot/.jpg)
+![Webpage](./static/assets/images/screenshots/screenshot_project.jpg)
 
 ---
 ### **Contents** ###
 
 - [Hackathon](#hackathon)
+  - [What is a Hackathon?](#what-is-a-hackathon)
   - [Hackathon Description](#hackathon-description)
   - [Detailed Theme requirements: TBA](#detailed-theme-requirements-tba)
   - [Hackathon Goals](#hackathon-goals)
@@ -64,6 +65,18 @@ All screenshots created using [Am I responsive](http://ami.responsivedesign.is/)
 Hackathon
 ======
 
+### **What is a Hackathon?** ###
+
+A Hackathon is a sprint-like event in which teams
+collaborate intensively on software projects.
+
+The goal of a hackathon is to create a functioning
+project by the end of the event.
+
+Hackathons are a great way to get real-world
+experience of agile programming and working
+together in a team, just like you would in a dev role.
+
 ### **Hackathon Description** ###
 You'll be assigned to a team, and work together to build a project based on an assigned theme.
 
@@ -72,6 +85,14 @@ You can work according to your own schedule but participants are asked to dedica
 All levels are welcome, from absolute beginners to advanced developers.
 
 ### **Detailed Theme requirements: TBA** ###
+
+#### **Hackathon Theme:**
+Build an interactive Halloween book or story<br>
+Your sit or app should have the following element:
+- Depict a halloween (or fairy tale) story
+- Can be interacted with in some way
+- Should have animated elements
+- Be creative!!
 
 #### **Schedule:**
 
@@ -210,7 +231,7 @@ Technologies
 - [Balsamiq wireframes](https://balsamiq.com/)
   - An online tool to designed the site mock-ups.
 - [Coolors](https://coolors.co/)
-  - An online tool used to choose the website colour scheme.
+  - An online tool used to create the website colour scheme.
 - [paint.net](https://www.getpaint.net/roadmap.html)
   - Used to create the Mockups and to edit images.
 - [favicon.io](https://favicon.io/)
