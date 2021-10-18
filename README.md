@@ -238,6 +238,8 @@ Technologies
   - Used to create the Mockups and to edit images.
 - [favicon.io](https://favicon.io/)
   - Used to create the website favicons
+- [Howler.js](https://howlerjs.com/)
+  - Howler.js was used to play audio files.
 - [Am I Responsive?](http://ami.responsivedesign.is/)
   - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualize how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
 
