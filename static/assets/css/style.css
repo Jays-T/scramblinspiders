@@ -58,7 +58,7 @@ body {
 }
 
 #story-paragraph {
-    width: 90vw;
+    width: 96vw;
 }
 
 #story-choices {
@@ -246,6 +246,13 @@ footer {
         line-height: 2.5rem;
     }
     #story-paragraph {
-        width: 70vw;
+        width: 85vw;
     }
 }
+
+@media screen and (min-width: 1900px) {
+    #story-paragraph {
+        width: 70%;
+    }
+}
+
