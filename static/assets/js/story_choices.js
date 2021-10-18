@@ -4,9 +4,9 @@ export const choices = [
         users_choice: "start",
         options: 
         {
-            scene_audio: "",
-            scene_audio_volume: "",
-            scene_audio_delay: "6",
+            scene_audio: "../static/assets/audio/sounds/crowded_pub.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
 
             scene_image: "../static/assets/images/part_one/pub_1280x853.jpg",
             scene_icon: `../static/assets/images/part_one/pub_beer_986x906.png`,
@@ -112,6 +112,9 @@ export const choices = [
         users_choice: "the back door",
         options: {
             scene_audio: "../static/assets/audio/music/castle_audio.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "0",
+
             scene_image: "../static/assets/images/part_two/castle_1280x822.jpg",
             scene_transition: ``,
             scene_icon: ``,
@@ -157,9 +160,17 @@ export const choices = [
     {
         users_choice: "the bar area",
         options: {
-            scene_audio: "../static/assets/audio/sounds/falling_throug_floor.mp3",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
             scene_image: "../static/assets/images/part_five/tunnel_light_1280x853.jpg",
             scene_transition: ``,
+
+            para_two_audio: "../static/assets/audio/sounds/falling_throug_floor.mp3",
+            para_two_audio_volume: ".8",
+            para_two_audio_delay: "1500",
+
             scene_text: {
                 para_one: `
                 "It might be something on the tv or radio"- you think to yourself.<br /> I'll just go and shut it down because
@@ -190,8 +201,13 @@ export const choices = [
         users_choice: "the abandoned warehouse",
         options: {
             scene_audio: "../static/assets/audio/music/piano_horror.mp3",
-            scene_image: "../static/assets/images/part_three/abonden-warehouse_1280x851.jpg",
+            scene_image: "../static/assets/images/part_three/warehouse_1280x851.jpg",
             scene_transition: `FADE IN FROM RIGHT`,
+
+            para_last_audio: "../static/assets/audio/sounds/zombies.mp3",
+            para_three_audio_volume: ".8",
+            para_three_audio_delay: "1500",
+
             scene_text: {
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me.
@@ -234,8 +250,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `GHOUL`,
-                jumpscare_audio: `FOOTSTEPS >> METAL POLE HITTING GROUND >> ANIMAL RUNNING AWAY`,
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
             },
             next_choices: ["follow the creature to the dingy hotel", "follow the creature to the medieval church", "not follow the creature"]
         }
@@ -244,10 +260,16 @@ export const choices = [
     {
         users_choice: "the creepy cemetery",
         options: {
-            scene_audio: "CREEPY BACKGROUND NOISES",
-            scene_image: "CEMETERY",
+            scene_audio: "../static/assets/audio/music/piano_horror.mp3",
+            scene_image: "../static/assets/images/part_three/cemetery_960x490.jpg",
+            scene_transition: `FADE IN FROM RIGHT`,
             scene_transition: `FLASH FADE IN`,
-            scene_icon: `CEMETERY`,
+            scene_icon: `../static/assets/images/part_two/icon_cementery512x512.svg`,
+
+            para_last_audio: "../static/assets/audio/sounds/ghostly_howl.mp3",
+            para_last_audio_volume: "1",
+            para_last_audio_delay: "2000",
+
             scene_text: {
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me.
@@ -277,8 +299,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: ``,
-                jumpscare_audio: ``,
+                jumpscare_image: `../static/assets/images/part_three/werewolf_1280x1280.jpg`,
+                jumpscare_audio: `../static/assets/audio/sounds/growl.mp3`,
             },
             next_choices: [ "don't follow the creature", "follow the creature to the dingy hotel", "follow the creature to the local hospital"]
         }
@@ -287,10 +309,16 @@ export const choices = [
     {
         users_choice: "the dark forest",
         options: {
-            scene_audio: "CREEPY FOREST AMBIENT SOUNDS",
-            scene_image: "DARK FOREST",
+            scene_audio: "../static/assets/audio/music/night_forest_insects.mp3",
+            scene_image: "../static/assets/images/part_three/forest_960x640.jpg",
+            
             scene_transition: `FADE IN WITH DARK OVERLAY`,
             scene_icon: `FOREST`,
+
+            para_last_audio: "../static/assets/audio/sounds/zombies.mp3",
+            para_last_audio_volume: ".8",
+            para_last_audio_delay: "3000",
+
             scene_text: {
                 para_one: `
                 You run after the creature without thinking, directly into the dark forest...<br />
@@ -324,8 +352,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `ZOMBIES`,
-                jumpscare_audio: `ZOMBIE SCREECH`,
+                jumpscare_image: `../static/assets/images/part_three/zombies_1109x1280.png`,
+                jumpscare_audio: ``,
             },
             next_choices: ["follow the creature to the local hospital", "don't follow the creature", "follow the creature to the medieval church"]
         }
@@ -334,10 +362,14 @@ export const choices = [
     {
         users_choice: "the ancient cave",
         options: {
-            scene_audio: "DEATH",
-            scene_image: "CAVE",
+            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            scene_image: "../static/assets/images/part_three/cave_853x853.jpg",
             scene_transition: `FLICKER`,
             scene_icon: ``,
+
             scene_text: {
                 para_one: `
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me. I'll follow it from a safe distance.
@@ -360,8 +392,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `WEREWOLF`,
-                jumpscare_audio: `GROWLS`,
+                jumpscare_image: `../static/assets/images/part_three/werewolf_1280x1280.jpg`,
+                jumpscare_audio: `../static/assets/audio/sounds/growl.mp3`,
             },
             next_choices: ["death"]
         }
