@@ -1,11 +1,13 @@
-export function playSound(audioClip, audioLevel, audioDelay) {
 
-    console.log(audioClip)
+export function playSound(audioClip, audioLevel, audioDelay) {
 
     if (audioDelay === 0) {
         let sound = new Howl({
             src: [audioClip],
             volume: audioLevel,
+            onplay: () => {
+                sound.fade(1, .2, 7000);
+            },
             onend: () => {
                 console.log('played')
             }
@@ -18,6 +20,9 @@ export function playSound(audioClip, audioLevel, audioDelay) {
             let sound = new Howl({
                 src: [audioClip],
                 volume: audioLevel,
+                onplay: () => {
+                    sound.fade(1, .2, 7000);
+                },
                 onend: () => {
                     console.log('played')
                 }

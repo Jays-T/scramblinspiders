@@ -22,8 +22,8 @@ export function showBeginButton() {
     let button = document.getElementById('begin-button');
 
     let scareContainer = document.getElementById('pumpkin-scare');
-    let introJumpScareAudio = './static/assets/audio/jump_scares/jump_scare_one.wav';
-    let scareImage = './static/assets/images/pumpkin-992318_1280.png';
+    let introJumpScareAudio = '../static/assets/audio/jump_scares/jump_scare_one.mp3';
+    let scareImage = '../static/assets/images/pumpkin-992318_1280.png';
 
     button.addEventListener('click', () => {
         // pass audioClip, audioLevel
