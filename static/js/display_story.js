@@ -227,10 +227,13 @@ export function displayStory(options) {
 
     // If scene or paragraph has audio
     // Values have been set from switch (based on scene step) 
+
     if (audioClip) {
         playSound(audioClip, audioVolume, audioDelay)
     }
+
 }
+
 
 // User can skip intro animation if they want
 let skipAnimations = document.getElementById('skip-intro-button')
