@@ -346,12 +346,12 @@ export const choices = [
                 what religion that is, "but that's probably the case with most modern churches
                 and temples." - you think to yourself.<br />
                 The creature left the lantern on a pole in the middle of the cemetery, just in
-                front of the chapel. "What is...it up to?"...
+                front of the mausoleum. "What is...it up to?"...
                 `,
                 para_last: `
                 Without warning, the lantern glows so bright that it temporarily
                 blinds you... <br /> And then you hear howling, like somebody released hundreds
-                of hounds... It starts the distance but gets closer and closer. "Where's the
+                of hounds... It starts in the distance but gets closer and closer. "Where's the
                 creature???" - you ask yourself after rubbing your eyes.<br /> You still haven't
                 regained your vision completely when something brushes your shoulder and
                 knocks you to the ground. The jolt seems to clear your head and you suddenly spot the creature just ahead of you.
@@ -381,7 +381,7 @@ export const choices = [
 
             scene_text: {
                 para_one: `
-                You run after the creature without thinking, directly into the dark forest...<br />
+                You run after the creature, without thinking, directly into the dark forest...<br />
                 As the sky overhead closes in on you, the trees become so thick that you can no longer see the stars and trip over an exposed tree root.
                 "Was that...fur? Or a tentacle on its body? This fog is starting to play tricks on me." You shake your head to try and clear your thoughts
                 but the questions keep racing through your mind
@@ -390,7 +390,7 @@ export const choices = [
                 `,
                 para_two: `
                 Before you know it
-                you're out of the woods and in an open park, and you remember that part of the forest
+                you're out of the woods and in a park, and you remember that part of the forest
                 was repurposed as a park recently. They brought in some weird looking people
                 to survey the area, and the engineers weren't far from odd. It made for an odd
                 park with those weird looking playground things. It's a miracle it passed the
@@ -562,9 +562,9 @@ export const choices = [
 
             scene_text: {
                 para_one: `
-                You follow the creature to the hospital, but as soon as you rush inside the front door the lights go out.
-                Everything goes completely dark. Your out of breath, you look around trying to find your bearings when you realize...<br />
-                "You forgot about the creature...!"<br /> Suddenly an extremely bright light blinds you for a second, when your vision returns
+                You rush into the hospital after the creature, slamming the door behind you. You make sure whatever is outside can't get in. <br /> You get the benches, statues, and whatever else you can find and bar it against the door. Out of breath, you look at the door hoping it will hold.
+                You look around trying to find your bearings when you realize...<br />
+                You forgot about the creature...!<br /> Suddenly an extremely bright light blinds you for a second, when your vision returns
                 you see the outline of the creature, surround by the light. It comes into focus and it seems to be pointing at you. 
                 `,
                 para_two: `
@@ -608,7 +608,7 @@ export const choices = [
             scene_text: {
                 para_one: `
                 You hesitate as you watch the creature disappear and your mind turns towards more pressing matters
-                as the creatures of the undead are closing in. Suddenly two of them are right in front of you, you jump to the side
+                as the monstears are closing in. Suddenly two of them are right in front of you, you jump to the side
                 and begin running in no particular direction...<br />
                 `,
                 para_two: `
@@ -618,7 +618,7 @@ export const choices = [
                 `,
                 para_last: `
                 Suddenly out of nowhere you trip and fall, smashing face first into the ground. You sit up dis-oriented, your senses overwhelmed.
-                The sounds of the undead are getting louder, you can feel their presense now in the fog, hear them inside your head, they're everywhere.
+                The sounds of the undead are getting louder, you can feel their presence now in the fog, hear them inside your head, they're everywhere.
                 It sounds like there are thousands of them...<br />
 
                 "I've had enough! All of this doesn't make sense! I must be sleeping or something!" - you think to yourself as the undead
@@ -670,7 +670,7 @@ export const choices = [
                 "That was some night" you say to yourself. "I only need to find out if it was all true or if it was just a drunken
                 fantasy." Never mind - even if you tell it to someone, no one would believe you. Some psychiatrists might be
                 interested, but that's about it.
-                You dust yourself and go home to your family
+                You dust yourself off and go home to your family.
                 `,
             },
             scene_jumpscare: {
