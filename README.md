@@ -30,6 +30,8 @@ Screenshot
 All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
 ![Webpage](./static/assets/images/screenshots/screenshot_project.jpg)
+=======
+
 
 ---
 ### **Contents** ###
@@ -290,6 +292,13 @@ gh repo clone AwsSG/scramblinspiders
     
 You can find all the steps to follow according your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on how to clone a reposistory.
 
+# NOTE RE: AUDIO FILES AND SCENE IMAGES for running the project locally
+- The paths to audio files and scene images are written absolutely, e.g '/scramblinspiders/static/assets...../"
+- This means that they will not run locally, replace '/scramblinspiders' at with './assets' at the start of each file path.
+- If you wish to change the name of your repo to something other than this, all relevant file paths must be updated in files where you would replace 'scramblinspiders' with the name of your new repo
+- static > js > story_choices.js
+- static > js > on_load.js
+
 [Back to contents](#contents)
 
 ---
@@ -311,3 +320,15 @@ Credits
 - **Favicon**
   - [iconfinder](https://www.iconfinder.com/)
 
+### **Audio** ###
+
+- **Background music:**
+  - Castle: ES_Spider Room by [Ethan Sloan](https://www.epidemicsound.com/artists/tracks/ethan-sloan)
+  - Death: Cold Isolation by [Fesliyan Studios](https://www.fesliyanstudios.com/royalty-free-music/downloads-c/sad-music/1)
+  - Step 4: Face to Face Tension by [Komiku](https://www.chosic.com/download-audio/24591/)
+  - Step 5(waking up): Forest of Good and Evil by [astrofreq](https://pixabay.com/users/astrofreq-19902647/?tab=audio&utm_source=link-attribution&utm_medium=referral&utm_campaign=audio&utm_content=2947)
+  - Step 5(struggle): Brutality by [David Fesliyan](https://www.fesliyanstudios.com/royalty-free-music/download/brutality/1226)
+
+Audio from [Epidemic Sound](https://www.epidemicsound.com/music/featured/) used as royalty free music. Audio files published in free trial therefore not subject to copyright claims as per [RULES](https://www.epidemicsound.com/license-guide/).
+
+Other audio used under a royalty free licence. Please check the respective pages.
