@@ -6,7 +6,7 @@ export function playSound(audioClip, audioLevel, audioDelay) {
             src: [audioClip],
             volume: audioLevel,
             onplay: () => {
-                sound.fade(1, .2, 7000);
+                sound.fade(1, .4, 7000);
             },
             onend: () => {
                 console.log('played')
@@ -21,7 +21,7 @@ export function playSound(audioClip, audioLevel, audioDelay) {
                 src: [audioClip],
                 volume: audioLevel,
                 onplay: () => {
-                    sound.fade(1, .2, 7000);
+                    sound.fade(1, .4, 7000);
                 },
                 onend: () => {
                     console.log('played')
