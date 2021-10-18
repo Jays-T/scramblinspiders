@@ -128,7 +128,7 @@ body {
     0%, 15% {
         opacity: 0;
     } 15%, 20% {
-        color:rgb(240, 129, 1);
+        color:var(--p-orange);
         font-family: Creepster, cursive;
         opacity: 0;
     } 20%, 100% {
@@ -189,6 +189,8 @@ footer {
     z-index: 2000;
     left: 0;
     width: 100vw;
+    font-size: 1.1rem;
+    letter-spacing: .3em;
     text-align: center;
 }
 
@@ -199,20 +201,6 @@ footer {
     body {
         font-size: 1rem;
     }
-
-    /* #story-title {
-        height: 35%;
-        width: 50%;
-        top: 0;
-    }
-
-    h1#story-headline {
-        margin-top: 0;
-    }
-
-    .story {
-        top: 20%;
-    } */
 }
 
 @media screen and (min-width: 768px) {
