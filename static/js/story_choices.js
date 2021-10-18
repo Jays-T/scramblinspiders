@@ -847,17 +847,15 @@ export const choices = [
                 ending_credits: `
                 <img src="/scramblinspiders/static/assets/images/dancing-dance.gif" alt="dancing pumpkin head people"><br />
                 <h3 class="align-self-center skwoop">Story Author: Vladimir M</h3> 
-                
                 <h5 class="skwoop">A <span class="creepy-text">Normal</span> night at the pub experience was brought to you by: </h5>
                 <p class="skwoop">
-
                 <span class="skwoop">Team Scramblin Spiders</span> <br />
-
-                <span class="skwoop">Marina Christen</span> <br />
-                <span class="skwoop">Carla Buongiorno</span> <br />
-                <span class="skwoop">Vladimir M</span> <br />
-                <span class="skwoop">John Traas</span> <br />
-                <span class="skwoop">Aws Sabah Gheni</span> <br />
+                <span class="skwoop cursed-text">Marina Christen</span> <br />
+                <span class="skwoop cursed-text">Carla Buongiorno</span> <br />
+                <span class="skwoop cursed-text">Vladimir M</span> <br />
+                <span class="skwoop cursed-text">John Traas</span> <br />
+                <span class="skwoop cursed-text">Aws Sabah Gheni</span> <br />
+                <span class="skwoop">Facilitator<span class="cursed-text">Tim Nelson</span></span> <br />
                 </p>
                 <p class="skwoop">
                 A massive thank you to the organizers of Code Institute Spookathon - 2021 <br />
