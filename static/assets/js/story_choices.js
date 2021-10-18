@@ -576,10 +576,19 @@ export const choices = [
     {
         users_choice: "destroy the creature",
         options: {
-            scene_audio: "FIGHT WITH METAL CLANGING AND GROWLS",
-            scene_image: "WEREWOLF",
+            scene_audio: "../static/assets/audio/music/brutality.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            // Image here needs to be taken from the previous step
+            // scene_image: "WEREWOLF",
             scene_transition: `FLASHING RED AND ORANGE`,
             scene_icon: ``,
+
+            para_two_audio: "../static/assets/audio/music/wake_up.mp3",
+            para_two_audio_volume: ".8",
+            para_two_audio_delay: "1000",
+
             scene_text: {
                 para_one: `
                 As you pull yourself together, you know the right thing to do is to kill the creature. You grab the closest metal bar
@@ -603,8 +612,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `PUMPKINS`,
-                jumpscare_audio: `SCREECH`,
+                jumpscare_image: ``,
+                jumpscare_audio: ``,
             },
             next_choices: ["credits"]
         }
@@ -613,26 +622,35 @@ export const choices = [
     {
         users_choice: "do nothing",
         options: {
-            scene_audio: "CREEPY BACKGROUND SOUND  >> BAR SOUND OF PEOPLE DRINKING >> TO SILENCE",
+            scene_audio: "../static/assets/audio/music/brutality.mp3",
+            scene_audio_volume: ".8",
+            scene_audio_delay: "1000",
+
+            // Image here needs to be taken from the previous step
             scene_image: "",
             scene_transition: `FADE`,
             scene_icon: ``,
+
+            para_last_audio: "../static/assets/audio/music/wake_up.mp3",
+            para_last_audio_volume: ".8",
+            para_last_audio_delay: "1000",
+            
             scene_text: {
                 para_one: `
                 As you pull yourself together, you realise that this has to be some kind of a dream, or a hallucination - it has to be.
                 All of this is too much for you. You grab your head, kneel on the floor and with closed eyes release the loudest
-                shout you could.<br /> At that moment, the clock strikes midnight, the creature's window to destroy the light has
-                passed, and the light is back to its full strength. The light starts to overwhelm the space. It blinds you making you
-                disoriented. Not even your eyelids are helping as you pass out and everything goes dark...<br />
+                shout you could.
                 `,
                 para_two: `
-                
+                At that moment, the clock strikes midnight, the creature's window to destroy the light has
+                passed, and the light is back to its full strength. The light starts to overwhelm the space. It blinds you making you
+                disoriented. Not even your eyelids are helping as you pass out and everything goes dark...
                 `,
                 para_last: `
                 You awake feeling good like never before, like something has recharged your batteries. No trace of the
                 creature or the light. There's a wonderful morning outside and the maintenance guy is calling the security. "That
                 was some night" you say to yourself as an un-easy feeling comes over you.
-                "I only need to find out if it was all true or if I was just blindly drunk." 
+                "I only need to find out if it was all true or if I was just blind drunk." 
                 Never mind - even if it was true,<br />  no one would believe your story...<br />
                 You stand up and go home to your family...
                 
@@ -653,9 +671,11 @@ export const choices = [
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
+            // Image here needs to be taken from the previous step
             scene_image: "",
             scene_transition: `FLASHING LIGHT`,
             scene_icon: ``,
+
             scene_text: {
                 para_one: `
                 After all you've been through, for no logical reason whatsoever, you decide to help the creature. 
@@ -675,6 +695,7 @@ export const choices = [
                 You suddenly shiver as everything fades to darkness as your mind fades into oblivion...
                 `,
             },
+
             scene_jumpscare: {
                 jumpscare_image: ``,
                 jumpscare_audio: ``,
@@ -690,9 +711,11 @@ export const choices = [
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
+            // Image here needs to be taken from the previous step
             scene_image: "",
             scene_transition: `FLASHING RED AND ORANGE`,
             scene_icon: ``,
+
             scene_text: {
                 para_one: `
                 The images, the monsters, the fog....all of it is too much for you. Panic is overwhelming you
