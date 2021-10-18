@@ -1,26 +1,25 @@
 import { choices } from "./story_choices.js";
 import { playSound } from "./play_sound.js";
+import { endStory } from "./end_story.js";
 
-// count steps though each part of story
-// to determine which text should be displayed next
+// count steps though each SCENE
+// to determine which SCENE should be displayed next
+// and when to display links to the next ACT
 var step = 0;
 
+// To clear story container before each SCENE
 export function clearStoryContainer() {
     storyContainer.innerHTML = '';
 }
 
 export function getStoryOptions(user_choice) {
     for (let choice of choices) {
-        
-        if (user_choice === "credits") {
-            let choice_should_be = "start";
-
-            if (choice_should_be === choice.users_choice) {
+        if (user_choice === "try again") {
+            return false
+        } else {
+            if (user_choice === choice.users_choice) {
                 return choice.options
             }
-        } 
-        else if (user_choice === choice.users_choice) {
-            return choice.options
         }
     }
 }
@@ -30,13 +29,39 @@ export function displayStory(options) {
     console.log(`next choices: ${options.next_choices}`)
 
     let paragraph;
+    let sceneImage;
     let audioClip;
     let audioVolume;
     let audioDelay;
+    let sceneText;
 
     // function on line 89 takes in currentOptions to persist data on callBack to this function
     let currentOptions = options;
 
+    // If final scene reached display credits
+    let isCredits = options.scene_credits;
+
+    if (isCredits) {
+        console.log("it's credits")
+        paragraph = options.scene_text.ending_credits;
+        sceneText = `
+            <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
+                <div class="col text-center d-flex flex-column justify-content-center mt-5 pt-5">
+                    <div id="story-paragraph" class="story-text text-center align-self-center credits">${paragraph}</div>
+                </div>
+                <div class="col text-center d-flex justify-content-center mt-5">
+                    <div id="story-choices" class="align-self-center">
+                        <button id="end-story" data-choice="${options.next_choices[0]}" class="creepy-text">${options.next_choices[0]}</button>
+                    </div>
+                </div>
+            </div>
+        `
+        storyContainer.classList.add('fade-in')
+        storyContainer.innerHTML = sceneText
+        return
+    }
+
+    // Pick paragraph based on current step
     switch(step){
             case 0:
                 console.log('first step')
@@ -54,80 +79,70 @@ export function displayStory(options) {
                 break
         }
 
-
-    let storyText;
-
     if (step === 2) {
-        // on third step (step is 2) the next three branch options will be displayed
 
-        if (options.next_choices[0] === "credits" || options.next_choices[0] === "death") {
-            storyText = `
-            <div class="row story">
-                <div class="col col-md-8 offset-md-2">
-                    <p class="story-text text-center">${paragraph}</p>
-                </div>
-            </div>
-            <div class="row story-button">
-                <div class="col col-md-8 offset-md-2 text-center d-flex flex-column justify-content-center align-items-end">
-                    <div class="row">
-                        <div class="col col-12">
-                            <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
+        // on third step (step is 2) the next three branch options will be displayed
+        
+        let nextChoice = options.next_choices[0];
+        // can be refactored to iterate over the values in next_choices
+        if (options.next_choices.length === 1) {
+
+            sceneText = `
+                <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
+                    <div class="col text-center d-flex justify-content-center mt-5">
+                        <p id="story-paragraph" class="story-text text-center align-self-end">${paragraph}</p>
+                    </div>
+                    <div class="col text-center d-flex justify-content-center mt-5">
+                        <div id="story-choices" class="align-self-center">
+                            <button data-choice="${nextChoice}" class="creepy-text next-choice">${nextChoice}</button>
                         </div>
-                    </div> 
+                    </div>
                 </div>
-            </div>
             `
         }
         else {
-            storyText = `
-            <div class="row story">
-                <div class="col col-md-8 offset-md-2">
-                    <p class="story-text text-center">${paragraph}</p>
-                </div>
-            </div>
-            <div class="row story-button">
-                <div class="col col-md-8 offset-md-2 text-center d-flex flex-column justify-content-center">
-    
-                    <div class="row">
-                        <div class="col col-md-4">
-                            <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
-                        </div>
-                        <div class="col col-md-4">
+            sceneText = `
+                <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
+                    <div class="col text-center d-flex justify-content-center mt-5">
+                        <p id="story-paragraph" class="story-text text-center align-self-end">${paragraph}</p>
+                    </div>
+                    <div class="col text-center d-flex justify-content-center mt-5">
+                        <div id="story-choices" class="align-self-center">
                             <button data-choice="${options.next_choices[0]}" class="creepy-text next-choice">${options.next_choices[0]}</button>
-                        </div>
-                        <div class="col col-md-4">
+                            <button data-choice="${options.next_choices[1]}" class="creepy-text next-choice">${options.next_choices[1]}</button>
                             <button data-choice="${options.next_choices[2]}" class="creepy-text next-choice">${options.next_choices[2]}</button>
                         </div>
-                    </div> 
+                    </div>
                 </div>
-            </div>
             `
         }
+        // Reset scene step to zero for next ACT
         step = 0;
     }
     else {
-        storyText = `
-        <div class="row story">
-            <div class="col-sm-12 col-md-8 offset-md-2 d-flex flex-column justify-content-center">
-                <p class="story-text text-center">${paragraph}</p>
+        sceneText = `
+            <div class="row d-flex flex-column align-items-center justfy-content-space-around" id="story-title">
+                <div class="col text-center d-flex justify-content-center mt-5">
+                    <p id="story-paragraph" class="story-text text-center align-self-end">${paragraph}</p>
+                </div>
+                <div class="col text-center d-flex justify-content-center mt-5">
+                    <div id="story-choices" class="align-self-center">
+                        <button id="next-step" class="creepy-text">continue...</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row story-button">
-            <div class="col-sm-12 col-md-8 offset-md-2 text-center delay-text">
-            <button id="next-step" class="creepy-text">continue...</button>
-            </div>
-        </div>
         `
         step += 1;
         console.log(`current step: ${step}`)
     }
+    
 
     // set opacity to zero on the displayed story text in storyContainer
     let appliedStyle = `
         opacity: 0;
         `
     storyContainer.style = appliedStyle;
-    storyContainer.innerHTML = storyText
+    storyContainer.innerHTML = sceneText
 
     // fade in opacity on storyContainer
     for (let opacity = 0; opacity < 1.1; opacity = opacity + 0.1) {
@@ -151,13 +166,18 @@ export function displayStory(options) {
     // will pass dataset of users choice to getStoryOptions()
     if (nextChoiceButtons) {
         nextChoiceButtons.forEach(button => button.addEventListener('click', () => {
-            console.log('YES, made it to level 2!!!')
-            let nextStoryOption = getStoryOptions(button.dataset.choice);
-    
-            clearStoryContainer();
-            // callBack to this function, displayStory() with nextStoryOption
-            displayStory(nextStoryOption);
 
+            let nextStoryOption = getStoryOptions(button.dataset.choice);
+            
+            if (!nextStoryOption) {
+                endStory();
+                return
+            }
+            else {
+                clearStoryContainer();
+                // callBack to this function, displayStory() with nextStoryOption
+                displayStory(nextStoryOption);
+            }
         }));
     }
 
