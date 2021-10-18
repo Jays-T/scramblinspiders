@@ -4,23 +4,23 @@ export const choices = [
         users_choice: "start",
         options: 
         {
-            scene_audio: "../static/assets/audio/sounds/crowded_pub.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/sounds/crowded_pub.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
-            scene_image: "../static/assets/images/part_one/pub_1280x853.jpg",
-            scene_icon: `../static/assets/images/part_one/pub_beer_986x906.png`,
+            scene_image: "/scramblinspiders/static/assets/images/part_one/pub_1280x853.jpg",
+            scene_icon: `/scramblinspiders/static/assets/images/part_one/pub_beer_986x906.png`,
             scene_transition: ``,
 
             para_one_audio: "",
             para_one_audio_volume: "",
             para_one_audio_delay: "",
 
-            para_two_audio: "../static/assets/audio/sounds/glasses_clinking.mp3",
+            para_two_audio: "/scramblinspiders/static/assets/audio/sounds/glasses_clinking.mp3",
             para_two_audio_volume: ".8",
             para_two_audio_delay: "1000",
 
-            para_last_audio: "../static/assets/audio/sounds/loud_moan.mp3",
+            para_last_audio: "/scramblinspiders/static/assets/audio/sounds/loud_moan.mp3",
             para_three_audio_volume: ".8",
             para_three_audio_delay: "2000",
             
@@ -78,8 +78,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `../static/assets/images/pumpkin-992318_1280.png`,
-                jumpscare_audio: `../static/assets/audio/jump_scares/jump_scare_one.mp3`,
+                jumpscare_image: `/scramblinspiders/static/assets/images/pumpkin-992318_1280.png`,
+                jumpscare_audio: `/scramblinspiders/static/assets/audio/jump_scares/jump_scare_one.mp3`,
             },
             next_choices: ["the bar area", "the front door", "the back door"]
         }
@@ -88,11 +88,11 @@ export const choices = [
     {
         users_choice: "the front door",
         options: {
-            scene_audio: "../static/assets/audio/music/castle_audio.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/castle_audio.mp3",
             scene_audio_volume: ".6",
             scene_audio_delay: "600",
 
-            scene_image: "../static/assets/images/part_one/old_house_1133x1280.png",
+            scene_image: "/scramblinspiders/static/assets/images/part_one/old_house_1133x1280.png",
             scene_transition: ``,
             scene_icon: ``,
 
@@ -100,7 +100,7 @@ export const choices = [
             para_one_audio_volume: "",
             para_one_audio_delay: "",
 
-            para_two_audio: "../static/assets/audio/sounds/yelling.mp3",
+            para_two_audio: "/scramblinspiders/static/assets/audio/sounds/yelling.mp3",
             para_two_audio_volume: ".8",
             para_two_audio_delay: "3500",
 
@@ -141,11 +141,11 @@ export const choices = [
     {
         users_choice: "the back door",
         options: {
-            scene_audio: "../static/assets/audio/music/castle_audio.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/castle_audio.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "0",
 
-            scene_image: "../static/assets/images/part_two/castle_1280x822.jpg",
+            scene_image: "/scramblinspiders/static/assets/images/part_two/castle_1280x822.jpg",
             scene_transition: ``,
             scene_icon: ``,
             scene_text: {
@@ -190,14 +190,14 @@ export const choices = [
     {
         users_choice: "the bar area",
         options: {
-            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/death.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
-            scene_image: "../static/assets/images/part_five/tunnel_light_1280x853.jpg",
+            scene_image: "/scramblinspiders/static/assets/images/part_five/tunnel_light_1280x853.jpg",
             scene_transition: ``,
 
-            para_two_audio: "../static/assets/audio/sounds/falling_throug_floor.mp3",
+            para_two_audio: "/scramblinspiders/static/assets/audio/sounds/falling_throug_floor.mp3",
             para_two_audio_volume: ".8",
             para_two_audio_delay: "1500",
 
@@ -220,8 +220,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `../static/assets/images/part_two/demon_hand_185x381.png`,
-                jumpscare_audio: `../static/assets/audio/sounds/scary_scream.mp3`,
+                jumpscare_image: `/scramblinspiders/static/assets/images/part_two/demon_hand_185x381.png`,
+                jumpscare_audio: `/scramblinspiders/static/assets/audio/sounds/scary_scream.mp3`,
             },
             next_choices: ["fade into oblivion"]
         }
@@ -230,11 +230,11 @@ export const choices = [
     {
         users_choice: "the abandoned warehouse",
         options: {
-            scene_audio: "../static/assets/audio/music/piano_horror.mp3",
-            scene_image: "../static/assets/images/part_three/warehouse_1280x851.jpg",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/piano_horror.mp3",
+            scene_image: "/scramblinspiders/static/assets/images/part_three/warehouse_1280x851.jpg",
             scene_transition: `FADE IN FROM RIGHT`,
 
-            para_last_audio: "../static/assets/audio/sounds/zombies.mp3",
+            para_last_audio: "/scramblinspiders/static/assets/audio/sounds/zombies.mp3",
             para_three_audio_volume: ".8",
             para_three_audio_delay: "1500",
 
@@ -290,13 +290,13 @@ export const choices = [
     {
         users_choice: "the creepy cemetery",
         options: {
-            scene_audio: "../static/assets/audio/music/piano_horror.mp3",
-            scene_image: "../static/assets/images/part_three/cemetery_960x490.jpg",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/piano_horror.mp3",
+            scene_image: "/scramblinspiders/static/assets/images/part_three/cemetery_960x490.jpg",
             scene_transition: `FADE IN FROM RIGHT`,
             scene_transition: `FLASH FADE IN`,
-            scene_icon: `../static/assets/images/part_two/icon_cementery512x512.svg`,
+            scene_icon: `/scramblinspiders/static/assets/images/part_two/icon_cementery512x512.svg`,
 
-            para_last_audio: "../static/assets/audio/sounds/ghostly_howl.mp3",
+            para_last_audio: "/scramblinspiders/static/assets/audio/sounds/ghostly_howl.mp3",
             para_last_audio_volume: "1",
             para_last_audio_delay: "2000",
 
@@ -329,8 +329,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `../static/assets/images/part_three/werewolf_1280x1280.jpg`,
-                jumpscare_audio: `../static/assets/audio/sounds/growl.mp3`,
+                jumpscare_image: `/scramblinspiders/static/assets/images/part_three/werewolf_1280x1280.jpg`,
+                jumpscare_audio: `/scramblinspiders/static/assets/audio/sounds/growl.mp3`,
             },
             next_choices: [ "don't follow the creature", "follow the creature to the dingy hotel", "follow the creature to the local hospital"]
         }
@@ -339,13 +339,13 @@ export const choices = [
     {
         users_choice: "the dark forest",
         options: {
-            scene_audio: "../static/assets/audio/music/night_forest_insects.mp3",
-            scene_image: "../static/assets/images/part_three/forest_960x640.jpg",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/night_forest_insects.mp3",
+            scene_image: "/scramblinspiders/static/assets/images/part_three/forest_960x640.jpg",
             
             scene_transition: `FADE IN WITH DARK OVERLAY`,
             scene_icon: `FOREST`,
 
-            para_last_audio: "../static/assets/audio/sounds/zombies.mp3",
+            para_last_audio: "/scramblinspiders/static/assets/audio/sounds/zombies.mp3",
             para_last_audio_volume: ".8",
             para_last_audio_delay: "3000",
 
@@ -382,7 +382,7 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `../static/assets/images/part_three/zombies_1109x1280.png`,
+                jumpscare_image: `/scramblinspiders/static/assets/images/part_three/zombies_1109x1280.png`,
                 jumpscare_audio: ``,
             },
             next_choices: ["follow the creature to the local hospital", "don't follow the creature", "follow the creature to the medieval church"]
@@ -392,11 +392,11 @@ export const choices = [
     {
         users_choice: "the ancient cave",
         options: {
-            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/death.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
-            scene_image: "../static/assets/images/part_three/cave_853x853.jpg",
+            scene_image: "/scramblinspiders/static/assets/images/part_three/cave_853x853.jpg",
             scene_transition: `FLICKER`,
             scene_icon: ``,
 
@@ -422,8 +422,8 @@ export const choices = [
                 `,
             },
             scene_jumpscare: {
-                jumpscare_image: `../static/assets/images/part_three/werewolf_1280x1280.jpg`,
-                jumpscare_audio: `../static/assets/audio/sounds/growl.mp3`,
+                jumpscare_image: `/scramblinspiders/static/assets/images/part_three/werewolf_1280x1280.jpg`,
+                jumpscare_audio: `/scramblinspiders/static/assets/audio/sounds/growl.mp3`,
             },
             next_choices: ["fade into oblivion"]
         }
@@ -432,11 +432,11 @@ export const choices = [
     {
         users_choice: "follow the creature to the dingy hotel",
         options: {
-            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/tense_music.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
-            scene_image: "../static/assets/images/part_four/hotel_1280x854.jpg",
+            scene_image: "/scramblinspiders/static/assets/images/part_four/hotel_1280x854.jpg",
             scene_transition: `FADE IN > NEON FLASHING?`,
             scene_icon: ``,
 
@@ -478,13 +478,13 @@ export const choices = [
     {
         users_choice: "follow the creature to the medieval church",
         options: {
-            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/tense_music.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
-            scene_image: "../static/assets/images/part_four/church_1280x1096.png",
+            scene_image: "/scramblinspiders/static/assets/images/part_four/church_1280x1096.png",
             scene_transition: `FADE IN FROM LEFT`,
-            scene_icon: `../static/assets/images/part_three/icon_church512x512.svg`,
+            scene_icon: `/scramblinspiders/static/assets/images/part_three/icon_church512x512.svg`,
 
             scene_text: {
                 para_one: `
@@ -522,13 +522,13 @@ export const choices = [
     {
         users_choice: "follow the creature to the local hospital",
         options: {
-            scene_audio: "../static/assets/audio/music/tense_music.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/tense_music.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
-            scene_image: "../static/assets/images/part_four/hospital_1280x719.jpg",
+            scene_image: "/scramblinspiders/static/assets/images/part_four/hospital_1280x719.jpg",
             scene_transition: `FADE IN FROM RIGHT`,
-            scene_icon: `../static/assets/images/part_three/icon_hospital_512x512.svg`,
+            scene_icon: `/scramblinspiders/static/assets/images/part_three/icon_hospital_512x512.svg`,
 
             scene_text: {
                 para_one: `
@@ -567,13 +567,13 @@ export const choices = [
     {
         users_choice: "don't follow the creature",
         options: {
-            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/death.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
-            scene_image: "../static/assets/images/part_two/fog_black_white_676x392.jpg",
+            scene_image: "/scramblinspiders/static/assets/images/part_two/fog_black_white_676x392.jpg",
             scene_transition: `FLASHING RED AND ORANGE`,
-            scene_icon: `../static/assets/images/part_three/icon_stay-here_4096x4096.svg`,
+            scene_icon: `/scramblinspiders/static/assets/images/part_three/icon_stay-here_4096x4096.svg`,
 
             scene_text: {
                 para_one: `
@@ -606,7 +606,7 @@ export const choices = [
     {
         users_choice: "destroy the creature",
         options: {
-            scene_audio: "../static/assets/audio/music/brutality.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/brutality.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
@@ -615,7 +615,7 @@ export const choices = [
             scene_transition: `FLASHING RED AND ORANGE`,
             scene_icon: ``,
 
-            para_two_audio: "../static/assets/audio/music/wake_up.mp3",
+            para_two_audio: "/scramblinspiders/static/assets/audio/music/wake_up.mp3",
             para_two_audio_volume: ".8",
             para_two_audio_delay: "1000",
 
@@ -652,7 +652,7 @@ export const choices = [
     {
         users_choice: "do nothing",
         options: {
-            scene_audio: "../static/assets/audio/music/brutality.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/brutality.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
@@ -661,7 +661,7 @@ export const choices = [
             scene_transition: `FADE`,
             scene_icon: ``,
 
-            para_last_audio: "../static/assets/audio/music/wake_up.mp3",
+            para_last_audio: "/scramblinspiders/static/assets/audio/music/wake_up.mp3",
             para_last_audio_volume: ".8",
             para_last_audio_delay: "1000",
             
@@ -701,7 +701,7 @@ export const choices = [
     {
         users_choice: "destroy the light",
         options: {
-            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/death.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
@@ -741,7 +741,7 @@ export const choices = [
     {
         users_choice: "try and escape",
         options: {
-            scene_audio: "../static/assets/audio/music/death.mp3",
+            scene_audio: "/scramblinspiders/static/assets/audio/music/death.mp3",
             scene_audio_volume: ".8",
             scene_audio_delay: "1000",
 
@@ -808,12 +808,12 @@ export const choices = [
         options: {
             scene_credits: true,
             scene_audio: "",
-            scene_image: "../static/assets/images/dancing-dance.gif",
+            scene_image: "/scramblinspiders/static/assets/images/dancing-dance.gif",
             scene_transition: ``,
             scene_icon: ``,
             scene_text: {
                 ending_credits: `
-                <img src="../static/assets/images/dancing-dance.gif" alt="dancing pumpkin head people"><br />
+                <img src="/scramblinspiders/static/assets/images/dancing-dance.gif" alt="dancing pumpkin head people"><br />
                 <h3 class="align-self-center skwoop">Story Author: Vladimir M</h3> 
                 
                 <h5 class="skwoop">A <span class="creepy-text">Normal</span> night at the pub experience was brought to you by: </h5>
